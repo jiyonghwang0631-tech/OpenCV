@@ -2,7 +2,7 @@
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
-  CMakeFiles/03_MatOP.dir/part1/03.MatOP.cpp.o \
+  CMakeFiles/03_MatOP.dir/part1/03_MatOP.cpp.o \
   /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.10.0 \
   /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.10.0 \
   /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.10.0 \
@@ -104,7 +104,7 @@
 
 /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
 
-CMakeFiles/03_MatOP.dir/part1/03.MatOP.cpp.o:
+CMakeFiles/03_MatOP.dir/part1/03_MatOP.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.10.0:
 

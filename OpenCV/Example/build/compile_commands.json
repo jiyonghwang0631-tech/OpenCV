@@ -1,20 +1,26 @@
 [
 {
   "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build",
-  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/01.helloWorld.cpp",
-  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/01.helloWorld.cpp",
-  "output": "CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o"
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/01_helloWorld.dir/part1/01_helloWorld.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/01_helloWorld.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/01_helloWorld.cpp",
+  "output": "CMakeFiles/01_helloWorld.dir/part1/01_helloWorld.cpp.o"
 },
 {
   "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build",
-  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02.basicOp.cpp",
-  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02.basicOp.cpp",
-  "output": "CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o"
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02_basicOp.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02_basicOp.cpp",
+  "output": "CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o"
 },
 {
   "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build",
-  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/03_MatOP.dir/part1/03.MatOP.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/03.MatOP.cpp",
-  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/03.MatOP.cpp",
-  "output": "CMakeFiles/03_MatOP.dir/part1/03.MatOP.cpp.o"
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/03_MatOP.dir/part1/03_MatOP.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/03_MatOP.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/03_MatOP.cpp",
+  "output": "CMakeFiles/03_MatOP.dir/part1/03_MatOP.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/04_inputArray.dir/part1/04_inputArray.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/04_inputArray.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/04_inputArray.cpp",
+  "output": "CMakeFiles/04_inputArray.dir/part1/04_inputArray.cpp.o"
 }
 ]

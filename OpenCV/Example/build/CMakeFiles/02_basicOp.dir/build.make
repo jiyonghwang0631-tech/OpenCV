@@ -72,28 +72,28 @@ include CMakeFiles/02_basicOp.dir/flags.make
 CMakeFiles/02_basicOp.dir/codegen:
 .PHONY : CMakeFiles/02_basicOp.dir/codegen
 
-CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o: CMakeFiles/02_basicOp.dir/flags.make
-CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o: /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02.basicOp.cpp
-CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o: CMakeFiles/02_basicOp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o -MF CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o.d -o CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02.basicOp.cpp
+CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o: CMakeFiles/02_basicOp.dir/flags.make
+CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o: /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02_basicOp.cpp
+CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o: CMakeFiles/02_basicOp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o -MF CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o.d -o CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02_basicOp.cpp
 
-CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02.basicOp.cpp > CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.i
+CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02_basicOp.cpp > CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.i
 
-CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02.basicOp.cpp -o CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.s
+CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02_basicOp.cpp -o CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.s
 
 # Object files for target 02_basicOp
 02_basicOp_OBJECTS = \
-"CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o"
+"CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o"
 
 # External object files for target 02_basicOp
 02_basicOp_EXTERNAL_OBJECTS =
 
-02_basicOp: CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o
+02_basicOp: CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o
 02_basicOp: CMakeFiles/02_basicOp.dir/build.make
 02_basicOp: CMakeFiles/02_basicOp.dir/compiler_depend.ts
 02_basicOp: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.10.0

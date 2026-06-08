@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02.basicOp.cpp" "CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o" "gcc" "CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o.d"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02_basicOp.cpp" "CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o" "gcc" "CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o.d"
   "" "02_basicOp" "gcc" "CMakeFiles/02_basicOp.dir/link.d"
   )
 

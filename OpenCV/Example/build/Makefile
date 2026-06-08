@@ -155,77 +155,114 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/build
 .PHONY : 03_MatOP/fast
 
-part1/01.helloWorld.o: part1/01.helloWorld.cpp.o
-.PHONY : part1/01.helloWorld.o
+#=============================================================================
+# Target rules for targets named 04_inputArray
+
+# Build rule for target.
+04_inputArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 04_inputArray
+.PHONY : 04_inputArray
+
+# fast build rule for target.
+04_inputArray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_inputArray.dir/build.make CMakeFiles/04_inputArray.dir/build
+.PHONY : 04_inputArray/fast
+
+part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
+.PHONY : part1/01_helloWorld.o
 
 # target to build an object file
-part1/01.helloWorld.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_helloWorld.dir/build.make CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o
-.PHONY : part1/01.helloWorld.cpp.o
+part1/01_helloWorld.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_helloWorld.dir/build.make CMakeFiles/01_helloWorld.dir/part1/01_helloWorld.cpp.o
+.PHONY : part1/01_helloWorld.cpp.o
 
-part1/01.helloWorld.i: part1/01.helloWorld.cpp.i
-.PHONY : part1/01.helloWorld.i
+part1/01_helloWorld.i: part1/01_helloWorld.cpp.i
+.PHONY : part1/01_helloWorld.i
 
 # target to preprocess a source file
-part1/01.helloWorld.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_helloWorld.dir/build.make CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.i
-.PHONY : part1/01.helloWorld.cpp.i
+part1/01_helloWorld.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_helloWorld.dir/build.make CMakeFiles/01_helloWorld.dir/part1/01_helloWorld.cpp.i
+.PHONY : part1/01_helloWorld.cpp.i
 
-part1/01.helloWorld.s: part1/01.helloWorld.cpp.s
-.PHONY : part1/01.helloWorld.s
+part1/01_helloWorld.s: part1/01_helloWorld.cpp.s
+.PHONY : part1/01_helloWorld.s
 
 # target to generate assembly for a file
-part1/01.helloWorld.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_helloWorld.dir/build.make CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.s
-.PHONY : part1/01.helloWorld.cpp.s
+part1/01_helloWorld.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_helloWorld.dir/build.make CMakeFiles/01_helloWorld.dir/part1/01_helloWorld.cpp.s
+.PHONY : part1/01_helloWorld.cpp.s
 
-part1/02.basicOp.o: part1/02.basicOp.cpp.o
-.PHONY : part1/02.basicOp.o
+part1/02_basicOp.o: part1/02_basicOp.cpp.o
+.PHONY : part1/02_basicOp.o
 
 # target to build an object file
-part1/02.basicOp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_basicOp.dir/build.make CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o
-.PHONY : part1/02.basicOp.cpp.o
+part1/02_basicOp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_basicOp.dir/build.make CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o
+.PHONY : part1/02_basicOp.cpp.o
 
-part1/02.basicOp.i: part1/02.basicOp.cpp.i
-.PHONY : part1/02.basicOp.i
+part1/02_basicOp.i: part1/02_basicOp.cpp.i
+.PHONY : part1/02_basicOp.i
 
 # target to preprocess a source file
-part1/02.basicOp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_basicOp.dir/build.make CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.i
-.PHONY : part1/02.basicOp.cpp.i
+part1/02_basicOp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_basicOp.dir/build.make CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.i
+.PHONY : part1/02_basicOp.cpp.i
 
-part1/02.basicOp.s: part1/02.basicOp.cpp.s
-.PHONY : part1/02.basicOp.s
+part1/02_basicOp.s: part1/02_basicOp.cpp.s
+.PHONY : part1/02_basicOp.s
 
 # target to generate assembly for a file
-part1/02.basicOp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_basicOp.dir/build.make CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.s
-.PHONY : part1/02.basicOp.cpp.s
+part1/02_basicOp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_basicOp.dir/build.make CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.s
+.PHONY : part1/02_basicOp.cpp.s
 
-part1/03.MatOP.o: part1/03.MatOP.cpp.o
-.PHONY : part1/03.MatOP.o
+part1/03_MatOP.o: part1/03_MatOP.cpp.o
+.PHONY : part1/03_MatOP.o
 
 # target to build an object file
-part1/03.MatOP.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/part1/03.MatOP.cpp.o
-.PHONY : part1/03.MatOP.cpp.o
+part1/03_MatOP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/part1/03_MatOP.cpp.o
+.PHONY : part1/03_MatOP.cpp.o
 
-part1/03.MatOP.i: part1/03.MatOP.cpp.i
-.PHONY : part1/03.MatOP.i
+part1/03_MatOP.i: part1/03_MatOP.cpp.i
+.PHONY : part1/03_MatOP.i
 
 # target to preprocess a source file
-part1/03.MatOP.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/part1/03.MatOP.cpp.i
-.PHONY : part1/03.MatOP.cpp.i
+part1/03_MatOP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/part1/03_MatOP.cpp.i
+.PHONY : part1/03_MatOP.cpp.i
 
-part1/03.MatOP.s: part1/03.MatOP.cpp.s
-.PHONY : part1/03.MatOP.s
+part1/03_MatOP.s: part1/03_MatOP.cpp.s
+.PHONY : part1/03_MatOP.s
 
 # target to generate assembly for a file
-part1/03.MatOP.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/part1/03.MatOP.cpp.s
-.PHONY : part1/03.MatOP.cpp.s
+part1/03_MatOP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/part1/03_MatOP.cpp.s
+.PHONY : part1/03_MatOP.cpp.s
+
+part1/04_inputArray.o: part1/04_inputArray.cpp.o
+.PHONY : part1/04_inputArray.o
+
+# target to build an object file
+part1/04_inputArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_inputArray.dir/build.make CMakeFiles/04_inputArray.dir/part1/04_inputArray.cpp.o
+.PHONY : part1/04_inputArray.cpp.o
+
+part1/04_inputArray.i: part1/04_inputArray.cpp.i
+.PHONY : part1/04_inputArray.i
+
+# target to preprocess a source file
+part1/04_inputArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_inputArray.dir/build.make CMakeFiles/04_inputArray.dir/part1/04_inputArray.cpp.i
+.PHONY : part1/04_inputArray.cpp.i
+
+part1/04_inputArray.s: part1/04_inputArray.cpp.s
+.PHONY : part1/04_inputArray.s
+
+# target to generate assembly for a file
+part1/04_inputArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_inputArray.dir/build.make CMakeFiles/04_inputArray.dir/part1/04_inputArray.cpp.s
+.PHONY : part1/04_inputArray.cpp.s
 
 # Help Target
 help:
@@ -238,15 +275,19 @@ help:
 	@echo "... 01_helloWorld"
 	@echo "... 02_basicOp"
 	@echo "... 03_MatOP"
-	@echo "... part1/01.helloWorld.o"
-	@echo "... part1/01.helloWorld.i"
-	@echo "... part1/01.helloWorld.s"
-	@echo "... part1/02.basicOp.o"
-	@echo "... part1/02.basicOp.i"
-	@echo "... part1/02.basicOp.s"
-	@echo "... part1/03.MatOP.o"
-	@echo "... part1/03.MatOP.i"
-	@echo "... part1/03.MatOP.s"
+	@echo "... 04_inputArray"
+	@echo "... part1/01_helloWorld.o"
+	@echo "... part1/01_helloWorld.i"
+	@echo "... part1/01_helloWorld.s"
+	@echo "... part1/02_basicOp.o"
+	@echo "... part1/02_basicOp.i"
+	@echo "... part1/02_basicOp.s"
+	@echo "... part1/03_MatOP.o"
+	@echo "... part1/03_MatOP.i"
+	@echo "... part1/03_MatOP.s"
+	@echo "... part1/04_inputArray.o"
+	@echo "... part1/04_inputArray.i"
+	@echo "... part1/04_inputArray.s"
 .PHONY : help
 
 

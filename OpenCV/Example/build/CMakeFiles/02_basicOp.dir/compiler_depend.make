@@ -252,9 +252,9 @@
   /usr/lib/x86_64-linux-gnu/libyuv.so.0 \
   /usr/lib/x86_64-linux-gnu/libz.so.1 \
   /usr/lib/x86_64-linux-gnu/libzstd.so.1 \
-  CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o
+  CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o
 
-CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o: /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02.basicOp.cpp \
+CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o: /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02_basicOp.cpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -717,8 +717,6 @@ CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o: /home/korea_hrd_1_2/OpenCV/Ope
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/messages_members.h:
 
-/usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h:
-
 /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/ctype_inline.h:
@@ -891,13 +889,7 @@ CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o: /home/korea_hrd_1_2/OpenCV/Ope
 
 /usr/include/asm-generic/types.h:
 
-/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02.basicOp.cpp:
-
-/usr/lib/x86_64-linux-gnu/libnss3.so:
-
-/usr/lib/x86_64-linux-gnu/libsz.so.2:
-
-/usr/include/c++/15/compare:
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/02_basicOp.cpp:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h:
 
@@ -916,6 +908,10 @@ CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o: /home/korea_hrd_1_2/OpenCV/Ope
 /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1:
 
 /usr/include/c++/15/bits/node_handle.h:
+
+/usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h:
+
+CMakeFiles/02_basicOp.dir/part1/02_basicOp.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libsasl2.so.2:
 
@@ -954,8 +950,6 @@ CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o: /home/korea_hrd_1_2/OpenCV/Ope
 /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.10.0:
 
 /usr/include/assert.h:
-
-/usr/include/opencv4/opencv2/calib3d.hpp:
 
 /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.10.0:
 
@@ -1050,6 +1044,12 @@ CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o: /home/korea_hrd_1_2/OpenCV/Ope
 /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.10.0:
 
 /usr/include/c++/15/algorithm:
+
+/usr/lib/x86_64-linux-gnu/libnss3.so:
+
+/usr/lib/x86_64-linux-gnu/libsz.so.2:
+
+/usr/include/c++/15/compare:
 
 /usr/lib/x86_64-linux-gnu/libnspr4.so:
 
@@ -1434,8 +1434,6 @@ CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o: /home/korea_hrd_1_2/OpenCV/Ope
 /usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4:
 
 /usr/include/c++/15/bits/concept_check.h:
-
-CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libdeflate.so.0:
 
@@ -1940,6 +1938,8 @@ CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.o:
 /usr/lib/x86_64-linux-gnu/libc.so.6:
 
 /usr/include/linux/types.h:
+
+/usr/include/opencv4/opencv2/calib3d.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 

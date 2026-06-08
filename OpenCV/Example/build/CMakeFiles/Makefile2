@@ -66,12 +66,14 @@ CMAKE_BINARY_DIR = /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build
 all: CMakeFiles/01_helloWorld.dir/all
 all: CMakeFiles/02_basicOp.dir/all
 all: CMakeFiles/03_MatOP.dir/all
+all: CMakeFiles/04_inputArray.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/01_helloWorld.dir/codegen
 codegen: CMakeFiles/02_basicOp.dir/codegen
 codegen: CMakeFiles/03_MatOP.dir/codegen
+codegen: CMakeFiles/04_inputArray.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -82,6 +84,7 @@ preinstall:
 clean: CMakeFiles/01_helloWorld.dir/clean
 clean: CMakeFiles/02_basicOp.dir/clean
 clean: CMakeFiles/03_MatOP.dir/clean
+clean: CMakeFiles/04_inputArray.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -179,6 +182,38 @@ CMakeFiles/03_MatOP.dir/codegen:
 CMakeFiles/03_MatOP.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/clean
 .PHONY : CMakeFiles/03_MatOP.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/04_inputArray.dir
+
+# All Build rule for target.
+CMakeFiles/04_inputArray.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_inputArray.dir/build.make CMakeFiles/04_inputArray.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_inputArray.dir/build.make CMakeFiles/04_inputArray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=7,8 "Built target 04_inputArray"
+.PHONY : CMakeFiles/04_inputArray.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/04_inputArray.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/04_inputArray.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : CMakeFiles/04_inputArray.dir/rule
+
+# Convenience name for target.
+04_inputArray: CMakeFiles/04_inputArray.dir/rule
+.PHONY : 04_inputArray
+
+# codegen rule for target.
+CMakeFiles/04_inputArray.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_inputArray.dir/build.make CMakeFiles/04_inputArray.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=7,8 "Finished codegen for target 04_inputArray"
+.PHONY : CMakeFiles/04_inputArray.dir/codegen
+
+# clean rule for target.
+CMakeFiles/04_inputArray.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_inputArray.dir/build.make CMakeFiles/04_inputArray.dir/clean
+.PHONY : CMakeFiles/04_inputArray.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

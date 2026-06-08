@@ -252,9 +252,9 @@
   /usr/lib/x86_64-linux-gnu/libyuv.so.0 \
   /usr/lib/x86_64-linux-gnu/libz.so.1 \
   /usr/lib/x86_64-linux-gnu/libzstd.so.1 \
-  CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o
+  CMakeFiles/01_helloWorld.dir/part1/01_helloWorld.cpp.o
 
-CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o: /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/01.helloWorld.cpp \
+CMakeFiles/01_helloWorld.dir/part1/01_helloWorld.cpp.o: /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/01_helloWorld.cpp \
   /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/colors.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -698,6 +698,8 @@ CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o: /home/korea_hrd_1_2/Open
 
 /usr/lib/gcc/x86_64-linux-gnu/15/include/xmmintrin.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/include/mm_malloc.h:
@@ -888,11 +890,11 @@ CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o: /home/korea_hrd_1_2/Open
 
 /usr/include/asm-generic/types.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h:
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/01_helloWorld.cpp:
 
-/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/01.helloWorld.cpp:
+CMakeFiles/01_helloWorld.dir/part1/01_helloWorld.cpp.o:
 
-CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o:
+/usr/lib/x86_64-linux-gnu/libaec.so.0:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h:
 
@@ -949,6 +951,10 @@ CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o:
 /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.10.0:
 
 /usr/include/assert.h:
+
+/usr/include/ctype.h:
+
+/usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.10.0:
 
 /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.10.0:
 
@@ -1355,12 +1361,6 @@ CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o:
 /usr/include/opencv4/opencv2/video.hpp:
 
 /usr/lib/x86_64-linux-gnu/libnssutil3.so:
-
-/usr/lib/x86_64-linux-gnu/libaec.so.0:
-
-/usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.10.0:
-
-/usr/include/ctype.h:
 
 /usr/lib/x86_64-linux-gnu/libm.so:
 
