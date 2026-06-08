@@ -462,7 +462,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -536,7 +537,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -554,6 +556,13 @@
 					"id" : "02_basicOp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02_basicOp-Debug-c795ef7a0df6d62a3186.json",
 					"name" : "02_basicOp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_MatOP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_MatOP-Debug-ef7d97563691e3bbd064.json",
+					"name" : "03_MatOP",
 					"projectIndex" : 0
 				}
 			]

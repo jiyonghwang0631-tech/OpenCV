@@ -142,6 +142,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_basicOp.dir/build.make CMakeFiles/02_basicOp.dir/build
 .PHONY : 02_basicOp/fast
 
+#=============================================================================
+# Target rules for targets named 03_MatOP
+
+# Build rule for target.
+03_MatOP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_MatOP
+.PHONY : 03_MatOP
+
+# fast build rule for target.
+03_MatOP/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/build
+.PHONY : 03_MatOP/fast
+
 part1/01.helloWorld.o: part1/01.helloWorld.cpp.o
 .PHONY : part1/01.helloWorld.o
 
@@ -190,6 +203,30 @@ part1/02.basicOp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_basicOp.dir/build.make CMakeFiles/02_basicOp.dir/part1/02.basicOp.cpp.s
 .PHONY : part1/02.basicOp.cpp.s
 
+part1/03.MatOP.o: part1/03.MatOP.cpp.o
+.PHONY : part1/03.MatOP.o
+
+# target to build an object file
+part1/03.MatOP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/part1/03.MatOP.cpp.o
+.PHONY : part1/03.MatOP.cpp.o
+
+part1/03.MatOP.i: part1/03.MatOP.cpp.i
+.PHONY : part1/03.MatOP.i
+
+# target to preprocess a source file
+part1/03.MatOP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/part1/03.MatOP.cpp.i
+.PHONY : part1/03.MatOP.cpp.i
+
+part1/03.MatOP.s: part1/03.MatOP.cpp.s
+.PHONY : part1/03.MatOP.s
+
+# target to generate assembly for a file
+part1/03.MatOP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/part1/03.MatOP.cpp.s
+.PHONY : part1/03.MatOP.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +237,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 01_helloWorld"
 	@echo "... 02_basicOp"
+	@echo "... 03_MatOP"
 	@echo "... part1/01.helloWorld.o"
 	@echo "... part1/01.helloWorld.i"
 	@echo "... part1/01.helloWorld.s"
 	@echo "... part1/02.basicOp.o"
 	@echo "... part1/02.basicOp.i"
 	@echo "... part1/02.basicOp.s"
+	@echo "... part1/03.MatOP.o"
+	@echo "... part1/03.MatOP.i"
+	@echo "... part1/03.MatOP.s"
 .PHONY : help
 
 

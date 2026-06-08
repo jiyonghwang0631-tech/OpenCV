@@ -65,11 +65,13 @@ CMAKE_BINARY_DIR = /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build
 # The main recursive "all" target.
 all: CMakeFiles/01_helloWorld.dir/all
 all: CMakeFiles/02_basicOp.dir/all
+all: CMakeFiles/03_MatOP.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/01_helloWorld.dir/codegen
 codegen: CMakeFiles/02_basicOp.dir/codegen
+codegen: CMakeFiles/03_MatOP.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -79,6 +81,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/01_helloWorld.dir/clean
 clean: CMakeFiles/02_basicOp.dir/clean
+clean: CMakeFiles/03_MatOP.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -144,6 +147,38 @@ CMakeFiles/02_basicOp.dir/codegen:
 CMakeFiles/02_basicOp.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_basicOp.dir/build.make CMakeFiles/02_basicOp.dir/clean
 .PHONY : CMakeFiles/02_basicOp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/03_MatOP.dir
+
+# All Build rule for target.
+CMakeFiles/03_MatOP.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=5,6 "Built target 03_MatOP"
+.PHONY : CMakeFiles/03_MatOP.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/03_MatOP.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/03_MatOP.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : CMakeFiles/03_MatOP.dir/rule
+
+# Convenience name for target.
+03_MatOP: CMakeFiles/03_MatOP.dir/rule
+.PHONY : 03_MatOP
+
+# codegen rule for target.
+CMakeFiles/03_MatOP.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=5,6 "Finished codegen for target 03_MatOP"
+.PHONY : CMakeFiles/03_MatOP.dir/codegen
+
+# clean rule for target.
+CMakeFiles/03_MatOP.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/clean
+.PHONY : CMakeFiles/03_MatOP.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -87,9 +87,17 @@
   /usr/lib/x86_64-linux-gnu/libOpenGL.so.0 \
   /usr/lib/x86_64-linux-gnu/libQt5Test.so.5 \
   /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5 \
+  /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.10.0 \
   /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5 \
   /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5 \
   /usr/lib/x86_64-linux-gnu/libQt5Core.so.5 \
+  /usr/lib/x86_64-linux-gnu/libm.so.6 \
+  /usr/lib/x86_64-linux-gnu/libz.so.1 \
+  /usr/lib/x86_64-linux-gnu/libGLX.so.0 \
+  /usr/lib/x86_64-linux-gnu/libopenblas.so.0 \
+  /usr/lib/x86_64-linux-gnu/libtbb.so.12 \
+  /lib64/ld-linux-x86-64.so.2 \
+  /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0 \
   /usr/lib/x86_64-linux-gnu/libjpeg.so.8 \
   /usr/lib/x86_64-linux-gnu/libwebp.so.7 \
   /usr/lib/x86_64-linux-gnu/libpng16.so.16 \
@@ -99,13 +107,6 @@
   /usr/lib/x86_64-linux-gnu/libOpenEXR-3_1.so.30 \
   /usr/lib/x86_64-linux-gnu/libgdal.so.38 \
   /usr/lib/x86_64-linux-gnu/libgdcmDSED.so.3.0 \
-  /usr/lib/x86_64-linux-gnu/libm.so.6 \
-  /usr/lib/x86_64-linux-gnu/libz.so.1 \
-  /usr/lib/x86_64-linux-gnu/libGLX.so.0 \
-  /usr/lib/x86_64-linux-gnu/libopenblas.so.0 \
-  /usr/lib/x86_64-linux-gnu/libtbb.so.12 \
-  /lib64/ld-linux-x86-64.so.2 \
-  /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0 \
   /usr/lib/x86_64-linux-gnu/libGL.so.1 \
   /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0 \
   /usr/lib/x86_64-linux-gnu/libmd4c.so.0 \
@@ -115,6 +116,9 @@
   /usr/lib/x86_64-linux-gnu/libpcre2-16.so.0 \
   /usr/lib/x86_64-linux-gnu/libzstd.so.1 \
   /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0 \
+  /usr/lib/x86_64-linux-gnu/libX11.so.6 \
+  /usr/lib/x86_64-linux-gnu/libmvec.so.1 \
+  /usr/lib/x86_64-linux-gnu/libgfortran.so.5 \
   /usr/lib/x86_64-linux-gnu/libsharpyuv.so.0 \
   /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0 \
   /usr/lib/x86_64-linux-gnu/libgdcmjpeg8.so.3.0 \
@@ -170,13 +174,11 @@
   /usr/lib/x86_64-linux-gnu/libproj.so.25 \
   /usr/lib/x86_64-linux-gnu/libdf.so.0 \
   /usr/lib/x86_64-linux-gnu/libmfhdf.so.0 \
-  /usr/lib/x86_64-linux-gnu/libX11.so.6 \
-  /usr/lib/x86_64-linux-gnu/libmvec.so.1 \
-  /usr/lib/x86_64-linux-gnu/libgfortran.so.5 \
   /usr/lib/x86_64-linux-gnu/libfreetype.so.6 \
   /usr/lib/x86_64-linux-gnu/libgraphite2.so.3 \
   /usr/lib/x86_64-linux-gnu/libicudata.so.78 \
   /usr/lib/x86_64-linux-gnu/libatomic.so.1 \
+  /usr/lib/x86_64-linux-gnu/libxcb.so.1 \
   /usr/lib/x86_64-linux-gnu/libnettle.so.8 \
   /usr/lib/x86_64-linux-gnu/libacl.so.1 \
   /usr/lib/x86_64-linux-gnu/libbz2.so.1.0 \
@@ -223,7 +225,8 @@
   /usr/lib/x86_64-linux-gnu/librttopo.so.1 \
   /usr/lib/x86_64-linux-gnu/libresolv.so.2 \
   /usr/lib/x86_64-linux-gnu/libgeos.so.3.14.1 \
-  /usr/lib/x86_64-linux-gnu/libxcb.so.1 \
+  /usr/lib/x86_64-linux-gnu/libXau.so.6 \
+  /usr/lib/x86_64-linux-gnu/libXdmcp.so.6 \
   /usr/lib/x86_64-linux-gnu/libunistring.so.5 \
   /usr/lib/x86_64-linux-gnu/libhogweed.so.6 \
   /usr/lib/x86_64-linux-gnu/libgmp.so.10 \
@@ -239,8 +242,6 @@
   /usr/lib/x86_64-linux-gnu/libgpgme.so.45 \
   /usr/lib/x86_64-linux-gnu/libnssutil3.so \
   /usr/lib/x86_64-linux-gnu/libplds4.so \
-  /usr/lib/x86_64-linux-gnu/libXau.so.6 \
-  /usr/lib/x86_64-linux-gnu/libXdmcp.so.6 \
   /usr/lib/x86_64-linux-gnu/libffi.so.8 \
   /usr/lib/x86_64-linux-gnu/libkeyutils.so.1 \
   /usr/lib/x86_64-linux-gnu/libabsl_graphcycles_internal.so.20260107 \
@@ -447,11 +448,27 @@ CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5:
 
+/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.10.0:
+
 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5:
 
 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5:
 
 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5:
+
+/usr/lib/x86_64-linux-gnu/libm.so.6:
+
+/usr/lib/x86_64-linux-gnu/libz.so.1:
+
+/usr/lib/x86_64-linux-gnu/libGLX.so.0:
+
+/usr/lib/x86_64-linux-gnu/libopenblas.so.0:
+
+/usr/lib/x86_64-linux-gnu/libtbb.so.12:
+
+/lib64/ld-linux-x86-64.so.2:
+
+/usr/lib/x86_64-linux-gnu/libGLdispatch.so.0:
 
 /usr/lib/x86_64-linux-gnu/libjpeg.so.8:
 
@@ -471,20 +488,6 @@ CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libgdcmDSED.so.3.0:
 
-/usr/lib/x86_64-linux-gnu/libm.so.6:
-
-/usr/lib/x86_64-linux-gnu/libz.so.1:
-
-/usr/lib/x86_64-linux-gnu/libGLX.so.0:
-
-/usr/lib/x86_64-linux-gnu/libopenblas.so.0:
-
-/usr/lib/x86_64-linux-gnu/libtbb.so.12:
-
-/lib64/ld-linux-x86-64.so.2:
-
-/usr/lib/x86_64-linux-gnu/libGLdispatch.so.0:
-
 /usr/lib/x86_64-linux-gnu/libGL.so.1:
 
 /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0:
@@ -502,6 +505,12 @@ CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o:
 /usr/lib/x86_64-linux-gnu/libzstd.so.1:
 
 /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0:
+
+/usr/lib/x86_64-linux-gnu/libX11.so.6:
+
+/usr/lib/x86_64-linux-gnu/libmvec.so.1:
+
+/usr/lib/x86_64-linux-gnu/libgfortran.so.5:
 
 /usr/lib/x86_64-linux-gnu/libsharpyuv.so.0:
 
@@ -613,12 +622,6 @@ CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libmfhdf.so.0:
 
-/usr/lib/x86_64-linux-gnu/libX11.so.6:
-
-/usr/lib/x86_64-linux-gnu/libmvec.so.1:
-
-/usr/lib/x86_64-linux-gnu/libgfortran.so.5:
-
 /usr/lib/x86_64-linux-gnu/libfreetype.so.6:
 
 /usr/lib/x86_64-linux-gnu/libgraphite2.so.3:
@@ -626,6 +629,8 @@ CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o:
 /usr/lib/x86_64-linux-gnu/libicudata.so.78:
 
 /usr/lib/x86_64-linux-gnu/libatomic.so.1:
+
+/usr/lib/x86_64-linux-gnu/libxcb.so.1:
 
 /usr/lib/x86_64-linux-gnu/libnettle.so.8:
 
@@ -719,7 +724,9 @@ CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libgeos.so.3.14.1:
 
-/usr/lib/x86_64-linux-gnu/libxcb.so.1:
+/usr/lib/x86_64-linux-gnu/libXau.so.6:
+
+/usr/lib/x86_64-linux-gnu/libXdmcp.so.6:
 
 /usr/lib/x86_64-linux-gnu/libunistring.so.5:
 
@@ -750,10 +757,6 @@ CMakeFiles/01_helloWorld.dir/part1/01.helloWorld.cpp.o:
 /usr/lib/x86_64-linux-gnu/libnssutil3.so:
 
 /usr/lib/x86_64-linux-gnu/libplds4.so:
-
-/usr/lib/x86_64-linux-gnu/libXau.so.6:
-
-/usr/lib/x86_64-linux-gnu/libXdmcp.so.6:
 
 /usr/lib/x86_64-linux-gnu/libffi.so.8:
 
