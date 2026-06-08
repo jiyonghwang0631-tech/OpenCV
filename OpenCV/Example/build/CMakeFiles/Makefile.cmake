@@ -65,4 +65,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/03_MatOP.dir/DependInfo.cmake"
   "CMakeFiles/04_inputArray.dir/DependInfo.cmake"
   "CMakeFiles/05_matOp2.dir/DependInfo.cmake"
+  "CMakeFiles/06_video.dir/DependInfo.cmake"
   )

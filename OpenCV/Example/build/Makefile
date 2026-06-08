@@ -181,6 +181,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_matOp2.dir/build.make CMakeFiles/05_matOp2.dir/build
 .PHONY : 05_matOp2/fast
 
+#=============================================================================
+# Target rules for targets named 06_video
+
+# Build rule for target.
+06_video: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_video
+.PHONY : 06_video
+
+# fast build rule for target.
+06_video/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_video.dir/build.make CMakeFiles/06_video.dir/build
+.PHONY : 06_video/fast
+
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
 
@@ -301,6 +314,30 @@ part1/05_matOp2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_matOp2.dir/build.make CMakeFiles/05_matOp2.dir/part1/05_matOp2.cpp.s
 .PHONY : part1/05_matOp2.cpp.s
 
+part1/06_video.o: part1/06_video.cpp.o
+.PHONY : part1/06_video.o
+
+# target to build an object file
+part1/06_video.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_video.dir/build.make CMakeFiles/06_video.dir/part1/06_video.cpp.o
+.PHONY : part1/06_video.cpp.o
+
+part1/06_video.i: part1/06_video.cpp.i
+.PHONY : part1/06_video.i
+
+# target to preprocess a source file
+part1/06_video.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_video.dir/build.make CMakeFiles/06_video.dir/part1/06_video.cpp.i
+.PHONY : part1/06_video.cpp.i
+
+part1/06_video.s: part1/06_video.cpp.s
+.PHONY : part1/06_video.s
+
+# target to generate assembly for a file
+part1/06_video.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_video.dir/build.make CMakeFiles/06_video.dir/part1/06_video.cpp.s
+.PHONY : part1/06_video.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,6 +351,7 @@ help:
 	@echo "... 03_MatOP"
 	@echo "... 04_inputArray"
 	@echo "... 05_matOp2"
+	@echo "... 06_video"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"
@@ -329,6 +367,9 @@ help:
 	@echo "... part1/05_matOp2.o"
 	@echo "... part1/05_matOp2.i"
 	@echo "... part1/05_matOp2.s"
+	@echo "... part1/06_video.o"
+	@echo "... part1/06_video.i"
+	@echo "... part1/06_video.s"
 .PHONY : help
 
 

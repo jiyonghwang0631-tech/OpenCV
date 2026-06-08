@@ -20,3 +20,6 @@ target_link_libraries(04_inputArray PRIVATE ${OpenCV_LIBS})
 
 add_executable(05_matOp2 part1/05_matOp2.cpp)
 target_link_libraries(05_matOp2 PRIVATE ${OpenCV_LIBS})
+
+add_executable(06_video part1/06_video.cpp)
+target_link_libraries(06_video PRIVATE ${OpenCV_LIBS})

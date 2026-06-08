@@ -68,6 +68,7 @@ all: CMakeFiles/02_basicOp.dir/all
 all: CMakeFiles/03_MatOP.dir/all
 all: CMakeFiles/04_inputArray.dir/all
 all: CMakeFiles/05_matOp2.dir/all
+all: CMakeFiles/06_video.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -76,6 +77,7 @@ codegen: CMakeFiles/02_basicOp.dir/codegen
 codegen: CMakeFiles/03_MatOP.dir/codegen
 codegen: CMakeFiles/04_inputArray.dir/codegen
 codegen: CMakeFiles/05_matOp2.dir/codegen
+codegen: CMakeFiles/06_video.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -88,6 +90,7 @@ clean: CMakeFiles/02_basicOp.dir/clean
 clean: CMakeFiles/03_MatOP.dir/clean
 clean: CMakeFiles/04_inputArray.dir/clean
 clean: CMakeFiles/05_matOp2.dir/clean
+clean: CMakeFiles/06_video.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -249,6 +252,38 @@ CMakeFiles/05_matOp2.dir/codegen:
 CMakeFiles/05_matOp2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_matOp2.dir/build.make CMakeFiles/05_matOp2.dir/clean
 .PHONY : CMakeFiles/05_matOp2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/06_video.dir
+
+# All Build rule for target.
+CMakeFiles/06_video.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_video.dir/build.make CMakeFiles/06_video.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_video.dir/build.make CMakeFiles/06_video.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=11,12 "Built target 06_video"
+.PHONY : CMakeFiles/06_video.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/06_video.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/06_video.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : CMakeFiles/06_video.dir/rule
+
+# Convenience name for target.
+06_video: CMakeFiles/06_video.dir/rule
+.PHONY : 06_video
+
+# codegen rule for target.
+CMakeFiles/06_video.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_video.dir/build.make CMakeFiles/06_video.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=11,12 "Finished codegen for target 06_video"
+.PHONY : CMakeFiles/06_video.dir/codegen
+
+# clean rule for target.
+CMakeFiles/06_video.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_video.dir/build.make CMakeFiles/06_video.dir/clean
+.PHONY : CMakeFiles/06_video.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -20,6 +20,22 @@ int main()
     Mat img4 = img1.clone();
     Mat img5;
     img1.copyTo(img5);
+    for (int i = 0; i < 10; ++i)
+    {
+        for(int j = 0; j < 10; ++j)
+        {
+            Vec3b &pixel = img5.at<Vec3b>(i, j);
+            cout << pixel[0] << pixel [1] << endl;
+            pixel[0] = 0;
+            pixel[1] = 0;
+            pixel[2] = 0;
+        }
+    }
+    
+    // Vec3b &pixel = img5.at<Vec3b>(0,0);
+    // pixel[0] = 0;
+    // pixel[1] = 0;
+    // pixel[2] = 0;
 
     img1.setTo(Color::Yellow);
     
