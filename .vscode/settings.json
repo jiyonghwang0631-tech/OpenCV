@@ -1,0 +1,5 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/OpenCV/Example",
+    "cmake.buildDirectory": "${workspaceFolder}/OpenCV/Example/build",
+    "cmake.configureOnOpen": true
+}
