@@ -142,6 +142,45 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_drawing.dir/build.make CMakeFiles/10_drawing.dir/build
 .PHONY : 10_drawing/fast
 
+#=============================================================================
+# Target rules for targets named 11_drawing_example
+
+# Build rule for target.
+11_drawing_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11_drawing_example
+.PHONY : 11_drawing_example
+
+# fast build rule for target.
+11_drawing_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_drawing_example.dir/build.make CMakeFiles/11_drawing_example.dir/build
+.PHONY : 11_drawing_example/fast
+
+#=============================================================================
+# Target rules for targets named 12_drawing_example2
+
+# Build rule for target.
+12_drawing_example2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_drawing_example2
+.PHONY : 12_drawing_example2
+
+# fast build rule for target.
+12_drawing_example2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_drawing_example2.dir/build.make CMakeFiles/12_drawing_example2.dir/build
+.PHONY : 12_drawing_example2/fast
+
+#=============================================================================
+# Target rules for targets named 13_font
+
+# Build rule for target.
+13_font: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_font
+.PHONY : 13_font
+
+# fast build rule for target.
+13_font/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_font.dir/build.make CMakeFiles/13_font.dir/build
+.PHONY : 13_font/fast
+
 09_videoSave.o: 09_videoSave.cpp.o
 .PHONY : 09_videoSave.o
 
@@ -190,6 +229,78 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_drawing.dir/build.make CMakeFiles/10_drawing.dir/10_drawing.cpp.s
 .PHONY : 10_drawing.cpp.s
 
+11_drawing_example.o: 11_drawing_example.cpp.o
+.PHONY : 11_drawing_example.o
+
+# target to build an object file
+11_drawing_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_drawing_example.dir/build.make CMakeFiles/11_drawing_example.dir/11_drawing_example.cpp.o
+.PHONY : 11_drawing_example.cpp.o
+
+11_drawing_example.i: 11_drawing_example.cpp.i
+.PHONY : 11_drawing_example.i
+
+# target to preprocess a source file
+11_drawing_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_drawing_example.dir/build.make CMakeFiles/11_drawing_example.dir/11_drawing_example.cpp.i
+.PHONY : 11_drawing_example.cpp.i
+
+11_drawing_example.s: 11_drawing_example.cpp.s
+.PHONY : 11_drawing_example.s
+
+# target to generate assembly for a file
+11_drawing_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_drawing_example.dir/build.make CMakeFiles/11_drawing_example.dir/11_drawing_example.cpp.s
+.PHONY : 11_drawing_example.cpp.s
+
+12_drawing_example2.o: 12_drawing_example2.cpp.o
+.PHONY : 12_drawing_example2.o
+
+# target to build an object file
+12_drawing_example2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_drawing_example2.dir/build.make CMakeFiles/12_drawing_example2.dir/12_drawing_example2.cpp.o
+.PHONY : 12_drawing_example2.cpp.o
+
+12_drawing_example2.i: 12_drawing_example2.cpp.i
+.PHONY : 12_drawing_example2.i
+
+# target to preprocess a source file
+12_drawing_example2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_drawing_example2.dir/build.make CMakeFiles/12_drawing_example2.dir/12_drawing_example2.cpp.i
+.PHONY : 12_drawing_example2.cpp.i
+
+12_drawing_example2.s: 12_drawing_example2.cpp.s
+.PHONY : 12_drawing_example2.s
+
+# target to generate assembly for a file
+12_drawing_example2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_drawing_example2.dir/build.make CMakeFiles/12_drawing_example2.dir/12_drawing_example2.cpp.s
+.PHONY : 12_drawing_example2.cpp.s
+
+13_font.o: 13_font.cpp.o
+.PHONY : 13_font.o
+
+# target to build an object file
+13_font.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_font.dir/build.make CMakeFiles/13_font.dir/13_font.cpp.o
+.PHONY : 13_font.cpp.o
+
+13_font.i: 13_font.cpp.i
+.PHONY : 13_font.i
+
+# target to preprocess a source file
+13_font.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_font.dir/build.make CMakeFiles/13_font.dir/13_font.cpp.i
+.PHONY : 13_font.cpp.i
+
+13_font.s: 13_font.cpp.s
+.PHONY : 13_font.s
+
+# target to generate assembly for a file
+13_font.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_font.dir/build.make CMakeFiles/13_font.dir/13_font.cpp.s
+.PHONY : 13_font.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +311,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 09_videoSave"
 	@echo "... 10_drawing"
+	@echo "... 11_drawing_example"
+	@echo "... 12_drawing_example2"
+	@echo "... 13_font"
 	@echo "... 09_videoSave.o"
 	@echo "... 09_videoSave.i"
 	@echo "... 09_videoSave.s"
 	@echo "... 10_drawing.o"
 	@echo "... 10_drawing.i"
 	@echo "... 10_drawing.s"
+	@echo "... 11_drawing_example.o"
+	@echo "... 11_drawing_example.i"
+	@echo "... 11_drawing_example.s"
+	@echo "... 12_drawing_example2.o"
+	@echo "... 12_drawing_example2.i"
+	@echo "... 12_drawing_example2.s"
+	@echo "... 13_font.o"
+	@echo "... 13_font.i"
+	@echo "... 13_font.s"
 .PHONY : help
 
 

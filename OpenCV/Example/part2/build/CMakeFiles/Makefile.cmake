@@ -62,4 +62,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/09_videoSave.dir/DependInfo.cmake"
   "CMakeFiles/10_drawing.dir/DependInfo.cmake"
+  "CMakeFiles/11_drawing_example.dir/DependInfo.cmake"
+  "CMakeFiles/12_drawing_example2.dir/DependInfo.cmake"
+  "CMakeFiles/13_font.dir/DependInfo.cmake"
   )
