@@ -3,5 +3,6 @@
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build/CMakeFiles/11_drawing_example.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build/CMakeFiles/12_drawing_example2.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build/CMakeFiles/13_font.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build/CMakeFiles/15_Keyboard.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build/CMakeFiles/edit_cache.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build/CMakeFiles/rebuild_cache.dir

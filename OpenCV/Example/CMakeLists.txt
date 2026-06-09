@@ -23,3 +23,5 @@ target_link_libraries(05_MatOp2 PRIVATE ${OpenCV_LIBS})
 
 add_executable(06_video part1/06_video.cpp)
 target_link_libraries(06_video PRIVATE ${OpenCV_LIBS})
+
+add_subdirectory(part2)

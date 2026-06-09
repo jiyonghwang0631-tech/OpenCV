@@ -5,7 +5,7 @@
 using namespace std;
 using namespace cv;
 
-String folderPath = "/home/aa/kuBig2025/opencv/data/";
+String folderPath = "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/data/";
 
 int main()
 {
@@ -16,10 +16,10 @@ int main()
     while (true)
     {
         img.setTo(Color::White); // 배경 그리기
-        putText(img, "This is kuBig2026 test TEXT.", Point(20 + a, 50), FONT_HERSHEY_SIMPLEX, 2, Color::Red);
-        putText(img, "This is kuBig2026 test TEXT.", Point(20 + a, 100), FONT_HERSHEY_SIMPLEX | FONT_ITALIC, 2, Color::Red);
-        putText(img, "This is kuBig2026 test TEXT.", Point(20 + a, 150), FONT_HERSHEY_DUPLEX, 3, Color::Blue);
-        putText(img, "This is kuBig2026 test TEXT.", Point(20 + a, 200), FONT_HERSHEY_PLAIN, 4, Color::Black);
+        putText(img, "Hi.", Point(20 + a, 50), FONT_HERSHEY_SIMPLEX, 2, Color::Red);
+        putText(img, "Bye.", Point(20 + a, 100), FONT_HERSHEY_SIMPLEX | FONT_ITALIC, 2, Color::Red);
+        putText(img, "Ni Hao.", Point(20 + a, 150), FONT_HERSHEY_DUPLEX, 3, Color::Blue);
+        putText(img, "Zai Jian.", Point(20 + a, 200), FONT_HERSHEY_PLAIN, 4, Color::Black);
 
         imshow("img", img);
         if (waitKey(33) == 27)

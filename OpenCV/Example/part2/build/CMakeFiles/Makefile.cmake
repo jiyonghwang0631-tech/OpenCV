@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.2.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeSystem.cmake"
+  "CMakeFiles/VerifyGlobs.cmake"
+  "CMakeFiles/cmake.verify_globs"
   "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake"
@@ -65,4 +67,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/11_drawing_example.dir/DependInfo.cmake"
   "CMakeFiles/12_drawing_example2.dir/DependInfo.cmake"
   "CMakeFiles/13_font.dir/DependInfo.cmake"
+  "CMakeFiles/15_Keyboard.dir/DependInfo.cmake"
   )

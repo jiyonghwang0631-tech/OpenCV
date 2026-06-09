@@ -7,7 +7,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(OpenCV REQUIRED)
 
-file(GLOB SOURCES "*.cpp")
+file(GLOB SOURCES CONFIGURE_DEPENDS "*.cpp")
 
 foreach(SOURCE ${SOURCES})
     get_filename_component(EXE_NAME ${SOURCE} NAME_WE)

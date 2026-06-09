@@ -452,6 +452,10 @@
 						54
 					],
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
 					"minimumCMakeVersion" : 
 					{
@@ -467,6 +471,27 @@
 						3,
 						4,
 						5
+					]
+				},
+				{
+					"build" : "part2",
+					"jsonFile" : "directory-part2-Debug-2b6b74384fbeb887d1c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "part2",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
 					]
 				}
 			],
@@ -532,6 +557,10 @@
 						53,
 						54
 					],
+					"childIndexes" : 
+					[
+						1
+					],
 					"directoryIndexes" : 
 					[
 						0
@@ -545,6 +574,24 @@
 						3,
 						4,
 						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "opencv_cpp_part2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
 					]
 				}
 			],
@@ -591,6 +638,55 @@
 					"jsonFile" : "target-06_video-Debug-dea6b48370a1fc940048.json",
 					"name" : "06_video",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "09_videoSave::@5e76dcc995f0eed06bb6",
+					"jsonFile" : "target-09_videoSave-Debug-35ec540873eb62bee142.json",
+					"name" : "09_videoSave",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "10_drawing::@5e76dcc995f0eed06bb6",
+					"jsonFile" : "target-10_drawing-Debug-553c76deeb550c69ac39.json",
+					"name" : "10_drawing",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "11_drawing_example::@5e76dcc995f0eed06bb6",
+					"jsonFile" : "target-11_drawing_example-Debug-5b9ff0a73085f33a1fac.json",
+					"name" : "11_drawing_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "12_drawing_example2::@5e76dcc995f0eed06bb6",
+					"jsonFile" : "target-12_drawing_example2-Debug-78ce3fa4468bcee627ad.json",
+					"name" : "12_drawing_example2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "13_font::@5e76dcc995f0eed06bb6",
+					"jsonFile" : "target-13_font-Debug-54dbcf71233599493396.json",
+					"name" : "13_font",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "15_Keyboard::@5e76dcc995f0eed06bb6",
+					"jsonFile" : "target-15_Keyboard-Debug-7c22bd9cd02d9cb39cd0.json",
+					"name" : "15_Keyboard",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "16_tickmeter::@5e76dcc995f0eed06bb6",
+					"jsonFile" : "target-16_tickmeter-Debug-af5c2570e3d14de40658.json",
+					"name" : "16_tickmeter",
+					"projectIndex" : 1
 				}
 			]
 		}

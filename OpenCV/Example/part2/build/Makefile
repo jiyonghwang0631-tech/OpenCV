@@ -113,6 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -180,6 +181,19 @@ depend:
 13_font/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_font.dir/build.make CMakeFiles/13_font.dir/build
 .PHONY : 13_font/fast
+
+#=============================================================================
+# Target rules for targets named 15_Keyboard
+
+# Build rule for target.
+15_Keyboard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_Keyboard
+.PHONY : 15_Keyboard
+
+# fast build rule for target.
+15_Keyboard/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_Keyboard.dir/build.make CMakeFiles/15_Keyboard.dir/build
+.PHONY : 15_Keyboard/fast
 
 09_videoSave.o: 09_videoSave.cpp.o
 .PHONY : 09_videoSave.o
@@ -301,6 +315,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_font.dir/build.make CMakeFiles/13_font.dir/13_font.cpp.s
 .PHONY : 13_font.cpp.s
 
+15_Keyboard.o: 15_Keyboard.cpp.o
+.PHONY : 15_Keyboard.o
+
+# target to build an object file
+15_Keyboard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_Keyboard.dir/build.make CMakeFiles/15_Keyboard.dir/15_Keyboard.cpp.o
+.PHONY : 15_Keyboard.cpp.o
+
+15_Keyboard.i: 15_Keyboard.cpp.i
+.PHONY : 15_Keyboard.i
+
+# target to preprocess a source file
+15_Keyboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_Keyboard.dir/build.make CMakeFiles/15_Keyboard.dir/15_Keyboard.cpp.i
+.PHONY : 15_Keyboard.cpp.i
+
+15_Keyboard.s: 15_Keyboard.cpp.s
+.PHONY : 15_Keyboard.s
+
+# target to generate assembly for a file
+15_Keyboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_Keyboard.dir/build.make CMakeFiles/15_Keyboard.dir/15_Keyboard.cpp.s
+.PHONY : 15_Keyboard.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,6 +352,7 @@ help:
 	@echo "... 11_drawing_example"
 	@echo "... 12_drawing_example2"
 	@echo "... 13_font"
+	@echo "... 15_Keyboard"
 	@echo "... 09_videoSave.o"
 	@echo "... 09_videoSave.i"
 	@echo "... 09_videoSave.s"
@@ -329,6 +368,9 @@ help:
 	@echo "... 13_font.o"
 	@echo "... 13_font.i"
 	@echo "... 13_font.s"
+	@echo "... 15_Keyboard.o"
+	@echo "... 15_Keyboard.i"
+	@echo "... 15_Keyboard.s"
 .PHONY : help
 
 
@@ -340,6 +382,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

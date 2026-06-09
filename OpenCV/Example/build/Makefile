@@ -113,6 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -193,6 +194,97 @@ depend:
 06_video/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_video.dir/build.make CMakeFiles/06_video.dir/build
 .PHONY : 06_video/fast
+
+#=============================================================================
+# Target rules for targets named 09_videoSave
+
+# Build rule for target.
+09_videoSave: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_videoSave
+.PHONY : 09_videoSave
+
+# fast build rule for target.
+09_videoSave/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/09_videoSave.dir/build.make part2/CMakeFiles/09_videoSave.dir/build
+.PHONY : 09_videoSave/fast
+
+#=============================================================================
+# Target rules for targets named 10_drawing
+
+# Build rule for target.
+10_drawing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_drawing
+.PHONY : 10_drawing
+
+# fast build rule for target.
+10_drawing/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/10_drawing.dir/build.make part2/CMakeFiles/10_drawing.dir/build
+.PHONY : 10_drawing/fast
+
+#=============================================================================
+# Target rules for targets named 11_drawing_example
+
+# Build rule for target.
+11_drawing_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11_drawing_example
+.PHONY : 11_drawing_example
+
+# fast build rule for target.
+11_drawing_example/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/11_drawing_example.dir/build.make part2/CMakeFiles/11_drawing_example.dir/build
+.PHONY : 11_drawing_example/fast
+
+#=============================================================================
+# Target rules for targets named 12_drawing_example2
+
+# Build rule for target.
+12_drawing_example2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_drawing_example2
+.PHONY : 12_drawing_example2
+
+# fast build rule for target.
+12_drawing_example2/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/12_drawing_example2.dir/build.make part2/CMakeFiles/12_drawing_example2.dir/build
+.PHONY : 12_drawing_example2/fast
+
+#=============================================================================
+# Target rules for targets named 13_font
+
+# Build rule for target.
+13_font: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_font
+.PHONY : 13_font
+
+# fast build rule for target.
+13_font/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/13_font.dir/build.make part2/CMakeFiles/13_font.dir/build
+.PHONY : 13_font/fast
+
+#=============================================================================
+# Target rules for targets named 15_Keyboard
+
+# Build rule for target.
+15_Keyboard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_Keyboard
+.PHONY : 15_Keyboard
+
+# fast build rule for target.
+15_Keyboard/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/15_Keyboard.dir/build.make part2/CMakeFiles/15_Keyboard.dir/build
+.PHONY : 15_Keyboard/fast
+
+#=============================================================================
+# Target rules for targets named 16_tickmeter
+
+# Build rule for target.
+16_tickmeter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 16_tickmeter
+.PHONY : 16_tickmeter
+
+# fast build rule for target.
+16_tickmeter/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/16_tickmeter.dir/build.make part2/CMakeFiles/16_tickmeter.dir/build
+.PHONY : 16_tickmeter/fast
 
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
@@ -352,6 +444,13 @@ help:
 	@echo "... 04_inputArray"
 	@echo "... 05_MatOp2"
 	@echo "... 06_video"
+	@echo "... 09_videoSave"
+	@echo "... 10_drawing"
+	@echo "... 11_drawing_example"
+	@echo "... 12_drawing_example2"
+	@echo "... 13_font"
+	@echo "... 15_Keyboard"
+	@echo "... 16_tickmeter"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"
@@ -381,6 +480,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

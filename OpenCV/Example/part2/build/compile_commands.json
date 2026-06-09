@@ -28,5 +28,11 @@
   "command": "/usr/bin/c++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -std=gnu++17 -o CMakeFiles/13_font.dir/13_font.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/13_font.cpp",
   "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/13_font.cpp",
   "output": "CMakeFiles/13_font.dir/13_font.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build",
+  "command": "/usr/bin/c++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -std=gnu++17 -o CMakeFiles/15_Keyboard.dir/15_Keyboard.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/15_Keyboard.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/15_Keyboard.cpp",
+  "output": "CMakeFiles/15_Keyboard.dir/15_Keyboard.cpp.o"
 }
 ]

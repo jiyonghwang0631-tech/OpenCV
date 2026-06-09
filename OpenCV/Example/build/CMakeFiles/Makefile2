@@ -69,6 +69,7 @@ all: CMakeFiles/03_MatOP.dir/all
 all: CMakeFiles/04_inputArray.dir/all
 all: CMakeFiles/05_MatOp2.dir/all
 all: CMakeFiles/06_video.dir/all
+all: part2/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -78,10 +79,11 @@ codegen: CMakeFiles/03_MatOP.dir/codegen
 codegen: CMakeFiles/04_inputArray.dir/codegen
 codegen: CMakeFiles/05_MatOp2.dir/codegen
 codegen: CMakeFiles/06_video.dir/codegen
+codegen: part2/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: part2/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -91,7 +93,45 @@ clean: CMakeFiles/03_MatOP.dir/clean
 clean: CMakeFiles/04_inputArray.dir/clean
 clean: CMakeFiles/05_MatOp2.dir/clean
 clean: CMakeFiles/06_video.dir/clean
+clean: part2/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory part2
+
+# Recursive "all" directory target.
+part2/all: part2/CMakeFiles/09_videoSave.dir/all
+part2/all: part2/CMakeFiles/10_drawing.dir/all
+part2/all: part2/CMakeFiles/11_drawing_example.dir/all
+part2/all: part2/CMakeFiles/12_drawing_example2.dir/all
+part2/all: part2/CMakeFiles/13_font.dir/all
+part2/all: part2/CMakeFiles/15_Keyboard.dir/all
+part2/all: part2/CMakeFiles/16_tickmeter.dir/all
+.PHONY : part2/all
+
+# Recursive "codegen" directory target.
+part2/codegen: part2/CMakeFiles/09_videoSave.dir/codegen
+part2/codegen: part2/CMakeFiles/10_drawing.dir/codegen
+part2/codegen: part2/CMakeFiles/11_drawing_example.dir/codegen
+part2/codegen: part2/CMakeFiles/12_drawing_example2.dir/codegen
+part2/codegen: part2/CMakeFiles/13_font.dir/codegen
+part2/codegen: part2/CMakeFiles/15_Keyboard.dir/codegen
+part2/codegen: part2/CMakeFiles/16_tickmeter.dir/codegen
+.PHONY : part2/codegen
+
+# Recursive "preinstall" directory target.
+part2/preinstall:
+.PHONY : part2/preinstall
+
+# Recursive "clean" directory target.
+part2/clean: part2/CMakeFiles/09_videoSave.dir/clean
+part2/clean: part2/CMakeFiles/10_drawing.dir/clean
+part2/clean: part2/CMakeFiles/11_drawing_example.dir/clean
+part2/clean: part2/CMakeFiles/12_drawing_example2.dir/clean
+part2/clean: part2/CMakeFiles/13_font.dir/clean
+part2/clean: part2/CMakeFiles/15_Keyboard.dir/clean
+part2/clean: part2/CMakeFiles/16_tickmeter.dir/clean
+.PHONY : part2/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/01_helloWorld.dir
@@ -286,12 +326,237 @@ CMakeFiles/06_video.dir/clean:
 .PHONY : CMakeFiles/06_video.dir/clean
 
 #=============================================================================
+# Target rules for target part2/CMakeFiles/09_videoSave.dir
+
+# All Build rule for target.
+part2/CMakeFiles/09_videoSave.dir/all:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/09_videoSave.dir/build.make part2/CMakeFiles/09_videoSave.dir/depend
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/09_videoSave.dir/build.make part2/CMakeFiles/09_videoSave.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=13,14 "Built target 09_videoSave"
+.PHONY : part2/CMakeFiles/09_videoSave.dir/all
+
+# Build rule for subdir invocation for target.
+part2/CMakeFiles/09_videoSave.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/09_videoSave.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part2/CMakeFiles/09_videoSave.dir/rule
+
+# Convenience name for target.
+09_videoSave: part2/CMakeFiles/09_videoSave.dir/rule
+.PHONY : 09_videoSave
+
+# codegen rule for target.
+part2/CMakeFiles/09_videoSave.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/09_videoSave.dir/build.make part2/CMakeFiles/09_videoSave.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=13,14 "Finished codegen for target 09_videoSave"
+.PHONY : part2/CMakeFiles/09_videoSave.dir/codegen
+
+# clean rule for target.
+part2/CMakeFiles/09_videoSave.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/09_videoSave.dir/build.make part2/CMakeFiles/09_videoSave.dir/clean
+.PHONY : part2/CMakeFiles/09_videoSave.dir/clean
+
+#=============================================================================
+# Target rules for target part2/CMakeFiles/10_drawing.dir
+
+# All Build rule for target.
+part2/CMakeFiles/10_drawing.dir/all:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/10_drawing.dir/build.make part2/CMakeFiles/10_drawing.dir/depend
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/10_drawing.dir/build.make part2/CMakeFiles/10_drawing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=15,16 "Built target 10_drawing"
+.PHONY : part2/CMakeFiles/10_drawing.dir/all
+
+# Build rule for subdir invocation for target.
+part2/CMakeFiles/10_drawing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/10_drawing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part2/CMakeFiles/10_drawing.dir/rule
+
+# Convenience name for target.
+10_drawing: part2/CMakeFiles/10_drawing.dir/rule
+.PHONY : 10_drawing
+
+# codegen rule for target.
+part2/CMakeFiles/10_drawing.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/10_drawing.dir/build.make part2/CMakeFiles/10_drawing.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=15,16 "Finished codegen for target 10_drawing"
+.PHONY : part2/CMakeFiles/10_drawing.dir/codegen
+
+# clean rule for target.
+part2/CMakeFiles/10_drawing.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/10_drawing.dir/build.make part2/CMakeFiles/10_drawing.dir/clean
+.PHONY : part2/CMakeFiles/10_drawing.dir/clean
+
+#=============================================================================
+# Target rules for target part2/CMakeFiles/11_drawing_example.dir
+
+# All Build rule for target.
+part2/CMakeFiles/11_drawing_example.dir/all:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/11_drawing_example.dir/build.make part2/CMakeFiles/11_drawing_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/11_drawing_example.dir/build.make part2/CMakeFiles/11_drawing_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=17,18 "Built target 11_drawing_example"
+.PHONY : part2/CMakeFiles/11_drawing_example.dir/all
+
+# Build rule for subdir invocation for target.
+part2/CMakeFiles/11_drawing_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/11_drawing_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part2/CMakeFiles/11_drawing_example.dir/rule
+
+# Convenience name for target.
+11_drawing_example: part2/CMakeFiles/11_drawing_example.dir/rule
+.PHONY : 11_drawing_example
+
+# codegen rule for target.
+part2/CMakeFiles/11_drawing_example.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/11_drawing_example.dir/build.make part2/CMakeFiles/11_drawing_example.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=17,18 "Finished codegen for target 11_drawing_example"
+.PHONY : part2/CMakeFiles/11_drawing_example.dir/codegen
+
+# clean rule for target.
+part2/CMakeFiles/11_drawing_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/11_drawing_example.dir/build.make part2/CMakeFiles/11_drawing_example.dir/clean
+.PHONY : part2/CMakeFiles/11_drawing_example.dir/clean
+
+#=============================================================================
+# Target rules for target part2/CMakeFiles/12_drawing_example2.dir
+
+# All Build rule for target.
+part2/CMakeFiles/12_drawing_example2.dir/all:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/12_drawing_example2.dir/build.make part2/CMakeFiles/12_drawing_example2.dir/depend
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/12_drawing_example2.dir/build.make part2/CMakeFiles/12_drawing_example2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=19,20 "Built target 12_drawing_example2"
+.PHONY : part2/CMakeFiles/12_drawing_example2.dir/all
+
+# Build rule for subdir invocation for target.
+part2/CMakeFiles/12_drawing_example2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/12_drawing_example2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part2/CMakeFiles/12_drawing_example2.dir/rule
+
+# Convenience name for target.
+12_drawing_example2: part2/CMakeFiles/12_drawing_example2.dir/rule
+.PHONY : 12_drawing_example2
+
+# codegen rule for target.
+part2/CMakeFiles/12_drawing_example2.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/12_drawing_example2.dir/build.make part2/CMakeFiles/12_drawing_example2.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=19,20 "Finished codegen for target 12_drawing_example2"
+.PHONY : part2/CMakeFiles/12_drawing_example2.dir/codegen
+
+# clean rule for target.
+part2/CMakeFiles/12_drawing_example2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/12_drawing_example2.dir/build.make part2/CMakeFiles/12_drawing_example2.dir/clean
+.PHONY : part2/CMakeFiles/12_drawing_example2.dir/clean
+
+#=============================================================================
+# Target rules for target part2/CMakeFiles/13_font.dir
+
+# All Build rule for target.
+part2/CMakeFiles/13_font.dir/all:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/13_font.dir/build.make part2/CMakeFiles/13_font.dir/depend
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/13_font.dir/build.make part2/CMakeFiles/13_font.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=21,22 "Built target 13_font"
+.PHONY : part2/CMakeFiles/13_font.dir/all
+
+# Build rule for subdir invocation for target.
+part2/CMakeFiles/13_font.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/13_font.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part2/CMakeFiles/13_font.dir/rule
+
+# Convenience name for target.
+13_font: part2/CMakeFiles/13_font.dir/rule
+.PHONY : 13_font
+
+# codegen rule for target.
+part2/CMakeFiles/13_font.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/13_font.dir/build.make part2/CMakeFiles/13_font.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=21,22 "Finished codegen for target 13_font"
+.PHONY : part2/CMakeFiles/13_font.dir/codegen
+
+# clean rule for target.
+part2/CMakeFiles/13_font.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/13_font.dir/build.make part2/CMakeFiles/13_font.dir/clean
+.PHONY : part2/CMakeFiles/13_font.dir/clean
+
+#=============================================================================
+# Target rules for target part2/CMakeFiles/15_Keyboard.dir
+
+# All Build rule for target.
+part2/CMakeFiles/15_Keyboard.dir/all:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/15_Keyboard.dir/build.make part2/CMakeFiles/15_Keyboard.dir/depend
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/15_Keyboard.dir/build.make part2/CMakeFiles/15_Keyboard.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=23,24 "Built target 15_Keyboard"
+.PHONY : part2/CMakeFiles/15_Keyboard.dir/all
+
+# Build rule for subdir invocation for target.
+part2/CMakeFiles/15_Keyboard.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/15_Keyboard.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part2/CMakeFiles/15_Keyboard.dir/rule
+
+# Convenience name for target.
+15_Keyboard: part2/CMakeFiles/15_Keyboard.dir/rule
+.PHONY : 15_Keyboard
+
+# codegen rule for target.
+part2/CMakeFiles/15_Keyboard.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/15_Keyboard.dir/build.make part2/CMakeFiles/15_Keyboard.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=23,24 "Finished codegen for target 15_Keyboard"
+.PHONY : part2/CMakeFiles/15_Keyboard.dir/codegen
+
+# clean rule for target.
+part2/CMakeFiles/15_Keyboard.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/15_Keyboard.dir/build.make part2/CMakeFiles/15_Keyboard.dir/clean
+.PHONY : part2/CMakeFiles/15_Keyboard.dir/clean
+
+#=============================================================================
+# Target rules for target part2/CMakeFiles/16_tickmeter.dir
+
+# All Build rule for target.
+part2/CMakeFiles/16_tickmeter.dir/all:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/16_tickmeter.dir/build.make part2/CMakeFiles/16_tickmeter.dir/depend
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/16_tickmeter.dir/build.make part2/CMakeFiles/16_tickmeter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=25,26 "Built target 16_tickmeter"
+.PHONY : part2/CMakeFiles/16_tickmeter.dir/all
+
+# Build rule for subdir invocation for target.
+part2/CMakeFiles/16_tickmeter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/16_tickmeter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part2/CMakeFiles/16_tickmeter.dir/rule
+
+# Convenience name for target.
+16_tickmeter: part2/CMakeFiles/16_tickmeter.dir/rule
+.PHONY : 16_tickmeter
+
+# codegen rule for target.
+part2/CMakeFiles/16_tickmeter.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/16_tickmeter.dir/build.make part2/CMakeFiles/16_tickmeter.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=25,26 "Finished codegen for target 16_tickmeter"
+.PHONY : part2/CMakeFiles/16_tickmeter.dir/codegen
+
+# clean rule for target.
+part2/CMakeFiles/16_tickmeter.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/16_tickmeter.dir/build.make part2/CMakeFiles/16_tickmeter.dir/clean
+.PHONY : part2/CMakeFiles/16_tickmeter.dir/clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

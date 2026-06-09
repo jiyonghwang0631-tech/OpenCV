@@ -34,5 +34,47 @@
   "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/06_video.dir/part1/06_video.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/06_video.cpp",
   "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/06_video.cpp",
   "output": "CMakeFiles/06_video.dir/part1/06_video.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/09_videoSave.dir/09_videoSave.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/09_videoSave.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/09_videoSave.cpp",
+  "output": "part2/CMakeFiles/09_videoSave.dir/09_videoSave.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/10_drawing.dir/10_drawing.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/10_drawing.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/10_drawing.cpp",
+  "output": "part2/CMakeFiles/10_drawing.dir/10_drawing.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/11_drawing_example.dir/11_drawing_example.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/11_drawing_example.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/11_drawing_example.cpp",
+  "output": "part2/CMakeFiles/11_drawing_example.dir/11_drawing_example.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/12_drawing_example2.dir/12_drawing_example2.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/12_drawing_example2.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/12_drawing_example2.cpp",
+  "output": "part2/CMakeFiles/12_drawing_example2.dir/12_drawing_example2.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/13_font.dir/13_font.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/13_font.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/13_font.cpp",
+  "output": "part2/CMakeFiles/13_font.dir/13_font.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/15_Keyboard.dir/15_Keyboard.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/15_Keyboard.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/15_Keyboard.cpp",
+  "output": "part2/CMakeFiles/15_Keyboard.dir/15_Keyboard.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/16_tickmeter.dir/16_tickmeter.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/16_tickmeter.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/16_tickmeter.cpp",
+  "output": "part2/CMakeFiles/16_tickmeter.dir/16_tickmeter.cpp.o"
 }
 ]
