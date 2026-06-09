@@ -169,17 +169,17 @@ depend:
 .PHONY : 04_inputArray/fast
 
 #=============================================================================
-# Target rules for targets named 05_matOp2
+# Target rules for targets named 05_MatOp2
 
 # Build rule for target.
-05_matOp2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_matOp2
-.PHONY : 05_matOp2
+05_MatOp2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_MatOp2
+.PHONY : 05_MatOp2
 
 # fast build rule for target.
-05_matOp2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_matOp2.dir/build.make CMakeFiles/05_matOp2.dir/build
-.PHONY : 05_matOp2/fast
+05_MatOp2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_MatOp2.dir/build.make CMakeFiles/05_MatOp2.dir/build
+.PHONY : 05_MatOp2/fast
 
 #=============================================================================
 # Target rules for targets named 06_video
@@ -290,29 +290,29 @@ part1/04_inputArray.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_inputArray.dir/build.make CMakeFiles/04_inputArray.dir/part1/04_inputArray.cpp.s
 .PHONY : part1/04_inputArray.cpp.s
 
-part1/05_matOp2.o: part1/05_matOp2.cpp.o
-.PHONY : part1/05_matOp2.o
+part1/05_MatOp2.o: part1/05_MatOp2.cpp.o
+.PHONY : part1/05_MatOp2.o
 
 # target to build an object file
-part1/05_matOp2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_matOp2.dir/build.make CMakeFiles/05_matOp2.dir/part1/05_matOp2.cpp.o
-.PHONY : part1/05_matOp2.cpp.o
+part1/05_MatOp2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_MatOp2.dir/build.make CMakeFiles/05_MatOp2.dir/part1/05_MatOp2.cpp.o
+.PHONY : part1/05_MatOp2.cpp.o
 
-part1/05_matOp2.i: part1/05_matOp2.cpp.i
-.PHONY : part1/05_matOp2.i
+part1/05_MatOp2.i: part1/05_MatOp2.cpp.i
+.PHONY : part1/05_MatOp2.i
 
 # target to preprocess a source file
-part1/05_matOp2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_matOp2.dir/build.make CMakeFiles/05_matOp2.dir/part1/05_matOp2.cpp.i
-.PHONY : part1/05_matOp2.cpp.i
+part1/05_MatOp2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_MatOp2.dir/build.make CMakeFiles/05_MatOp2.dir/part1/05_MatOp2.cpp.i
+.PHONY : part1/05_MatOp2.cpp.i
 
-part1/05_matOp2.s: part1/05_matOp2.cpp.s
-.PHONY : part1/05_matOp2.s
+part1/05_MatOp2.s: part1/05_MatOp2.cpp.s
+.PHONY : part1/05_MatOp2.s
 
 # target to generate assembly for a file
-part1/05_matOp2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_matOp2.dir/build.make CMakeFiles/05_matOp2.dir/part1/05_matOp2.cpp.s
-.PHONY : part1/05_matOp2.cpp.s
+part1/05_MatOp2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_MatOp2.dir/build.make CMakeFiles/05_MatOp2.dir/part1/05_MatOp2.cpp.s
+.PHONY : part1/05_MatOp2.cpp.s
 
 part1/06_video.o: part1/06_video.cpp.o
 .PHONY : part1/06_video.o
@@ -350,7 +350,7 @@ help:
 	@echo "... 02_basicOp"
 	@echo "... 03_MatOP"
 	@echo "... 04_inputArray"
-	@echo "... 05_matOp2"
+	@echo "... 05_MatOp2"
 	@echo "... 06_video"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
@@ -364,9 +364,9 @@ help:
 	@echo "... part1/04_inputArray.o"
 	@echo "... part1/04_inputArray.i"
 	@echo "... part1/04_inputArray.s"
-	@echo "... part1/05_matOp2.o"
-	@echo "... part1/05_matOp2.i"
-	@echo "... part1/05_matOp2.s"
+	@echo "... part1/05_MatOp2.o"
+	@echo "... part1/05_MatOp2.i"
+	@echo "... part1/05_MatOp2.s"
 	@echo "... part1/06_video.o"
 	@echo "... part1/06_video.i"
 	@echo "... part1/06_video.s"

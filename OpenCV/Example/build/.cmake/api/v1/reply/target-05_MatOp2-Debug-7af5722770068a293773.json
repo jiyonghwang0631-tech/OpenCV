@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "05_matOp2"
+			"path" : "05_MatOp2"
 		}
 	],
 	"backtrace" : 1,
@@ -296,7 +296,7 @@
 			]
 		}
 	],
-	"id" : "05_matOp2::@6890427a1f51a3e7e1df",
+	"id" : "05_MatOp2::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -806,8 +806,8 @@
 			"id" : "opencv_xphoto::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "05_matOp2",
-	"nameOnDisk" : "05_matOp2",
+	"name" : "05_MatOp2",
+	"nameOnDisk" : "05_MatOp2",
 	"paths" : 
 	{
 		"build" : ".",
@@ -828,7 +828,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "part1/05_matOp2.cpp",
+			"path" : "part1/05_MatOp2.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

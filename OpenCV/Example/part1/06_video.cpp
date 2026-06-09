@@ -11,6 +11,7 @@ String folderPath = "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part1/data/";
 int main()
 {
     VideoCapture cap(0, CAP_V4L2);
+    
     if (!cap.isOpened())
     {
         cerr << "카메라를 열수 없습니다." << endl;

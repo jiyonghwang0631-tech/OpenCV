@@ -1,0 +1,4 @@
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build/CMakeFiles/09_videoSave.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build/CMakeFiles/10_drawing.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build/CMakeFiles/edit_cache.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/build/CMakeFiles/rebuild_cache.dir
