@@ -109,6 +109,10 @@ part2/all: part2/CMakeFiles/15_Keyboard.dir/all
 part2/all: part2/CMakeFiles/16_tickmeter.dir/all
 part2/all: part2/CMakeFiles/17_mouse.dir/all
 part2/all: part2/CMakeFiles/18_mouse_example.dir/all
+part2/all: part2/CMakeFiles/19_trackbar.dir/all
+part2/all: part2/CMakeFiles/20_filestorage.dir/all
+part2/all: part2/CMakeFiles/21_filestorage2.dir/all
+part2/all: part2/CMakeFiles/22_mask.dir/all
 .PHONY : part2/all
 
 # Recursive "codegen" directory target.
@@ -121,6 +125,10 @@ part2/codegen: part2/CMakeFiles/15_Keyboard.dir/codegen
 part2/codegen: part2/CMakeFiles/16_tickmeter.dir/codegen
 part2/codegen: part2/CMakeFiles/17_mouse.dir/codegen
 part2/codegen: part2/CMakeFiles/18_mouse_example.dir/codegen
+part2/codegen: part2/CMakeFiles/19_trackbar.dir/codegen
+part2/codegen: part2/CMakeFiles/20_filestorage.dir/codegen
+part2/codegen: part2/CMakeFiles/21_filestorage2.dir/codegen
+part2/codegen: part2/CMakeFiles/22_mask.dir/codegen
 .PHONY : part2/codegen
 
 # Recursive "preinstall" directory target.
@@ -137,6 +145,10 @@ part2/clean: part2/CMakeFiles/15_Keyboard.dir/clean
 part2/clean: part2/CMakeFiles/16_tickmeter.dir/clean
 part2/clean: part2/CMakeFiles/17_mouse.dir/clean
 part2/clean: part2/CMakeFiles/18_mouse_example.dir/clean
+part2/clean: part2/CMakeFiles/19_trackbar.dir/clean
+part2/clean: part2/CMakeFiles/20_filestorage.dir/clean
+part2/clean: part2/CMakeFiles/21_filestorage2.dir/clean
+part2/clean: part2/CMakeFiles/22_mask.dir/clean
 .PHONY : part2/clean
 
 #=============================================================================
@@ -618,6 +630,134 @@ part2/CMakeFiles/18_mouse_example.dir/codegen:
 part2/CMakeFiles/18_mouse_example.dir/clean:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/18_mouse_example.dir/build.make part2/CMakeFiles/18_mouse_example.dir/clean
 .PHONY : part2/CMakeFiles/18_mouse_example.dir/clean
+
+#=============================================================================
+# Target rules for target part2/CMakeFiles/19_trackbar.dir
+
+# All Build rule for target.
+part2/CMakeFiles/19_trackbar.dir/all:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/19_trackbar.dir/build.make part2/CMakeFiles/19_trackbar.dir/depend
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/19_trackbar.dir/build.make part2/CMakeFiles/19_trackbar.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=31,32 "Built target 19_trackbar"
+.PHONY : part2/CMakeFiles/19_trackbar.dir/all
+
+# Build rule for subdir invocation for target.
+part2/CMakeFiles/19_trackbar.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/19_trackbar.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part2/CMakeFiles/19_trackbar.dir/rule
+
+# Convenience name for target.
+19_trackbar: part2/CMakeFiles/19_trackbar.dir/rule
+.PHONY : 19_trackbar
+
+# codegen rule for target.
+part2/CMakeFiles/19_trackbar.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/19_trackbar.dir/build.make part2/CMakeFiles/19_trackbar.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=31,32 "Finished codegen for target 19_trackbar"
+.PHONY : part2/CMakeFiles/19_trackbar.dir/codegen
+
+# clean rule for target.
+part2/CMakeFiles/19_trackbar.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/19_trackbar.dir/build.make part2/CMakeFiles/19_trackbar.dir/clean
+.PHONY : part2/CMakeFiles/19_trackbar.dir/clean
+
+#=============================================================================
+# Target rules for target part2/CMakeFiles/20_filestorage.dir
+
+# All Build rule for target.
+part2/CMakeFiles/20_filestorage.dir/all:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/20_filestorage.dir/build.make part2/CMakeFiles/20_filestorage.dir/depend
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/20_filestorage.dir/build.make part2/CMakeFiles/20_filestorage.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=33,34 "Built target 20_filestorage"
+.PHONY : part2/CMakeFiles/20_filestorage.dir/all
+
+# Build rule for subdir invocation for target.
+part2/CMakeFiles/20_filestorage.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/20_filestorage.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part2/CMakeFiles/20_filestorage.dir/rule
+
+# Convenience name for target.
+20_filestorage: part2/CMakeFiles/20_filestorage.dir/rule
+.PHONY : 20_filestorage
+
+# codegen rule for target.
+part2/CMakeFiles/20_filestorage.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/20_filestorage.dir/build.make part2/CMakeFiles/20_filestorage.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=33,34 "Finished codegen for target 20_filestorage"
+.PHONY : part2/CMakeFiles/20_filestorage.dir/codegen
+
+# clean rule for target.
+part2/CMakeFiles/20_filestorage.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/20_filestorage.dir/build.make part2/CMakeFiles/20_filestorage.dir/clean
+.PHONY : part2/CMakeFiles/20_filestorage.dir/clean
+
+#=============================================================================
+# Target rules for target part2/CMakeFiles/21_filestorage2.dir
+
+# All Build rule for target.
+part2/CMakeFiles/21_filestorage2.dir/all:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/21_filestorage2.dir/build.make part2/CMakeFiles/21_filestorage2.dir/depend
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/21_filestorage2.dir/build.make part2/CMakeFiles/21_filestorage2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=35,36 "Built target 21_filestorage2"
+.PHONY : part2/CMakeFiles/21_filestorage2.dir/all
+
+# Build rule for subdir invocation for target.
+part2/CMakeFiles/21_filestorage2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/21_filestorage2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part2/CMakeFiles/21_filestorage2.dir/rule
+
+# Convenience name for target.
+21_filestorage2: part2/CMakeFiles/21_filestorage2.dir/rule
+.PHONY : 21_filestorage2
+
+# codegen rule for target.
+part2/CMakeFiles/21_filestorage2.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/21_filestorage2.dir/build.make part2/CMakeFiles/21_filestorage2.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=35,36 "Finished codegen for target 21_filestorage2"
+.PHONY : part2/CMakeFiles/21_filestorage2.dir/codegen
+
+# clean rule for target.
+part2/CMakeFiles/21_filestorage2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/21_filestorage2.dir/build.make part2/CMakeFiles/21_filestorage2.dir/clean
+.PHONY : part2/CMakeFiles/21_filestorage2.dir/clean
+
+#=============================================================================
+# Target rules for target part2/CMakeFiles/22_mask.dir
+
+# All Build rule for target.
+part2/CMakeFiles/22_mask.dir/all:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/depend
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=37,38 "Built target 22_mask"
+.PHONY : part2/CMakeFiles/22_mask.dir/all
+
+# Build rule for subdir invocation for target.
+part2/CMakeFiles/22_mask.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/22_mask.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part2/CMakeFiles/22_mask.dir/rule
+
+# Convenience name for target.
+22_mask: part2/CMakeFiles/22_mask.dir/rule
+.PHONY : 22_mask
+
+# codegen rule for target.
+part2/CMakeFiles/22_mask.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=37,38 "Finished codegen for target 22_mask"
+.PHONY : part2/CMakeFiles/22_mask.dir/codegen
+
+# clean rule for target.
+part2/CMakeFiles/22_mask.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/clean
+.PHONY : part2/CMakeFiles/22_mask.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -312,6 +312,58 @@ depend:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/18_mouse_example.dir/build.make part2/CMakeFiles/18_mouse_example.dir/build
 .PHONY : 18_mouse_example/fast
 
+#=============================================================================
+# Target rules for targets named 19_trackbar
+
+# Build rule for target.
+19_trackbar: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 19_trackbar
+.PHONY : 19_trackbar
+
+# fast build rule for target.
+19_trackbar/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/19_trackbar.dir/build.make part2/CMakeFiles/19_trackbar.dir/build
+.PHONY : 19_trackbar/fast
+
+#=============================================================================
+# Target rules for targets named 20_filestorage
+
+# Build rule for target.
+20_filestorage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 20_filestorage
+.PHONY : 20_filestorage
+
+# fast build rule for target.
+20_filestorage/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/20_filestorage.dir/build.make part2/CMakeFiles/20_filestorage.dir/build
+.PHONY : 20_filestorage/fast
+
+#=============================================================================
+# Target rules for targets named 21_filestorage2
+
+# Build rule for target.
+21_filestorage2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21_filestorage2
+.PHONY : 21_filestorage2
+
+# fast build rule for target.
+21_filestorage2/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/21_filestorage2.dir/build.make part2/CMakeFiles/21_filestorage2.dir/build
+.PHONY : 21_filestorage2/fast
+
+#=============================================================================
+# Target rules for targets named 22_mask
+
+# Build rule for target.
+22_mask: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 22_mask
+.PHONY : 22_mask
+
+# fast build rule for target.
+22_mask/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/build
+.PHONY : 22_mask/fast
+
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
 
@@ -479,6 +531,10 @@ help:
 	@echo "... 16_tickmeter"
 	@echo "... 17_mouse"
 	@echo "... 18_mouse_example"
+	@echo "... 19_trackbar"
+	@echo "... 20_filestorage"
+	@echo "... 21_filestorage2"
+	@echo "... 22_mask"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"

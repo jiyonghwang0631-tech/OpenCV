@@ -1,0 +1,11 @@
+%YAML:1.0
+---
+name: Hwang Ji Yong
+age: 18
+point: [ 100, 200 ]
+scores: [ 3.1400001, 6.65999985, 9.14000034 ]
+data: !!opencv-matrix
+   rows: 2
+   cols: 2
+   dt: f
+   data: [ 1., 1.5, 2., 3.20000005 ]

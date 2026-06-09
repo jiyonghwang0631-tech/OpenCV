@@ -79,4 +79,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "part2/CMakeFiles/16_tickmeter.dir/DependInfo.cmake"
   "part2/CMakeFiles/17_mouse.dir/DependInfo.cmake"
   "part2/CMakeFiles/18_mouse_example.dir/DependInfo.cmake"
+  "part2/CMakeFiles/19_trackbar.dir/DependInfo.cmake"
+  "part2/CMakeFiles/20_filestorage.dir/DependInfo.cmake"
+  "part2/CMakeFiles/21_filestorage2.dir/DependInfo.cmake"
+  "part2/CMakeFiles/22_mask.dir/DependInfo.cmake"
   )

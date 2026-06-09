@@ -13,6 +13,10 @@ set(OLD_GLOB
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/16_tickmeter.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/17_mouse.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/18_mouse_example.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/19_trackbar.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/20_filestorage.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/21_filestorage2.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/22_mask.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

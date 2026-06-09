@@ -243,6 +243,62 @@ part2/CMakeFiles/18_mouse_example.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/18_mouse_example.dir/build.make part2/CMakeFiles/18_mouse_example.dir/build
 .PHONY : 18_mouse_example/fast
 
+# Convenience name for target.
+part2/CMakeFiles/19_trackbar.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/19_trackbar.dir/rule
+.PHONY : part2/CMakeFiles/19_trackbar.dir/rule
+
+# Convenience name for target.
+19_trackbar: part2/CMakeFiles/19_trackbar.dir/rule
+.PHONY : 19_trackbar
+
+# fast build rule for target.
+19_trackbar/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/19_trackbar.dir/build.make part2/CMakeFiles/19_trackbar.dir/build
+.PHONY : 19_trackbar/fast
+
+# Convenience name for target.
+part2/CMakeFiles/20_filestorage.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/20_filestorage.dir/rule
+.PHONY : part2/CMakeFiles/20_filestorage.dir/rule
+
+# Convenience name for target.
+20_filestorage: part2/CMakeFiles/20_filestorage.dir/rule
+.PHONY : 20_filestorage
+
+# fast build rule for target.
+20_filestorage/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/20_filestorage.dir/build.make part2/CMakeFiles/20_filestorage.dir/build
+.PHONY : 20_filestorage/fast
+
+# Convenience name for target.
+part2/CMakeFiles/21_filestorage2.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/21_filestorage2.dir/rule
+.PHONY : part2/CMakeFiles/21_filestorage2.dir/rule
+
+# Convenience name for target.
+21_filestorage2: part2/CMakeFiles/21_filestorage2.dir/rule
+.PHONY : 21_filestorage2
+
+# fast build rule for target.
+21_filestorage2/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/21_filestorage2.dir/build.make part2/CMakeFiles/21_filestorage2.dir/build
+.PHONY : 21_filestorage2/fast
+
+# Convenience name for target.
+part2/CMakeFiles/22_mask.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/22_mask.dir/rule
+.PHONY : part2/CMakeFiles/22_mask.dir/rule
+
+# Convenience name for target.
+22_mask: part2/CMakeFiles/22_mask.dir/rule
+.PHONY : 22_mask
+
+# fast build rule for target.
+22_mask/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/build
+.PHONY : 22_mask/fast
+
 09_videoSave.o: 09_videoSave.cpp.o
 .PHONY : 09_videoSave.o
 
@@ -459,6 +515,102 @@ part2/CMakeFiles/18_mouse_example.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/18_mouse_example.dir/build.make part2/CMakeFiles/18_mouse_example.dir/18_mouse_example.cpp.s
 .PHONY : 18_mouse_example.cpp.s
 
+19_trackbar.o: 19_trackbar.cpp.o
+.PHONY : 19_trackbar.o
+
+# target to build an object file
+19_trackbar.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/19_trackbar.dir/build.make part2/CMakeFiles/19_trackbar.dir/19_trackbar.cpp.o
+.PHONY : 19_trackbar.cpp.o
+
+19_trackbar.i: 19_trackbar.cpp.i
+.PHONY : 19_trackbar.i
+
+# target to preprocess a source file
+19_trackbar.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/19_trackbar.dir/build.make part2/CMakeFiles/19_trackbar.dir/19_trackbar.cpp.i
+.PHONY : 19_trackbar.cpp.i
+
+19_trackbar.s: 19_trackbar.cpp.s
+.PHONY : 19_trackbar.s
+
+# target to generate assembly for a file
+19_trackbar.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/19_trackbar.dir/build.make part2/CMakeFiles/19_trackbar.dir/19_trackbar.cpp.s
+.PHONY : 19_trackbar.cpp.s
+
+20_filestorage.o: 20_filestorage.cpp.o
+.PHONY : 20_filestorage.o
+
+# target to build an object file
+20_filestorage.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/20_filestorage.dir/build.make part2/CMakeFiles/20_filestorage.dir/20_filestorage.cpp.o
+.PHONY : 20_filestorage.cpp.o
+
+20_filestorage.i: 20_filestorage.cpp.i
+.PHONY : 20_filestorage.i
+
+# target to preprocess a source file
+20_filestorage.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/20_filestorage.dir/build.make part2/CMakeFiles/20_filestorage.dir/20_filestorage.cpp.i
+.PHONY : 20_filestorage.cpp.i
+
+20_filestorage.s: 20_filestorage.cpp.s
+.PHONY : 20_filestorage.s
+
+# target to generate assembly for a file
+20_filestorage.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/20_filestorage.dir/build.make part2/CMakeFiles/20_filestorage.dir/20_filestorage.cpp.s
+.PHONY : 20_filestorage.cpp.s
+
+21_filestorage2.o: 21_filestorage2.cpp.o
+.PHONY : 21_filestorage2.o
+
+# target to build an object file
+21_filestorage2.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/21_filestorage2.dir/build.make part2/CMakeFiles/21_filestorage2.dir/21_filestorage2.cpp.o
+.PHONY : 21_filestorage2.cpp.o
+
+21_filestorage2.i: 21_filestorage2.cpp.i
+.PHONY : 21_filestorage2.i
+
+# target to preprocess a source file
+21_filestorage2.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/21_filestorage2.dir/build.make part2/CMakeFiles/21_filestorage2.dir/21_filestorage2.cpp.i
+.PHONY : 21_filestorage2.cpp.i
+
+21_filestorage2.s: 21_filestorage2.cpp.s
+.PHONY : 21_filestorage2.s
+
+# target to generate assembly for a file
+21_filestorage2.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/21_filestorage2.dir/build.make part2/CMakeFiles/21_filestorage2.dir/21_filestorage2.cpp.s
+.PHONY : 21_filestorage2.cpp.s
+
+22_mask.o: 22_mask.cpp.o
+.PHONY : 22_mask.o
+
+# target to build an object file
+22_mask.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/22_mask.cpp.o
+.PHONY : 22_mask.cpp.o
+
+22_mask.i: 22_mask.cpp.i
+.PHONY : 22_mask.i
+
+# target to preprocess a source file
+22_mask.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/22_mask.cpp.i
+.PHONY : 22_mask.cpp.i
+
+22_mask.s: 22_mask.cpp.s
+.PHONY : 22_mask.s
+
+# target to generate assembly for a file
+22_mask.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/22_mask.cpp.s
+.PHONY : 22_mask.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -476,6 +628,10 @@ help:
 	@echo "... 16_tickmeter"
 	@echo "... 17_mouse"
 	@echo "... 18_mouse_example"
+	@echo "... 19_trackbar"
+	@echo "... 20_filestorage"
+	@echo "... 21_filestorage2"
+	@echo "... 22_mask"
 	@echo "... 09_videoSave.o"
 	@echo "... 09_videoSave.i"
 	@echo "... 09_videoSave.s"
@@ -503,6 +659,18 @@ help:
 	@echo "... 18_mouse_example.o"
 	@echo "... 18_mouse_example.i"
 	@echo "... 18_mouse_example.s"
+	@echo "... 19_trackbar.o"
+	@echo "... 19_trackbar.i"
+	@echo "... 19_trackbar.s"
+	@echo "... 20_filestorage.o"
+	@echo "... 20_filestorage.i"
+	@echo "... 20_filestorage.s"
+	@echo "... 21_filestorage2.o"
+	@echo "... 21_filestorage2.i"
+	@echo "... 21_filestorage2.s"
+	@echo "... 22_mask.o"
+	@echo "... 22_mask.i"
+	@echo "... 22_mask.s"
 .PHONY : help
 
 
