@@ -13,5 +13,7 @@
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2/CMakeFiles/13_font.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2/CMakeFiles/15_Keyboard.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2/CMakeFiles/16_tickmeter.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2/CMakeFiles/17_mouse.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2/CMakeFiles/18_mouse_example.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2/CMakeFiles/edit_cache.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2/CMakeFiles/rebuild_cache.dir

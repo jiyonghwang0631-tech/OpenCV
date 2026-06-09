@@ -77,4 +77,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "part2/CMakeFiles/13_font.dir/DependInfo.cmake"
   "part2/CMakeFiles/15_Keyboard.dir/DependInfo.cmake"
   "part2/CMakeFiles/16_tickmeter.dir/DependInfo.cmake"
+  "part2/CMakeFiles/17_mouse.dir/DependInfo.cmake"
+  "part2/CMakeFiles/18_mouse_example.dir/DependInfo.cmake"
   )

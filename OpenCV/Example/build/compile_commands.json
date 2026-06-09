@@ -76,5 +76,17 @@
   "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/16_tickmeter.dir/16_tickmeter.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/16_tickmeter.cpp",
   "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/16_tickmeter.cpp",
   "output": "part2/CMakeFiles/16_tickmeter.dir/16_tickmeter.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/17_mouse.dir/17_mouse.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/17_mouse.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/17_mouse.cpp",
+  "output": "part2/CMakeFiles/17_mouse.dir/17_mouse.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/18_mouse_example.dir/18_mouse_example.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/18_mouse_example.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/18_mouse_example.cpp",
+  "output": "part2/CMakeFiles/18_mouse_example.dir/18_mouse_example.cpp.o"
 }
 ]

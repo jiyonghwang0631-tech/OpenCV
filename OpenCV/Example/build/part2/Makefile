@@ -215,6 +215,34 @@ part2/CMakeFiles/16_tickmeter.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/16_tickmeter.dir/build.make part2/CMakeFiles/16_tickmeter.dir/build
 .PHONY : 16_tickmeter/fast
 
+# Convenience name for target.
+part2/CMakeFiles/17_mouse.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/17_mouse.dir/rule
+.PHONY : part2/CMakeFiles/17_mouse.dir/rule
+
+# Convenience name for target.
+17_mouse: part2/CMakeFiles/17_mouse.dir/rule
+.PHONY : 17_mouse
+
+# fast build rule for target.
+17_mouse/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/17_mouse.dir/build.make part2/CMakeFiles/17_mouse.dir/build
+.PHONY : 17_mouse/fast
+
+# Convenience name for target.
+part2/CMakeFiles/18_mouse_example.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/18_mouse_example.dir/rule
+.PHONY : part2/CMakeFiles/18_mouse_example.dir/rule
+
+# Convenience name for target.
+18_mouse_example: part2/CMakeFiles/18_mouse_example.dir/rule
+.PHONY : 18_mouse_example
+
+# fast build rule for target.
+18_mouse_example/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/18_mouse_example.dir/build.make part2/CMakeFiles/18_mouse_example.dir/build
+.PHONY : 18_mouse_example/fast
+
 09_videoSave.o: 09_videoSave.cpp.o
 .PHONY : 09_videoSave.o
 
@@ -383,6 +411,54 @@ part2/CMakeFiles/16_tickmeter.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/16_tickmeter.dir/build.make part2/CMakeFiles/16_tickmeter.dir/16_tickmeter.cpp.s
 .PHONY : 16_tickmeter.cpp.s
 
+17_mouse.o: 17_mouse.cpp.o
+.PHONY : 17_mouse.o
+
+# target to build an object file
+17_mouse.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/17_mouse.dir/build.make part2/CMakeFiles/17_mouse.dir/17_mouse.cpp.o
+.PHONY : 17_mouse.cpp.o
+
+17_mouse.i: 17_mouse.cpp.i
+.PHONY : 17_mouse.i
+
+# target to preprocess a source file
+17_mouse.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/17_mouse.dir/build.make part2/CMakeFiles/17_mouse.dir/17_mouse.cpp.i
+.PHONY : 17_mouse.cpp.i
+
+17_mouse.s: 17_mouse.cpp.s
+.PHONY : 17_mouse.s
+
+# target to generate assembly for a file
+17_mouse.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/17_mouse.dir/build.make part2/CMakeFiles/17_mouse.dir/17_mouse.cpp.s
+.PHONY : 17_mouse.cpp.s
+
+18_mouse_example.o: 18_mouse_example.cpp.o
+.PHONY : 18_mouse_example.o
+
+# target to build an object file
+18_mouse_example.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/18_mouse_example.dir/build.make part2/CMakeFiles/18_mouse_example.dir/18_mouse_example.cpp.o
+.PHONY : 18_mouse_example.cpp.o
+
+18_mouse_example.i: 18_mouse_example.cpp.i
+.PHONY : 18_mouse_example.i
+
+# target to preprocess a source file
+18_mouse_example.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/18_mouse_example.dir/build.make part2/CMakeFiles/18_mouse_example.dir/18_mouse_example.cpp.i
+.PHONY : 18_mouse_example.cpp.i
+
+18_mouse_example.s: 18_mouse_example.cpp.s
+.PHONY : 18_mouse_example.s
+
+# target to generate assembly for a file
+18_mouse_example.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part2/CMakeFiles/18_mouse_example.dir/build.make part2/CMakeFiles/18_mouse_example.dir/18_mouse_example.cpp.s
+.PHONY : 18_mouse_example.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -398,6 +474,8 @@ help:
 	@echo "... 13_font"
 	@echo "... 15_Keyboard"
 	@echo "... 16_tickmeter"
+	@echo "... 17_mouse"
+	@echo "... 18_mouse_example"
 	@echo "... 09_videoSave.o"
 	@echo "... 09_videoSave.i"
 	@echo "... 09_videoSave.s"
@@ -419,6 +497,12 @@ help:
 	@echo "... 16_tickmeter.o"
 	@echo "... 16_tickmeter.i"
 	@echo "... 16_tickmeter.s"
+	@echo "... 17_mouse.o"
+	@echo "... 17_mouse.i"
+	@echo "... 17_mouse.s"
+	@echo "... 18_mouse_example.o"
+	@echo "... 18_mouse_example.i"
+	@echo "... 18_mouse_example.s"
 .PHONY : help
 
 

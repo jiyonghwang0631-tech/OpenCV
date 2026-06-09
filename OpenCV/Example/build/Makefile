@@ -286,6 +286,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/16_tickmeter.dir/build.make part2/CMakeFiles/16_tickmeter.dir/build
 .PHONY : 16_tickmeter/fast
 
+#=============================================================================
+# Target rules for targets named 17_mouse
+
+# Build rule for target.
+17_mouse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 17_mouse
+.PHONY : 17_mouse
+
+# fast build rule for target.
+17_mouse/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/17_mouse.dir/build.make part2/CMakeFiles/17_mouse.dir/build
+.PHONY : 17_mouse/fast
+
+#=============================================================================
+# Target rules for targets named 18_mouse_example
+
+# Build rule for target.
+18_mouse_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 18_mouse_example
+.PHONY : 18_mouse_example
+
+# fast build rule for target.
+18_mouse_example/fast:
+	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/18_mouse_example.dir/build.make part2/CMakeFiles/18_mouse_example.dir/build
+.PHONY : 18_mouse_example/fast
+
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
 
@@ -451,6 +477,8 @@ help:
 	@echo "... 13_font"
 	@echo "... 15_Keyboard"
 	@echo "... 16_tickmeter"
+	@echo "... 17_mouse"
+	@echo "... 18_mouse_example"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"

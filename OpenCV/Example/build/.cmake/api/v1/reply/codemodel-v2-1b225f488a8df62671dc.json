@@ -491,7 +491,9 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13,
+						14
 					]
 				}
 			],
@@ -591,7 +593,9 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13,
+						14
 					]
 				}
 			],
@@ -686,6 +690,20 @@
 					"id" : "16_tickmeter::@5e76dcc995f0eed06bb6",
 					"jsonFile" : "target-16_tickmeter-Debug-af5c2570e3d14de40658.json",
 					"name" : "16_tickmeter",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "17_mouse::@5e76dcc995f0eed06bb6",
+					"jsonFile" : "target-17_mouse-Debug-677fa37e28b8fdf8f574.json",
+					"name" : "17_mouse",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "18_mouse_example::@5e76dcc995f0eed06bb6",
+					"jsonFile" : "target-18_mouse_example-Debug-8e90bde561f0a5788ab3.json",
+					"name" : "18_mouse_example",
 					"projectIndex" : 1
 				}
 			]
