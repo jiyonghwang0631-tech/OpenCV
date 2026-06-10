@@ -250,6 +250,15 @@ opencv_cpp_part3_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 opencv_cpp_part3_SOURCE_DIR:STATIC=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3
 
+//Value Computed by CMake
+opencv_cpp_part4_BINARY_DIR:STATIC=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4
+
+//Value Computed by CMake
+opencv_cpp_part4_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+opencv_cpp_part4_SOURCE_DIR:STATIC=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4
+
 
 ########################
 # INTERNAL cache entries
@@ -355,7 +364,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

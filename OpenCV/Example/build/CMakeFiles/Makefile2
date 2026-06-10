@@ -71,6 +71,7 @@ all: CMakeFiles/05_MatOp2.dir/all
 all: CMakeFiles/06_video.dir/all
 all: part2/all
 all: part3/all
+all: part4/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -82,11 +83,13 @@ codegen: CMakeFiles/05_MatOp2.dir/codegen
 codegen: CMakeFiles/06_video.dir/codegen
 codegen: part2/codegen
 codegen: part3/codegen
+codegen: part4/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: part2/preinstall
 preinstall: part3/preinstall
+preinstall: part4/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -98,6 +101,7 @@ clean: CMakeFiles/05_MatOp2.dir/clean
 clean: CMakeFiles/06_video.dir/clean
 clean: part2/clean
 clean: part3/clean
+clean: part4/clean
 .PHONY : clean
 
 #=============================================================================
@@ -166,6 +170,7 @@ part3/all: part3/CMakeFiles/26_arithmetic.dir/all
 part3/all: part3/CMakeFiles/27_embossing.dir/all
 part3/all: part3/CMakeFiles/28_blurr.dir/all
 part3/all: part3/CMakeFiles/29_sharpening.dir/all
+part3/all: part3/CMakeFiles/30_bilateral.dir/all
 .PHONY : part3/all
 
 # Recursive "codegen" directory target.
@@ -176,6 +181,7 @@ part3/codegen: part3/CMakeFiles/26_arithmetic.dir/codegen
 part3/codegen: part3/CMakeFiles/27_embossing.dir/codegen
 part3/codegen: part3/CMakeFiles/28_blurr.dir/codegen
 part3/codegen: part3/CMakeFiles/29_sharpening.dir/codegen
+part3/codegen: part3/CMakeFiles/30_bilateral.dir/codegen
 .PHONY : part3/codegen
 
 # Recursive "preinstall" directory target.
@@ -190,7 +196,27 @@ part3/clean: part3/CMakeFiles/26_arithmetic.dir/clean
 part3/clean: part3/CMakeFiles/27_embossing.dir/clean
 part3/clean: part3/CMakeFiles/28_blurr.dir/clean
 part3/clean: part3/CMakeFiles/29_sharpening.dir/clean
+part3/clean: part3/CMakeFiles/30_bilateral.dir/clean
 .PHONY : part3/clean
+
+#=============================================================================
+# Directory level rules for directory part4
+
+# Recursive "all" directory target.
+part4/all: part4/CMakeFiles/31_affine.dir/all
+.PHONY : part4/all
+
+# Recursive "codegen" directory target.
+part4/codegen: part4/CMakeFiles/31_affine.dir/codegen
+.PHONY : part4/codegen
+
+# Recursive "preinstall" directory target.
+part4/preinstall:
+.PHONY : part4/preinstall
+
+# Recursive "clean" directory target.
+part4/clean: part4/CMakeFiles/31_affine.dir/clean
+.PHONY : part4/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/01_helloWorld.dir
@@ -1023,6 +1049,70 @@ part3/CMakeFiles/29_sharpening.dir/codegen:
 part3/CMakeFiles/29_sharpening.dir/clean:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/29_sharpening.dir/build.make part3/CMakeFiles/29_sharpening.dir/clean
 .PHONY : part3/CMakeFiles/29_sharpening.dir/clean
+
+#=============================================================================
+# Target rules for target part3/CMakeFiles/30_bilateral.dir
+
+# All Build rule for target.
+part3/CMakeFiles/30_bilateral.dir/all:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/30_bilateral.dir/build.make part3/CMakeFiles/30_bilateral.dir/depend
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/30_bilateral.dir/build.make part3/CMakeFiles/30_bilateral.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=53,54 "Built target 30_bilateral"
+.PHONY : part3/CMakeFiles/30_bilateral.dir/all
+
+# Build rule for subdir invocation for target.
+part3/CMakeFiles/30_bilateral.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/CMakeFiles/30_bilateral.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part3/CMakeFiles/30_bilateral.dir/rule
+
+# Convenience name for target.
+30_bilateral: part3/CMakeFiles/30_bilateral.dir/rule
+.PHONY : 30_bilateral
+
+# codegen rule for target.
+part3/CMakeFiles/30_bilateral.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/30_bilateral.dir/build.make part3/CMakeFiles/30_bilateral.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=53,54 "Finished codegen for target 30_bilateral"
+.PHONY : part3/CMakeFiles/30_bilateral.dir/codegen
+
+# clean rule for target.
+part3/CMakeFiles/30_bilateral.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/30_bilateral.dir/build.make part3/CMakeFiles/30_bilateral.dir/clean
+.PHONY : part3/CMakeFiles/30_bilateral.dir/clean
+
+#=============================================================================
+# Target rules for target part4/CMakeFiles/31_affine.dir
+
+# All Build rule for target.
+part4/CMakeFiles/31_affine.dir/all:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/31_affine.dir/build.make part4/CMakeFiles/31_affine.dir/depend
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/31_affine.dir/build.make part4/CMakeFiles/31_affine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=55,56 "Built target 31_affine"
+.PHONY : part4/CMakeFiles/31_affine.dir/all
+
+# Build rule for subdir invocation for target.
+part4/CMakeFiles/31_affine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/31_affine.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part4/CMakeFiles/31_affine.dir/rule
+
+# Convenience name for target.
+31_affine: part4/CMakeFiles/31_affine.dir/rule
+.PHONY : 31_affine
+
+# codegen rule for target.
+part4/CMakeFiles/31_affine.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/31_affine.dir/build.make part4/CMakeFiles/31_affine.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=55,56 "Finished codegen for target 31_affine"
+.PHONY : part4/CMakeFiles/31_affine.dir/codegen
+
+# clean rule for target.
+part4/CMakeFiles/31_affine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/31_affine.dir/build.make part4/CMakeFiles/31_affine.dir/clean
+.PHONY : part4/CMakeFiles/31_affine.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

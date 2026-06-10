@@ -455,7 +455,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
 					"minimumCMakeVersion" : 
@@ -519,7 +520,23 @@
 						22,
 						23,
 						24,
-						25
+						25,
+						26
+					]
+				},
+				{
+					"build" : "part4",
+					"jsonFile" : "directory-part4-Debug-4326b96d5065401ab6b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "part4",
+					"targetIndexes" : 
+					[
+						27
 					]
 				}
 			],
@@ -588,7 +605,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"directoryIndexes" : 
 					[
@@ -644,7 +662,20 @@
 						22,
 						23,
 						24,
-						25
+						25,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "opencv_cpp_part4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27
 					]
 				}
 			],
@@ -831,6 +862,20 @@
 					"jsonFile" : "target-29_sharpening-Debug-29861a364e125f564602.json",
 					"name" : "29_sharpening",
 					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "30_bilateral::@dcb3ce4daa543496d6e8",
+					"jsonFile" : "target-30_bilateral-Debug-ab4197a6b835d4edfbae.json",
+					"name" : "30_bilateral",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "31_affine::@ba388663f1a00987a57b",
+					"jsonFile" : "target-31_affine-Debug-4c137392196c0ff9a3a8.json",
+					"name" : "31_affine",
+					"projectIndex" : 3
 				}
 			]
 		}

@@ -27,3 +27,5 @@ target_link_libraries(06_video PRIVATE ${OpenCV_LIBS})
 add_subdirectory(part2)
 
 add_subdirectory(part3)
+
+add_subdirectory(part4)

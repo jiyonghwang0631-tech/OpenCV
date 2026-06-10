@@ -154,5 +154,17 @@
   "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/29_sharpening.dir/29_sharpening.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/29_sharpening.cpp",
   "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/29_sharpening.cpp",
   "output": "part3/CMakeFiles/29_sharpening.dir/29_sharpening.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/30_bilateral.dir/30_bilateral.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/30_bilateral.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/30_bilateral.cpp",
+  "output": "part3/CMakeFiles/30_bilateral.dir/30_bilateral.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/31_affine.dir/31_affine.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/31_affine.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/31_affine.cpp",
+  "output": "part4/CMakeFiles/31_affine.dir/31_affine.cpp.o"
 }
 ]

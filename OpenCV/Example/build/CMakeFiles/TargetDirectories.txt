@@ -28,5 +28,9 @@
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3/CMakeFiles/27_embossing.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3/CMakeFiles/28_blurr.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3/CMakeFiles/29_sharpening.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3/CMakeFiles/30_bilateral.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3/CMakeFiles/edit_cache.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3/CMakeFiles/rebuild_cache.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/31_affine.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/edit_cache.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/rebuild_cache.dir

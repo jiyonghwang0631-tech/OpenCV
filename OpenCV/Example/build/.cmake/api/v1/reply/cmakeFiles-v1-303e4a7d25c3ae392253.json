@@ -32,7 +32,16 @@
 				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/26_arithmetic.cpp",
 				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/27_embossing.cpp",
 				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/28_blurr.cpp",
-				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/29_sharpening.cpp"
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/29_sharpening.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/30_bilateral.cpp"
+			]
+		},
+		{
+			"expression" : "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/31_affine.cpp"
 			]
 		}
 	],
@@ -277,6 +286,27 @@
 		},
 		{
 			"path" : "part3/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "part4/CMakeLists.txt"
 		},
 		{
 			"isExternal" : true,

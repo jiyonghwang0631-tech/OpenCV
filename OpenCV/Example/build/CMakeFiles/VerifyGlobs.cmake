@@ -49,6 +49,33 @@ set(OLD_GLOB
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/27_embossing.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/28_blurr.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/29_sharpening.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/30_bilateral.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  set(NEW_ONLY ${NEW_GLOB})
+  set(OLD_ONLY ${OLD_GLOB})
+  list(REMOVE_ITEM NEW_ONLY ${OLD_GLOB})
+  list(REMOVE_ITEM OLD_ONLY ${NEW_GLOB})
+  if(NEW_ONLY)
+    message("The following files were added:")
+    foreach(VAR_FILE IN LISTS NEW_ONLY)
+      message("  +${VAR_FILE}")
+    endforeach()
+  endif()
+  if(OLD_ONLY)
+    message("The following files were removed:")
+    foreach(VAR_FILE IN LISTS OLD_ONLY)
+      message("  -${VAR_FILE}")
+    endforeach()
+  endif()
+  file(TOUCH_NOCREATE "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SOURCES at part4/CMakeLists.txt:10 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/*.cpp")
+set(OLD_GLOB
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/31_affine.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

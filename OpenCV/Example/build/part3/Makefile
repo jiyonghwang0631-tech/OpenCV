@@ -215,6 +215,20 @@ part3/CMakeFiles/29_sharpening.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/29_sharpening.dir/build.make part3/CMakeFiles/29_sharpening.dir/build
 .PHONY : 29_sharpening/fast
 
+# Convenience name for target.
+part3/CMakeFiles/30_bilateral.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/CMakeFiles/30_bilateral.dir/rule
+.PHONY : part3/CMakeFiles/30_bilateral.dir/rule
+
+# Convenience name for target.
+30_bilateral: part3/CMakeFiles/30_bilateral.dir/rule
+.PHONY : 30_bilateral
+
+# fast build rule for target.
+30_bilateral/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/30_bilateral.dir/build.make part3/CMakeFiles/30_bilateral.dir/build
+.PHONY : 30_bilateral/fast
+
 23_brightness.o: 23_brightness.cpp.o
 .PHONY : 23_brightness.o
 
@@ -383,6 +397,30 @@ part3/CMakeFiles/29_sharpening.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/29_sharpening.dir/build.make part3/CMakeFiles/29_sharpening.dir/29_sharpening.cpp.s
 .PHONY : 29_sharpening.cpp.s
 
+30_bilateral.o: 30_bilateral.cpp.o
+.PHONY : 30_bilateral.o
+
+# target to build an object file
+30_bilateral.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/30_bilateral.dir/build.make part3/CMakeFiles/30_bilateral.dir/30_bilateral.cpp.o
+.PHONY : 30_bilateral.cpp.o
+
+30_bilateral.i: 30_bilateral.cpp.i
+.PHONY : 30_bilateral.i
+
+# target to preprocess a source file
+30_bilateral.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/30_bilateral.dir/build.make part3/CMakeFiles/30_bilateral.dir/30_bilateral.cpp.i
+.PHONY : 30_bilateral.cpp.i
+
+30_bilateral.s: 30_bilateral.cpp.s
+.PHONY : 30_bilateral.s
+
+# target to generate assembly for a file
+30_bilateral.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/30_bilateral.dir/build.make part3/CMakeFiles/30_bilateral.dir/30_bilateral.cpp.s
+.PHONY : 30_bilateral.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -398,6 +436,7 @@ help:
 	@echo "... 27_embossing"
 	@echo "... 28_blurr"
 	@echo "... 29_sharpening"
+	@echo "... 30_bilateral"
 	@echo "... 23_brightness.o"
 	@echo "... 23_brightness.i"
 	@echo "... 23_brightness.s"
@@ -419,6 +458,9 @@ help:
 	@echo "... 29_sharpening.o"
 	@echo "... 29_sharpening.i"
 	@echo "... 29_sharpening.s"
+	@echo "... 30_bilateral.o"
+	@echo "... 30_bilateral.i"
+	@echo "... 30_bilateral.s"
 .PHONY : help
 
 

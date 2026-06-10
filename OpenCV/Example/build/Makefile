@@ -455,6 +455,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/29_sharpening.dir/build.make part3/CMakeFiles/29_sharpening.dir/build
 .PHONY : 29_sharpening/fast
 
+#=============================================================================
+# Target rules for targets named 30_bilateral
+
+# Build rule for target.
+30_bilateral: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 30_bilateral
+.PHONY : 30_bilateral
+
+# fast build rule for target.
+30_bilateral/fast:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/30_bilateral.dir/build.make part3/CMakeFiles/30_bilateral.dir/build
+.PHONY : 30_bilateral/fast
+
+#=============================================================================
+# Target rules for targets named 31_affine
+
+# Build rule for target.
+31_affine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 31_affine
+.PHONY : 31_affine
+
+# fast build rule for target.
+31_affine/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/31_affine.dir/build.make part4/CMakeFiles/31_affine.dir/build
+.PHONY : 31_affine/fast
+
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
 
@@ -633,6 +659,8 @@ help:
 	@echo "... 27_embossing"
 	@echo "... 28_blurr"
 	@echo "... 29_sharpening"
+	@echo "... 30_bilateral"
+	@echo "... 31_affine"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"
