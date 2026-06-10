@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/VerifyGlobs.cmake"
   "CMakeFiles/cmake.verify_globs"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/CMakeLists.txt"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake"
@@ -60,6 +61,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "part2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "part3/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -83,4 +85,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "part2/CMakeFiles/20_filestorage.dir/DependInfo.cmake"
   "part2/CMakeFiles/21_filestorage2.dir/DependInfo.cmake"
   "part2/CMakeFiles/22_mask.dir/DependInfo.cmake"
+  "part3/CMakeFiles/23_brightness.dir/DependInfo.cmake"
+  "part3/CMakeFiles/24_contrast.dir/DependInfo.cmake"
+  "part3/CMakeFiles/25_histogram.dir/DependInfo.cmake"
   )

@@ -70,6 +70,7 @@ all: CMakeFiles/04_inputArray.dir/all
 all: CMakeFiles/05_MatOp2.dir/all
 all: CMakeFiles/06_video.dir/all
 all: part2/all
+all: part3/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -80,10 +81,12 @@ codegen: CMakeFiles/04_inputArray.dir/codegen
 codegen: CMakeFiles/05_MatOp2.dir/codegen
 codegen: CMakeFiles/06_video.dir/codegen
 codegen: part2/codegen
+codegen: part3/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: part2/preinstall
+preinstall: part3/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -94,6 +97,7 @@ clean: CMakeFiles/04_inputArray.dir/clean
 clean: CMakeFiles/05_MatOp2.dir/clean
 clean: CMakeFiles/06_video.dir/clean
 clean: part2/clean
+clean: part3/clean
 .PHONY : clean
 
 #=============================================================================
@@ -150,6 +154,31 @@ part2/clean: part2/CMakeFiles/20_filestorage.dir/clean
 part2/clean: part2/CMakeFiles/21_filestorage2.dir/clean
 part2/clean: part2/CMakeFiles/22_mask.dir/clean
 .PHONY : part2/clean
+
+#=============================================================================
+# Directory level rules for directory part3
+
+# Recursive "all" directory target.
+part3/all: part3/CMakeFiles/23_brightness.dir/all
+part3/all: part3/CMakeFiles/24_contrast.dir/all
+part3/all: part3/CMakeFiles/25_histogram.dir/all
+.PHONY : part3/all
+
+# Recursive "codegen" directory target.
+part3/codegen: part3/CMakeFiles/23_brightness.dir/codegen
+part3/codegen: part3/CMakeFiles/24_contrast.dir/codegen
+part3/codegen: part3/CMakeFiles/25_histogram.dir/codegen
+.PHONY : part3/codegen
+
+# Recursive "preinstall" directory target.
+part3/preinstall:
+.PHONY : part3/preinstall
+
+# Recursive "clean" directory target.
+part3/clean: part3/CMakeFiles/23_brightness.dir/clean
+part3/clean: part3/CMakeFiles/24_contrast.dir/clean
+part3/clean: part3/CMakeFiles/25_histogram.dir/clean
+.PHONY : part3/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/01_helloWorld.dir
@@ -758,6 +787,102 @@ part2/CMakeFiles/22_mask.dir/codegen:
 part2/CMakeFiles/22_mask.dir/clean:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/clean
 .PHONY : part2/CMakeFiles/22_mask.dir/clean
+
+#=============================================================================
+# Target rules for target part3/CMakeFiles/23_brightness.dir
+
+# All Build rule for target.
+part3/CMakeFiles/23_brightness.dir/all:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/23_brightness.dir/build.make part3/CMakeFiles/23_brightness.dir/depend
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/23_brightness.dir/build.make part3/CMakeFiles/23_brightness.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=39,40 "Built target 23_brightness"
+.PHONY : part3/CMakeFiles/23_brightness.dir/all
+
+# Build rule for subdir invocation for target.
+part3/CMakeFiles/23_brightness.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/CMakeFiles/23_brightness.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part3/CMakeFiles/23_brightness.dir/rule
+
+# Convenience name for target.
+23_brightness: part3/CMakeFiles/23_brightness.dir/rule
+.PHONY : 23_brightness
+
+# codegen rule for target.
+part3/CMakeFiles/23_brightness.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/23_brightness.dir/build.make part3/CMakeFiles/23_brightness.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=39,40 "Finished codegen for target 23_brightness"
+.PHONY : part3/CMakeFiles/23_brightness.dir/codegen
+
+# clean rule for target.
+part3/CMakeFiles/23_brightness.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/23_brightness.dir/build.make part3/CMakeFiles/23_brightness.dir/clean
+.PHONY : part3/CMakeFiles/23_brightness.dir/clean
+
+#=============================================================================
+# Target rules for target part3/CMakeFiles/24_contrast.dir
+
+# All Build rule for target.
+part3/CMakeFiles/24_contrast.dir/all:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/24_contrast.dir/build.make part3/CMakeFiles/24_contrast.dir/depend
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/24_contrast.dir/build.make part3/CMakeFiles/24_contrast.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=41,42 "Built target 24_contrast"
+.PHONY : part3/CMakeFiles/24_contrast.dir/all
+
+# Build rule for subdir invocation for target.
+part3/CMakeFiles/24_contrast.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/CMakeFiles/24_contrast.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part3/CMakeFiles/24_contrast.dir/rule
+
+# Convenience name for target.
+24_contrast: part3/CMakeFiles/24_contrast.dir/rule
+.PHONY : 24_contrast
+
+# codegen rule for target.
+part3/CMakeFiles/24_contrast.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/24_contrast.dir/build.make part3/CMakeFiles/24_contrast.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=41,42 "Finished codegen for target 24_contrast"
+.PHONY : part3/CMakeFiles/24_contrast.dir/codegen
+
+# clean rule for target.
+part3/CMakeFiles/24_contrast.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/24_contrast.dir/build.make part3/CMakeFiles/24_contrast.dir/clean
+.PHONY : part3/CMakeFiles/24_contrast.dir/clean
+
+#=============================================================================
+# Target rules for target part3/CMakeFiles/25_histogram.dir
+
+# All Build rule for target.
+part3/CMakeFiles/25_histogram.dir/all:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/25_histogram.dir/build.make part3/CMakeFiles/25_histogram.dir/depend
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/25_histogram.dir/build.make part3/CMakeFiles/25_histogram.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=43,44 "Built target 25_histogram"
+.PHONY : part3/CMakeFiles/25_histogram.dir/all
+
+# Build rule for subdir invocation for target.
+part3/CMakeFiles/25_histogram.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/CMakeFiles/25_histogram.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part3/CMakeFiles/25_histogram.dir/rule
+
+# Convenience name for target.
+25_histogram: part3/CMakeFiles/25_histogram.dir/rule
+.PHONY : 25_histogram
+
+# codegen rule for target.
+part3/CMakeFiles/25_histogram.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/25_histogram.dir/build.make part3/CMakeFiles/25_histogram.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=43,44 "Finished codegen for target 25_histogram"
+.PHONY : part3/CMakeFiles/25_histogram.dir/codegen
+
+# clean rule for target.
+part3/CMakeFiles/25_histogram.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/25_histogram.dir/build.make part3/CMakeFiles/25_histogram.dir/clean
+.PHONY : part3/CMakeFiles/25_histogram.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

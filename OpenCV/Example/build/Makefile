@@ -364,6 +364,45 @@ depend:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/build
 .PHONY : 22_mask/fast
 
+#=============================================================================
+# Target rules for targets named 23_brightness
+
+# Build rule for target.
+23_brightness: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 23_brightness
+.PHONY : 23_brightness
+
+# fast build rule for target.
+23_brightness/fast:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/23_brightness.dir/build.make part3/CMakeFiles/23_brightness.dir/build
+.PHONY : 23_brightness/fast
+
+#=============================================================================
+# Target rules for targets named 24_contrast
+
+# Build rule for target.
+24_contrast: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 24_contrast
+.PHONY : 24_contrast
+
+# fast build rule for target.
+24_contrast/fast:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/24_contrast.dir/build.make part3/CMakeFiles/24_contrast.dir/build
+.PHONY : 24_contrast/fast
+
+#=============================================================================
+# Target rules for targets named 25_histogram
+
+# Build rule for target.
+25_histogram: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 25_histogram
+.PHONY : 25_histogram
+
+# fast build rule for target.
+25_histogram/fast:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/25_histogram.dir/build.make part3/CMakeFiles/25_histogram.dir/build
+.PHONY : 25_histogram/fast
+
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
 
@@ -535,6 +574,9 @@ help:
 	@echo "... 20_filestorage"
 	@echo "... 21_filestorage2"
 	@echo "... 22_mask"
+	@echo "... 23_brightness"
+	@echo "... 24_contrast"
+	@echo "... 25_histogram"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"

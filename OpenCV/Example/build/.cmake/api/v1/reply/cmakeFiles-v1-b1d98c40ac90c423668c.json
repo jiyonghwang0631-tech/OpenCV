@@ -20,6 +20,16 @@
 				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/21_filestorage2.cpp",
 				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/22_mask.cpp"
 			]
+		},
+		{
+			"expression" : "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/23_brightness.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/24_contrast.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/25_histogram.cpp"
+			]
 		}
 	],
 	"inputs" : 
@@ -242,6 +252,27 @@
 		},
 		{
 			"path" : "part2/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "part3/CMakeLists.txt"
 		},
 		{
 			"isExternal" : true,

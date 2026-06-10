@@ -2,7 +2,8 @@
 	"InstallScripts" : 
 	[
 		"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/cmake_install.cmake",
-		"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2/cmake_install.cmake"
+		"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part2/cmake_install.cmake",
+		"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

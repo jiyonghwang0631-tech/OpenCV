@@ -454,7 +454,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
 					"minimumCMakeVersion" : 
@@ -498,6 +499,23 @@
 						16,
 						17,
 						18
+					]
+				},
+				{
+					"build" : "part3",
+					"jsonFile" : "directory-part3-Debug-4c67ea065f04a4056d2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "part3",
+					"targetIndexes" : 
+					[
+						19,
+						20,
+						21
 					]
 				}
 			],
@@ -565,7 +583,8 @@
 					],
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"directoryIndexes" : 
 					[
@@ -604,6 +623,20 @@
 						16,
 						17,
 						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "opencv_cpp_part3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19,
+						20,
+						21
 					]
 				}
 			],
@@ -741,6 +774,27 @@
 					"jsonFile" : "target-22_mask-Debug-f4b2a6080441444f4fb3.json",
 					"name" : "22_mask",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "23_brightness::@dcb3ce4daa543496d6e8",
+					"jsonFile" : "target-23_brightness-Debug-3ff1a66b6b96d6f0d4a6.json",
+					"name" : "23_brightness",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "24_contrast::@dcb3ce4daa543496d6e8",
+					"jsonFile" : "target-24_contrast-Debug-4e1cb69b197d91e93849.json",
+					"name" : "24_contrast",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "25_histogram::@dcb3ce4daa543496d6e8",
+					"jsonFile" : "target-25_histogram-Debug-1de5b04c54ea9ae04c1c.json",
+					"name" : "25_histogram",
+					"projectIndex" : 2
 				}
 			]
 		}

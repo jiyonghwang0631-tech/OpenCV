@@ -112,5 +112,23 @@
   "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/22_mask.dir/22_mask.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/22_mask.cpp",
   "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/22_mask.cpp",
   "output": "part2/CMakeFiles/22_mask.dir/22_mask.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/23_brightness.dir/23_brightness.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/23_brightness.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/23_brightness.cpp",
+  "output": "part3/CMakeFiles/23_brightness.dir/23_brightness.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/24_contrast.dir/24_contrast.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/24_contrast.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/24_contrast.cpp",
+  "output": "part3/CMakeFiles/24_contrast.dir/24_contrast.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/25_histogram.dir/25_histogram.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/25_histogram.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/25_histogram.cpp",
+  "output": "part3/CMakeFiles/25_histogram.dir/25_histogram.cpp.o"
 }
 ]

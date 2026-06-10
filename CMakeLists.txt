@@ -27,6 +27,7 @@ add_subdirectory(network)
 add_subdirectory(bowling)
 add_subdirectory(opencv_ex)
 add_subdirectory(opencv_ex/part2)
+add_subdirectory(opencv_ex/part3)
 
 if(KUBIG_BUILD_ATMEGA128)
 	find_program(AVR_GCC_EXECUTABLE avr-gcc)
