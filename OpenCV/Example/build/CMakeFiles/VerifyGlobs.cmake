@@ -45,6 +45,10 @@ set(OLD_GLOB
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/23_brightness.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/24_contrast.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/25_histogram.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/26_arithmetic.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/27_embossing.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/28_blurr.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/29_sharpening.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

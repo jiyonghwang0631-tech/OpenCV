@@ -88,4 +88,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "part3/CMakeFiles/23_brightness.dir/DependInfo.cmake"
   "part3/CMakeFiles/24_contrast.dir/DependInfo.cmake"
   "part3/CMakeFiles/25_histogram.dir/DependInfo.cmake"
+  "part3/CMakeFiles/26_arithmetic.dir/DependInfo.cmake"
+  "part3/CMakeFiles/27_embossing.dir/DependInfo.cmake"
+  "part3/CMakeFiles/28_blurr.dir/DependInfo.cmake"
+  "part3/CMakeFiles/29_sharpening.dir/DependInfo.cmake"
   )

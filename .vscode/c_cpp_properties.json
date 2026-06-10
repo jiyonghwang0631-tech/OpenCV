@@ -8,7 +8,7 @@
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
-            "compileCommands": "${workspaceFolder}/OpenCV/Example/part2/build/compile_commands.json",
+            "compileCommands": "${workspaceFolder}/OpenCV/Example/build/compile_commands.json",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "linux-gcc-x64"

@@ -403,6 +403,58 @@ depend:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/25_histogram.dir/build.make part3/CMakeFiles/25_histogram.dir/build
 .PHONY : 25_histogram/fast
 
+#=============================================================================
+# Target rules for targets named 26_arithmetic
+
+# Build rule for target.
+26_arithmetic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 26_arithmetic
+.PHONY : 26_arithmetic
+
+# fast build rule for target.
+26_arithmetic/fast:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/26_arithmetic.dir/build.make part3/CMakeFiles/26_arithmetic.dir/build
+.PHONY : 26_arithmetic/fast
+
+#=============================================================================
+# Target rules for targets named 27_embossing
+
+# Build rule for target.
+27_embossing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 27_embossing
+.PHONY : 27_embossing
+
+# fast build rule for target.
+27_embossing/fast:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/27_embossing.dir/build.make part3/CMakeFiles/27_embossing.dir/build
+.PHONY : 27_embossing/fast
+
+#=============================================================================
+# Target rules for targets named 28_blurr
+
+# Build rule for target.
+28_blurr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 28_blurr
+.PHONY : 28_blurr
+
+# fast build rule for target.
+28_blurr/fast:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/28_blurr.dir/build.make part3/CMakeFiles/28_blurr.dir/build
+.PHONY : 28_blurr/fast
+
+#=============================================================================
+# Target rules for targets named 29_sharpening
+
+# Build rule for target.
+29_sharpening: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 29_sharpening
+.PHONY : 29_sharpening
+
+# fast build rule for target.
+29_sharpening/fast:
+	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/29_sharpening.dir/build.make part3/CMakeFiles/29_sharpening.dir/build
+.PHONY : 29_sharpening/fast
+
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
 
@@ -577,6 +629,10 @@ help:
 	@echo "... 23_brightness"
 	@echo "... 24_contrast"
 	@echo "... 25_histogram"
+	@echo "... 26_arithmetic"
+	@echo "... 27_embossing"
+	@echo "... 28_blurr"
+	@echo "... 29_sharpening"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"

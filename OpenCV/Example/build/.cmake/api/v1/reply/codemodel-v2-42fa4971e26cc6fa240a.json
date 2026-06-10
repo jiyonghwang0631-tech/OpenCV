@@ -515,7 +515,11 @@
 					[
 						19,
 						20,
-						21
+						21,
+						22,
+						23,
+						24,
+						25
 					]
 				}
 			],
@@ -636,7 +640,11 @@
 					[
 						19,
 						20,
-						21
+						21,
+						22,
+						23,
+						24,
+						25
 					]
 				}
 			],
@@ -794,6 +802,34 @@
 					"id" : "25_histogram::@dcb3ce4daa543496d6e8",
 					"jsonFile" : "target-25_histogram-Debug-1de5b04c54ea9ae04c1c.json",
 					"name" : "25_histogram",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "26_arithmetic::@dcb3ce4daa543496d6e8",
+					"jsonFile" : "target-26_arithmetic-Debug-a52a3a0b3c85b245ec09.json",
+					"name" : "26_arithmetic",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "27_embossing::@dcb3ce4daa543496d6e8",
+					"jsonFile" : "target-27_embossing-Debug-ff99046f6f8f4740480e.json",
+					"name" : "27_embossing",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "28_blurr::@dcb3ce4daa543496d6e8",
+					"jsonFile" : "target-28_blurr-Debug-25f0ab707d4b915cef4d.json",
+					"name" : "28_blurr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "29_sharpening::@dcb3ce4daa543496d6e8",
+					"jsonFile" : "target-29_sharpening-Debug-29861a364e125f564602.json",
+					"name" : "29_sharpening",
 					"projectIndex" : 2
 				}
 			]

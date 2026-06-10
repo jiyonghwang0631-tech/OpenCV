@@ -130,5 +130,29 @@
   "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/25_histogram.dir/25_histogram.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/25_histogram.cpp",
   "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/25_histogram.cpp",
   "output": "part3/CMakeFiles/25_histogram.dir/25_histogram.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/26_arithmetic.dir/26_arithmetic.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/26_arithmetic.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/26_arithmetic.cpp",
+  "output": "part3/CMakeFiles/26_arithmetic.dir/26_arithmetic.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/27_embossing.dir/27_embossing.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/27_embossing.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/27_embossing.cpp",
+  "output": "part3/CMakeFiles/27_embossing.dir/27_embossing.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/28_blurr.dir/28_blurr.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/28_blurr.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/28_blurr.cpp",
+  "output": "part3/CMakeFiles/28_blurr.dir/28_blurr.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/29_sharpening.dir/29_sharpening.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/29_sharpening.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/29_sharpening.cpp",
+  "output": "part3/CMakeFiles/29_sharpening.dir/29_sharpening.cpp.o"
 }
 ]

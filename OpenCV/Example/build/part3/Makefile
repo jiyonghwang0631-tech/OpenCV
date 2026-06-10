@@ -159,6 +159,62 @@ part3/CMakeFiles/25_histogram.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/25_histogram.dir/build.make part3/CMakeFiles/25_histogram.dir/build
 .PHONY : 25_histogram/fast
 
+# Convenience name for target.
+part3/CMakeFiles/26_arithmetic.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/CMakeFiles/26_arithmetic.dir/rule
+.PHONY : part3/CMakeFiles/26_arithmetic.dir/rule
+
+# Convenience name for target.
+26_arithmetic: part3/CMakeFiles/26_arithmetic.dir/rule
+.PHONY : 26_arithmetic
+
+# fast build rule for target.
+26_arithmetic/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/26_arithmetic.dir/build.make part3/CMakeFiles/26_arithmetic.dir/build
+.PHONY : 26_arithmetic/fast
+
+# Convenience name for target.
+part3/CMakeFiles/27_embossing.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/CMakeFiles/27_embossing.dir/rule
+.PHONY : part3/CMakeFiles/27_embossing.dir/rule
+
+# Convenience name for target.
+27_embossing: part3/CMakeFiles/27_embossing.dir/rule
+.PHONY : 27_embossing
+
+# fast build rule for target.
+27_embossing/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/27_embossing.dir/build.make part3/CMakeFiles/27_embossing.dir/build
+.PHONY : 27_embossing/fast
+
+# Convenience name for target.
+part3/CMakeFiles/28_blurr.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/CMakeFiles/28_blurr.dir/rule
+.PHONY : part3/CMakeFiles/28_blurr.dir/rule
+
+# Convenience name for target.
+28_blurr: part3/CMakeFiles/28_blurr.dir/rule
+.PHONY : 28_blurr
+
+# fast build rule for target.
+28_blurr/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/28_blurr.dir/build.make part3/CMakeFiles/28_blurr.dir/build
+.PHONY : 28_blurr/fast
+
+# Convenience name for target.
+part3/CMakeFiles/29_sharpening.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/CMakeFiles/29_sharpening.dir/rule
+.PHONY : part3/CMakeFiles/29_sharpening.dir/rule
+
+# Convenience name for target.
+29_sharpening: part3/CMakeFiles/29_sharpening.dir/rule
+.PHONY : 29_sharpening
+
+# fast build rule for target.
+29_sharpening/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/29_sharpening.dir/build.make part3/CMakeFiles/29_sharpening.dir/build
+.PHONY : 29_sharpening/fast
+
 23_brightness.o: 23_brightness.cpp.o
 .PHONY : 23_brightness.o
 
@@ -231,6 +287,102 @@ part3/CMakeFiles/25_histogram.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/25_histogram.dir/build.make part3/CMakeFiles/25_histogram.dir/25_histogram.cpp.s
 .PHONY : 25_histogram.cpp.s
 
+26_arithmetic.o: 26_arithmetic.cpp.o
+.PHONY : 26_arithmetic.o
+
+# target to build an object file
+26_arithmetic.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/26_arithmetic.dir/build.make part3/CMakeFiles/26_arithmetic.dir/26_arithmetic.cpp.o
+.PHONY : 26_arithmetic.cpp.o
+
+26_arithmetic.i: 26_arithmetic.cpp.i
+.PHONY : 26_arithmetic.i
+
+# target to preprocess a source file
+26_arithmetic.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/26_arithmetic.dir/build.make part3/CMakeFiles/26_arithmetic.dir/26_arithmetic.cpp.i
+.PHONY : 26_arithmetic.cpp.i
+
+26_arithmetic.s: 26_arithmetic.cpp.s
+.PHONY : 26_arithmetic.s
+
+# target to generate assembly for a file
+26_arithmetic.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/26_arithmetic.dir/build.make part3/CMakeFiles/26_arithmetic.dir/26_arithmetic.cpp.s
+.PHONY : 26_arithmetic.cpp.s
+
+27_embossing.o: 27_embossing.cpp.o
+.PHONY : 27_embossing.o
+
+# target to build an object file
+27_embossing.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/27_embossing.dir/build.make part3/CMakeFiles/27_embossing.dir/27_embossing.cpp.o
+.PHONY : 27_embossing.cpp.o
+
+27_embossing.i: 27_embossing.cpp.i
+.PHONY : 27_embossing.i
+
+# target to preprocess a source file
+27_embossing.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/27_embossing.dir/build.make part3/CMakeFiles/27_embossing.dir/27_embossing.cpp.i
+.PHONY : 27_embossing.cpp.i
+
+27_embossing.s: 27_embossing.cpp.s
+.PHONY : 27_embossing.s
+
+# target to generate assembly for a file
+27_embossing.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/27_embossing.dir/build.make part3/CMakeFiles/27_embossing.dir/27_embossing.cpp.s
+.PHONY : 27_embossing.cpp.s
+
+28_blurr.o: 28_blurr.cpp.o
+.PHONY : 28_blurr.o
+
+# target to build an object file
+28_blurr.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/28_blurr.dir/build.make part3/CMakeFiles/28_blurr.dir/28_blurr.cpp.o
+.PHONY : 28_blurr.cpp.o
+
+28_blurr.i: 28_blurr.cpp.i
+.PHONY : 28_blurr.i
+
+# target to preprocess a source file
+28_blurr.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/28_blurr.dir/build.make part3/CMakeFiles/28_blurr.dir/28_blurr.cpp.i
+.PHONY : 28_blurr.cpp.i
+
+28_blurr.s: 28_blurr.cpp.s
+.PHONY : 28_blurr.s
+
+# target to generate assembly for a file
+28_blurr.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/28_blurr.dir/build.make part3/CMakeFiles/28_blurr.dir/28_blurr.cpp.s
+.PHONY : 28_blurr.cpp.s
+
+29_sharpening.o: 29_sharpening.cpp.o
+.PHONY : 29_sharpening.o
+
+# target to build an object file
+29_sharpening.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/29_sharpening.dir/build.make part3/CMakeFiles/29_sharpening.dir/29_sharpening.cpp.o
+.PHONY : 29_sharpening.cpp.o
+
+29_sharpening.i: 29_sharpening.cpp.i
+.PHONY : 29_sharpening.i
+
+# target to preprocess a source file
+29_sharpening.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/29_sharpening.dir/build.make part3/CMakeFiles/29_sharpening.dir/29_sharpening.cpp.i
+.PHONY : 29_sharpening.cpp.i
+
+29_sharpening.s: 29_sharpening.cpp.s
+.PHONY : 29_sharpening.s
+
+# target to generate assembly for a file
+29_sharpening.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part3/CMakeFiles/29_sharpening.dir/build.make part3/CMakeFiles/29_sharpening.dir/29_sharpening.cpp.s
+.PHONY : 29_sharpening.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -242,6 +394,10 @@ help:
 	@echo "... 23_brightness"
 	@echo "... 24_contrast"
 	@echo "... 25_histogram"
+	@echo "... 26_arithmetic"
+	@echo "... 27_embossing"
+	@echo "... 28_blurr"
+	@echo "... 29_sharpening"
 	@echo "... 23_brightness.o"
 	@echo "... 23_brightness.i"
 	@echo "... 23_brightness.s"
@@ -251,6 +407,18 @@ help:
 	@echo "... 25_histogram.o"
 	@echo "... 25_histogram.i"
 	@echo "... 25_histogram.s"
+	@echo "... 26_arithmetic.o"
+	@echo "... 26_arithmetic.i"
+	@echo "... 26_arithmetic.s"
+	@echo "... 27_embossing.o"
+	@echo "... 27_embossing.i"
+	@echo "... 27_embossing.s"
+	@echo "... 28_blurr.o"
+	@echo "... 28_blurr.i"
+	@echo "... 28_blurr.s"
+	@echo "... 29_sharpening.o"
+	@echo "... 29_sharpening.i"
+	@echo "... 29_sharpening.s"
 .PHONY : help
 
 
