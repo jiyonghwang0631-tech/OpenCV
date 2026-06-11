@@ -520,6 +520,97 @@ depend:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/build
 .PHONY : 34_persepcting_example02/fast
 
+#=============================================================================
+# Target rules for targets named 35_sobel
+
+# Build rule for target.
+35_sobel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 35_sobel
+.PHONY : 35_sobel
+
+# fast build rule for target.
+35_sobel/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/35_sobel.dir/build.make part4/CMakeFiles/35_sobel.dir/build
+.PHONY : 35_sobel/fast
+
+#=============================================================================
+# Target rules for targets named 36_canny
+
+# Build rule for target.
+36_canny: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 36_canny
+.PHONY : 36_canny
+
+# fast build rule for target.
+36_canny/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/36_canny.dir/build.make part4/CMakeFiles/36_canny.dir/build
+.PHONY : 36_canny/fast
+
+#=============================================================================
+# Target rules for targets named 37_hougline
+
+# Build rule for target.
+37_hougline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 37_hougline
+.PHONY : 37_hougline
+
+# fast build rule for target.
+37_hougline/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/37_hougline.dir/build.make part4/CMakeFiles/37_hougline.dir/build
+.PHONY : 37_hougline/fast
+
+#=============================================================================
+# Target rules for targets named 38_honglineP
+
+# Build rule for target.
+38_honglineP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 38_honglineP
+.PHONY : 38_honglineP
+
+# fast build rule for target.
+38_honglineP/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/38_honglineP.dir/build.make part4/CMakeFiles/38_honglineP.dir/build
+.PHONY : 38_honglineP/fast
+
+#=============================================================================
+# Target rules for targets named 39_color_split
+
+# Build rule for target.
+39_color_split: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 39_color_split
+.PHONY : 39_color_split
+
+# fast build rule for target.
+39_color_split/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/39_color_split.dir/build.make part4/CMakeFiles/39_color_split.dir/build
+.PHONY : 39_color_split/fast
+
+#=============================================================================
+# Target rules for targets named 40_inrange
+
+# Build rule for target.
+40_inrange: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 40_inrange
+.PHONY : 40_inrange
+
+# fast build rule for target.
+40_inrange/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/40_inrange.dir/build.make part4/CMakeFiles/40_inrange.dir/build
+.PHONY : 40_inrange/fast
+
+#=============================================================================
+# Target rules for targets named 41
+
+# Build rule for target.
+41: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 41
+.PHONY : 41
+
+# fast build rule for target.
+41/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/41.dir/build.make part4/CMakeFiles/41.dir/build
+.PHONY : 41/fast
+
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
 
@@ -703,6 +794,13 @@ help:
 	@echo "... 32_perspecting"
 	@echo "... 33_persepcting_example"
 	@echo "... 34_persepcting_example02"
+	@echo "... 35_sobel"
+	@echo "... 36_canny"
+	@echo "... 37_hougline"
+	@echo "... 38_honglineP"
+	@echo "... 39_color_split"
+	@echo "... 40_inrange"
+	@echo "... 41"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"

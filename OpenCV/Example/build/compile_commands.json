@@ -184,5 +184,47 @@
   "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/34_persepcting_example02.dir/34_persepcting_example02.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/34_persepcting_example02.cpp",
   "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/34_persepcting_example02.cpp",
   "output": "part4/CMakeFiles/34_persepcting_example02.dir/34_persepcting_example02.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/35_sobel.dir/35_sobel.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/35_sobel.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/35_sobel.cpp",
+  "output": "part4/CMakeFiles/35_sobel.dir/35_sobel.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/36_canny.dir/36_canny.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/36_canny.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/36_canny.cpp",
+  "output": "part4/CMakeFiles/36_canny.dir/36_canny.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/37_hougline.dir/37_hougline.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/37_hougline.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/37_hougline.cpp",
+  "output": "part4/CMakeFiles/37_hougline.dir/37_hougline.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/38_honglineP.dir/38_honglineP.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/38_honglineP.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/38_honglineP.cpp",
+  "output": "part4/CMakeFiles/38_honglineP.dir/38_honglineP.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/39_color_split.dir/39_color_split.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/39_color_split.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/39_color_split.cpp",
+  "output": "part4/CMakeFiles/39_color_split.dir/39_color_split.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/40_inrange.dir/40_inrange.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/40_inrange.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/40_inrange.cpp",
+  "output": "part4/CMakeFiles/40_inrange.dir/40_inrange.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/41.dir/41.inrange_example.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/41.inrange_example.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/41.inrange_example.cpp",
+  "output": "part4/CMakeFiles/41.dir/41.inrange_example.cpp.o"
 }
 ]

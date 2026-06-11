@@ -35,5 +35,12 @@
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/32_perspecting.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/33_persepcting_example.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/34_persepcting_example02.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/35_sobel.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/36_canny.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/37_hougline.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/38_honglineP.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/39_color_split.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/40_inrange.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/41.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/edit_cache.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/rebuild_cache.dir

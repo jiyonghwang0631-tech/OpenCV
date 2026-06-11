@@ -539,7 +539,14 @@
 						27,
 						28,
 						29,
-						30
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
 					]
 				}
 			],
@@ -681,7 +688,14 @@
 						27,
 						28,
 						29,
-						30
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
 					]
 				}
 			],
@@ -902,6 +916,55 @@
 					"id" : "34_persepcting_example02::@ba388663f1a00987a57b",
 					"jsonFile" : "target-34_persepcting_example02-Debug-8599ec5994cea68c13d5.json",
 					"name" : "34_persepcting_example02",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "35_sobel::@ba388663f1a00987a57b",
+					"jsonFile" : "target-35_sobel-Debug-8ebe01bf9b9bb042b6fd.json",
+					"name" : "35_sobel",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "36_canny::@ba388663f1a00987a57b",
+					"jsonFile" : "target-36_canny-Debug-d6da4fe80a4ba2496673.json",
+					"name" : "36_canny",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "37_hougline::@ba388663f1a00987a57b",
+					"jsonFile" : "target-37_hougline-Debug-226f03b6879770baf198.json",
+					"name" : "37_hougline",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "38_honglineP::@ba388663f1a00987a57b",
+					"jsonFile" : "target-38_honglineP-Debug-03a056645e7b25943661.json",
+					"name" : "38_honglineP",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "39_color_split::@ba388663f1a00987a57b",
+					"jsonFile" : "target-39_color_split-Debug-24d08d103ac3e9427656.json",
+					"name" : "39_color_split",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "40_inrange::@ba388663f1a00987a57b",
+					"jsonFile" : "target-40_inrange-Debug-3d0597eb0dae9dd5ed1c.json",
+					"name" : "40_inrange",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "41::@ba388663f1a00987a57b",
+					"jsonFile" : "target-41-Debug-a1ac7463942d02f3667f.json",
+					"name" : "41",
 					"projectIndex" : 3
 				}
 			]

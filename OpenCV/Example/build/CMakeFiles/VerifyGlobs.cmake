@@ -79,6 +79,13 @@ set(OLD_GLOB
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/32_perspecting.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/33_persepcting_example.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/34_persepcting_example02.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/35_sobel.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/36_canny.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/37_hougline.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/38_honglineP.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/39_color_split.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/40_inrange.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/41.inrange_example.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

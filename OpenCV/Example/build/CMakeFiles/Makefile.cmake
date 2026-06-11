@@ -99,4 +99,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "part4/CMakeFiles/32_perspecting.dir/DependInfo.cmake"
   "part4/CMakeFiles/33_persepcting_example.dir/DependInfo.cmake"
   "part4/CMakeFiles/34_persepcting_example02.dir/DependInfo.cmake"
+  "part4/CMakeFiles/35_sobel.dir/DependInfo.cmake"
+  "part4/CMakeFiles/36_canny.dir/DependInfo.cmake"
+  "part4/CMakeFiles/37_hougline.dir/DependInfo.cmake"
+  "part4/CMakeFiles/38_honglineP.dir/DependInfo.cmake"
+  "part4/CMakeFiles/39_color_split.dir/DependInfo.cmake"
+  "part4/CMakeFiles/40_inrange.dir/DependInfo.cmake"
+  "part4/CMakeFiles/41.dir/DependInfo.cmake"
   )

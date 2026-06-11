@@ -173,6 +173,104 @@ part4/CMakeFiles/34_persepcting_example02.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/build
 .PHONY : 34_persepcting_example02/fast
 
+# Convenience name for target.
+part4/CMakeFiles/35_sobel.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/35_sobel.dir/rule
+.PHONY : part4/CMakeFiles/35_sobel.dir/rule
+
+# Convenience name for target.
+35_sobel: part4/CMakeFiles/35_sobel.dir/rule
+.PHONY : 35_sobel
+
+# fast build rule for target.
+35_sobel/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/35_sobel.dir/build.make part4/CMakeFiles/35_sobel.dir/build
+.PHONY : 35_sobel/fast
+
+# Convenience name for target.
+part4/CMakeFiles/36_canny.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/36_canny.dir/rule
+.PHONY : part4/CMakeFiles/36_canny.dir/rule
+
+# Convenience name for target.
+36_canny: part4/CMakeFiles/36_canny.dir/rule
+.PHONY : 36_canny
+
+# fast build rule for target.
+36_canny/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/36_canny.dir/build.make part4/CMakeFiles/36_canny.dir/build
+.PHONY : 36_canny/fast
+
+# Convenience name for target.
+part4/CMakeFiles/37_hougline.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/37_hougline.dir/rule
+.PHONY : part4/CMakeFiles/37_hougline.dir/rule
+
+# Convenience name for target.
+37_hougline: part4/CMakeFiles/37_hougline.dir/rule
+.PHONY : 37_hougline
+
+# fast build rule for target.
+37_hougline/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/37_hougline.dir/build.make part4/CMakeFiles/37_hougline.dir/build
+.PHONY : 37_hougline/fast
+
+# Convenience name for target.
+part4/CMakeFiles/38_honglineP.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/38_honglineP.dir/rule
+.PHONY : part4/CMakeFiles/38_honglineP.dir/rule
+
+# Convenience name for target.
+38_honglineP: part4/CMakeFiles/38_honglineP.dir/rule
+.PHONY : 38_honglineP
+
+# fast build rule for target.
+38_honglineP/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/38_honglineP.dir/build.make part4/CMakeFiles/38_honglineP.dir/build
+.PHONY : 38_honglineP/fast
+
+# Convenience name for target.
+part4/CMakeFiles/39_color_split.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/39_color_split.dir/rule
+.PHONY : part4/CMakeFiles/39_color_split.dir/rule
+
+# Convenience name for target.
+39_color_split: part4/CMakeFiles/39_color_split.dir/rule
+.PHONY : 39_color_split
+
+# fast build rule for target.
+39_color_split/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/39_color_split.dir/build.make part4/CMakeFiles/39_color_split.dir/build
+.PHONY : 39_color_split/fast
+
+# Convenience name for target.
+part4/CMakeFiles/40_inrange.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/40_inrange.dir/rule
+.PHONY : part4/CMakeFiles/40_inrange.dir/rule
+
+# Convenience name for target.
+40_inrange: part4/CMakeFiles/40_inrange.dir/rule
+.PHONY : 40_inrange
+
+# fast build rule for target.
+40_inrange/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/40_inrange.dir/build.make part4/CMakeFiles/40_inrange.dir/build
+.PHONY : 40_inrange/fast
+
+# Convenience name for target.
+part4/CMakeFiles/41.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/41.dir/rule
+.PHONY : part4/CMakeFiles/41.dir/rule
+
+# Convenience name for target.
+41: part4/CMakeFiles/41.dir/rule
+.PHONY : 41
+
+# fast build rule for target.
+41/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/41.dir/build.make part4/CMakeFiles/41.dir/build
+.PHONY : 41/fast
+
 31_affine.o: 31_affine.cpp.o
 .PHONY : 31_affine.o
 
@@ -269,6 +367,174 @@ part4/CMakeFiles/34_persepcting_example02.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/34_persepcting_example02.cpp.s
 .PHONY : 34_persepcting_example02.cpp.s
 
+35_sobel.o: 35_sobel.cpp.o
+.PHONY : 35_sobel.o
+
+# target to build an object file
+35_sobel.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/35_sobel.dir/build.make part4/CMakeFiles/35_sobel.dir/35_sobel.cpp.o
+.PHONY : 35_sobel.cpp.o
+
+35_sobel.i: 35_sobel.cpp.i
+.PHONY : 35_sobel.i
+
+# target to preprocess a source file
+35_sobel.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/35_sobel.dir/build.make part4/CMakeFiles/35_sobel.dir/35_sobel.cpp.i
+.PHONY : 35_sobel.cpp.i
+
+35_sobel.s: 35_sobel.cpp.s
+.PHONY : 35_sobel.s
+
+# target to generate assembly for a file
+35_sobel.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/35_sobel.dir/build.make part4/CMakeFiles/35_sobel.dir/35_sobel.cpp.s
+.PHONY : 35_sobel.cpp.s
+
+36_canny.o: 36_canny.cpp.o
+.PHONY : 36_canny.o
+
+# target to build an object file
+36_canny.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/36_canny.dir/build.make part4/CMakeFiles/36_canny.dir/36_canny.cpp.o
+.PHONY : 36_canny.cpp.o
+
+36_canny.i: 36_canny.cpp.i
+.PHONY : 36_canny.i
+
+# target to preprocess a source file
+36_canny.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/36_canny.dir/build.make part4/CMakeFiles/36_canny.dir/36_canny.cpp.i
+.PHONY : 36_canny.cpp.i
+
+36_canny.s: 36_canny.cpp.s
+.PHONY : 36_canny.s
+
+# target to generate assembly for a file
+36_canny.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/36_canny.dir/build.make part4/CMakeFiles/36_canny.dir/36_canny.cpp.s
+.PHONY : 36_canny.cpp.s
+
+37_hougline.o: 37_hougline.cpp.o
+.PHONY : 37_hougline.o
+
+# target to build an object file
+37_hougline.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/37_hougline.dir/build.make part4/CMakeFiles/37_hougline.dir/37_hougline.cpp.o
+.PHONY : 37_hougline.cpp.o
+
+37_hougline.i: 37_hougline.cpp.i
+.PHONY : 37_hougline.i
+
+# target to preprocess a source file
+37_hougline.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/37_hougline.dir/build.make part4/CMakeFiles/37_hougline.dir/37_hougline.cpp.i
+.PHONY : 37_hougline.cpp.i
+
+37_hougline.s: 37_hougline.cpp.s
+.PHONY : 37_hougline.s
+
+# target to generate assembly for a file
+37_hougline.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/37_hougline.dir/build.make part4/CMakeFiles/37_hougline.dir/37_hougline.cpp.s
+.PHONY : 37_hougline.cpp.s
+
+38_honglineP.o: 38_honglineP.cpp.o
+.PHONY : 38_honglineP.o
+
+# target to build an object file
+38_honglineP.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/38_honglineP.dir/build.make part4/CMakeFiles/38_honglineP.dir/38_honglineP.cpp.o
+.PHONY : 38_honglineP.cpp.o
+
+38_honglineP.i: 38_honglineP.cpp.i
+.PHONY : 38_honglineP.i
+
+# target to preprocess a source file
+38_honglineP.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/38_honglineP.dir/build.make part4/CMakeFiles/38_honglineP.dir/38_honglineP.cpp.i
+.PHONY : 38_honglineP.cpp.i
+
+38_honglineP.s: 38_honglineP.cpp.s
+.PHONY : 38_honglineP.s
+
+# target to generate assembly for a file
+38_honglineP.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/38_honglineP.dir/build.make part4/CMakeFiles/38_honglineP.dir/38_honglineP.cpp.s
+.PHONY : 38_honglineP.cpp.s
+
+39_color_split.o: 39_color_split.cpp.o
+.PHONY : 39_color_split.o
+
+# target to build an object file
+39_color_split.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/39_color_split.dir/build.make part4/CMakeFiles/39_color_split.dir/39_color_split.cpp.o
+.PHONY : 39_color_split.cpp.o
+
+39_color_split.i: 39_color_split.cpp.i
+.PHONY : 39_color_split.i
+
+# target to preprocess a source file
+39_color_split.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/39_color_split.dir/build.make part4/CMakeFiles/39_color_split.dir/39_color_split.cpp.i
+.PHONY : 39_color_split.cpp.i
+
+39_color_split.s: 39_color_split.cpp.s
+.PHONY : 39_color_split.s
+
+# target to generate assembly for a file
+39_color_split.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/39_color_split.dir/build.make part4/CMakeFiles/39_color_split.dir/39_color_split.cpp.s
+.PHONY : 39_color_split.cpp.s
+
+40_inrange.o: 40_inrange.cpp.o
+.PHONY : 40_inrange.o
+
+# target to build an object file
+40_inrange.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/40_inrange.dir/build.make part4/CMakeFiles/40_inrange.dir/40_inrange.cpp.o
+.PHONY : 40_inrange.cpp.o
+
+40_inrange.i: 40_inrange.cpp.i
+.PHONY : 40_inrange.i
+
+# target to preprocess a source file
+40_inrange.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/40_inrange.dir/build.make part4/CMakeFiles/40_inrange.dir/40_inrange.cpp.i
+.PHONY : 40_inrange.cpp.i
+
+40_inrange.s: 40_inrange.cpp.s
+.PHONY : 40_inrange.s
+
+# target to generate assembly for a file
+40_inrange.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/40_inrange.dir/build.make part4/CMakeFiles/40_inrange.dir/40_inrange.cpp.s
+.PHONY : 40_inrange.cpp.s
+
+41.inrange_example.o: 41.inrange_example.cpp.o
+.PHONY : 41.inrange_example.o
+
+# target to build an object file
+41.inrange_example.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/41.dir/build.make part4/CMakeFiles/41.dir/41.inrange_example.cpp.o
+.PHONY : 41.inrange_example.cpp.o
+
+41.inrange_example.i: 41.inrange_example.cpp.i
+.PHONY : 41.inrange_example.i
+
+# target to preprocess a source file
+41.inrange_example.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/41.dir/build.make part4/CMakeFiles/41.dir/41.inrange_example.cpp.i
+.PHONY : 41.inrange_example.cpp.i
+
+41.inrange_example.s: 41.inrange_example.cpp.s
+.PHONY : 41.inrange_example.s
+
+# target to generate assembly for a file
+41.inrange_example.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/41.dir/build.make part4/CMakeFiles/41.dir/41.inrange_example.cpp.s
+.PHONY : 41.inrange_example.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -281,6 +547,13 @@ help:
 	@echo "... 32_perspecting"
 	@echo "... 33_persepcting_example"
 	@echo "... 34_persepcting_example02"
+	@echo "... 35_sobel"
+	@echo "... 36_canny"
+	@echo "... 37_hougline"
+	@echo "... 38_honglineP"
+	@echo "... 39_color_split"
+	@echo "... 40_inrange"
+	@echo "... 41"
 	@echo "... 31_affine.o"
 	@echo "... 31_affine.i"
 	@echo "... 31_affine.s"
@@ -293,6 +566,27 @@ help:
 	@echo "... 34_persepcting_example02.o"
 	@echo "... 34_persepcting_example02.i"
 	@echo "... 34_persepcting_example02.s"
+	@echo "... 35_sobel.o"
+	@echo "... 35_sobel.i"
+	@echo "... 35_sobel.s"
+	@echo "... 36_canny.o"
+	@echo "... 36_canny.i"
+	@echo "... 36_canny.s"
+	@echo "... 37_hougline.o"
+	@echo "... 37_hougline.i"
+	@echo "... 37_hougline.s"
+	@echo "... 38_honglineP.o"
+	@echo "... 38_honglineP.i"
+	@echo "... 38_honglineP.s"
+	@echo "... 39_color_split.o"
+	@echo "... 39_color_split.i"
+	@echo "... 39_color_split.s"
+	@echo "... 40_inrange.o"
+	@echo "... 40_inrange.i"
+	@echo "... 40_inrange.s"
+	@echo "... 41.inrange_example.o"
+	@echo "... 41.inrange_example.i"
+	@echo "... 41.inrange_example.s"
 .PHONY : help
 
 
