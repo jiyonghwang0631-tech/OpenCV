@@ -131,6 +131,48 @@ part4/CMakeFiles/31_affine.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/31_affine.dir/build.make part4/CMakeFiles/31_affine.dir/build
 .PHONY : 31_affine/fast
 
+# Convenience name for target.
+part4/CMakeFiles/32_perspecting.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/32_perspecting.dir/rule
+.PHONY : part4/CMakeFiles/32_perspecting.dir/rule
+
+# Convenience name for target.
+32_perspecting: part4/CMakeFiles/32_perspecting.dir/rule
+.PHONY : 32_perspecting
+
+# fast build rule for target.
+32_perspecting/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/32_perspecting.dir/build.make part4/CMakeFiles/32_perspecting.dir/build
+.PHONY : 32_perspecting/fast
+
+# Convenience name for target.
+part4/CMakeFiles/33_persepcting_example.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/33_persepcting_example.dir/rule
+.PHONY : part4/CMakeFiles/33_persepcting_example.dir/rule
+
+# Convenience name for target.
+33_persepcting_example: part4/CMakeFiles/33_persepcting_example.dir/rule
+.PHONY : 33_persepcting_example
+
+# fast build rule for target.
+33_persepcting_example/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/33_persepcting_example.dir/build.make part4/CMakeFiles/33_persepcting_example.dir/build
+.PHONY : 33_persepcting_example/fast
+
+# Convenience name for target.
+part4/CMakeFiles/34_persepcting_example02.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/34_persepcting_example02.dir/rule
+.PHONY : part4/CMakeFiles/34_persepcting_example02.dir/rule
+
+# Convenience name for target.
+34_persepcting_example02: part4/CMakeFiles/34_persepcting_example02.dir/rule
+.PHONY : 34_persepcting_example02
+
+# fast build rule for target.
+34_persepcting_example02/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/build
+.PHONY : 34_persepcting_example02/fast
+
 31_affine.o: 31_affine.cpp.o
 .PHONY : 31_affine.o
 
@@ -155,6 +197,78 @@ part4/CMakeFiles/31_affine.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/31_affine.dir/build.make part4/CMakeFiles/31_affine.dir/31_affine.cpp.s
 .PHONY : 31_affine.cpp.s
 
+32_perspecting.o: 32_perspecting.cpp.o
+.PHONY : 32_perspecting.o
+
+# target to build an object file
+32_perspecting.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/32_perspecting.dir/build.make part4/CMakeFiles/32_perspecting.dir/32_perspecting.cpp.o
+.PHONY : 32_perspecting.cpp.o
+
+32_perspecting.i: 32_perspecting.cpp.i
+.PHONY : 32_perspecting.i
+
+# target to preprocess a source file
+32_perspecting.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/32_perspecting.dir/build.make part4/CMakeFiles/32_perspecting.dir/32_perspecting.cpp.i
+.PHONY : 32_perspecting.cpp.i
+
+32_perspecting.s: 32_perspecting.cpp.s
+.PHONY : 32_perspecting.s
+
+# target to generate assembly for a file
+32_perspecting.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/32_perspecting.dir/build.make part4/CMakeFiles/32_perspecting.dir/32_perspecting.cpp.s
+.PHONY : 32_perspecting.cpp.s
+
+33_persepcting_example.o: 33_persepcting_example.cpp.o
+.PHONY : 33_persepcting_example.o
+
+# target to build an object file
+33_persepcting_example.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/33_persepcting_example.dir/build.make part4/CMakeFiles/33_persepcting_example.dir/33_persepcting_example.cpp.o
+.PHONY : 33_persepcting_example.cpp.o
+
+33_persepcting_example.i: 33_persepcting_example.cpp.i
+.PHONY : 33_persepcting_example.i
+
+# target to preprocess a source file
+33_persepcting_example.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/33_persepcting_example.dir/build.make part4/CMakeFiles/33_persepcting_example.dir/33_persepcting_example.cpp.i
+.PHONY : 33_persepcting_example.cpp.i
+
+33_persepcting_example.s: 33_persepcting_example.cpp.s
+.PHONY : 33_persepcting_example.s
+
+# target to generate assembly for a file
+33_persepcting_example.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/33_persepcting_example.dir/build.make part4/CMakeFiles/33_persepcting_example.dir/33_persepcting_example.cpp.s
+.PHONY : 33_persepcting_example.cpp.s
+
+34_persepcting_example02.o: 34_persepcting_example02.cpp.o
+.PHONY : 34_persepcting_example02.o
+
+# target to build an object file
+34_persepcting_example02.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/34_persepcting_example02.cpp.o
+.PHONY : 34_persepcting_example02.cpp.o
+
+34_persepcting_example02.i: 34_persepcting_example02.cpp.i
+.PHONY : 34_persepcting_example02.i
+
+# target to preprocess a source file
+34_persepcting_example02.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/34_persepcting_example02.cpp.i
+.PHONY : 34_persepcting_example02.cpp.i
+
+34_persepcting_example02.s: 34_persepcting_example02.cpp.s
+.PHONY : 34_persepcting_example02.s
+
+# target to generate assembly for a file
+34_persepcting_example02.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/34_persepcting_example02.cpp.s
+.PHONY : 34_persepcting_example02.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,9 +278,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 31_affine"
+	@echo "... 32_perspecting"
+	@echo "... 33_persepcting_example"
+	@echo "... 34_persepcting_example02"
 	@echo "... 31_affine.o"
 	@echo "... 31_affine.i"
 	@echo "... 31_affine.s"
+	@echo "... 32_perspecting.o"
+	@echo "... 32_perspecting.i"
+	@echo "... 32_perspecting.s"
+	@echo "... 33_persepcting_example.o"
+	@echo "... 33_persepcting_example.i"
+	@echo "... 33_persepcting_example.s"
+	@echo "... 34_persepcting_example02.o"
+	@echo "... 34_persepcting_example02.i"
+	@echo "... 34_persepcting_example02.s"
 .PHONY : help
 
 

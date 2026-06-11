@@ -166,5 +166,23 @@
   "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/31_affine.dir/31_affine.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/31_affine.cpp",
   "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/31_affine.cpp",
   "output": "part4/CMakeFiles/31_affine.dir/31_affine.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/32_perspecting.dir/32_perspecting.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/32_perspecting.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/32_perspecting.cpp",
+  "output": "part4/CMakeFiles/32_perspecting.dir/32_perspecting.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/33_persepcting_example.dir/33_persepcting_example.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/33_persepcting_example.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/33_persepcting_example.cpp",
+  "output": "part4/CMakeFiles/33_persepcting_example.dir/33_persepcting_example.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/34_persepcting_example02.dir/34_persepcting_example02.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/34_persepcting_example02.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/34_persepcting_example02.cpp",
+  "output": "part4/CMakeFiles/34_persepcting_example02.dir/34_persepcting_example02.cpp.o"
 }
 ]

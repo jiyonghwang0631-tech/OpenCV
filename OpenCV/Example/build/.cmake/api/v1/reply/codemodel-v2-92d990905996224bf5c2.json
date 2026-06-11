@@ -536,7 +536,10 @@
 					"source" : "part4",
 					"targetIndexes" : 
 					[
-						27
+						27,
+						28,
+						29,
+						30
 					]
 				}
 			],
@@ -675,7 +678,10 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						27
+						27,
+						28,
+						29,
+						30
 					]
 				}
 			],
@@ -875,6 +881,27 @@
 					"id" : "31_affine::@ba388663f1a00987a57b",
 					"jsonFile" : "target-31_affine-Debug-4c137392196c0ff9a3a8.json",
 					"name" : "31_affine",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "32_perspecting::@ba388663f1a00987a57b",
+					"jsonFile" : "target-32_perspecting-Debug-d98624837fea4de74acd.json",
+					"name" : "32_perspecting",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "33_persepcting_example::@ba388663f1a00987a57b",
+					"jsonFile" : "target-33_persepcting_example-Debug-aed20c810189693c50f8.json",
+					"name" : "33_persepcting_example",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "34_persepcting_example02::@ba388663f1a00987a57b",
+					"jsonFile" : "target-34_persepcting_example02-Debug-8599ec5994cea68c13d5.json",
+					"name" : "34_persepcting_example02",
 					"projectIndex" : 3
 				}
 			]

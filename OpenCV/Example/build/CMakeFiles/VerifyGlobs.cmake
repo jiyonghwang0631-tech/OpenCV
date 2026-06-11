@@ -76,6 +76,9 @@ endif()
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/*.cpp")
 set(OLD_GLOB
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/31_affine.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/32_perspecting.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/33_persepcting_example.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/34_persepcting_example02.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

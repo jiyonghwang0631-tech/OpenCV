@@ -96,4 +96,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "part3/CMakeFiles/29_sharpening.dir/DependInfo.cmake"
   "part3/CMakeFiles/30_bilateral.dir/DependInfo.cmake"
   "part4/CMakeFiles/31_affine.dir/DependInfo.cmake"
+  "part4/CMakeFiles/32_perspecting.dir/DependInfo.cmake"
+  "part4/CMakeFiles/33_persepcting_example.dir/DependInfo.cmake"
+  "part4/CMakeFiles/34_persepcting_example02.dir/DependInfo.cmake"
   )

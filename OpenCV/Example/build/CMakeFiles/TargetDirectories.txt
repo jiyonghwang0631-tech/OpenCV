@@ -32,5 +32,8 @@
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3/CMakeFiles/edit_cache.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part3/CMakeFiles/rebuild_cache.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/31_affine.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/32_perspecting.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/33_persepcting_example.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/34_persepcting_example02.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/edit_cache.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/rebuild_cache.dir

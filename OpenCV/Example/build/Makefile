@@ -481,6 +481,45 @@ depend:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/31_affine.dir/build.make part4/CMakeFiles/31_affine.dir/build
 .PHONY : 31_affine/fast
 
+#=============================================================================
+# Target rules for targets named 32_perspecting
+
+# Build rule for target.
+32_perspecting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 32_perspecting
+.PHONY : 32_perspecting
+
+# fast build rule for target.
+32_perspecting/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/32_perspecting.dir/build.make part4/CMakeFiles/32_perspecting.dir/build
+.PHONY : 32_perspecting/fast
+
+#=============================================================================
+# Target rules for targets named 33_persepcting_example
+
+# Build rule for target.
+33_persepcting_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 33_persepcting_example
+.PHONY : 33_persepcting_example
+
+# fast build rule for target.
+33_persepcting_example/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/33_persepcting_example.dir/build.make part4/CMakeFiles/33_persepcting_example.dir/build
+.PHONY : 33_persepcting_example/fast
+
+#=============================================================================
+# Target rules for targets named 34_persepcting_example02
+
+# Build rule for target.
+34_persepcting_example02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 34_persepcting_example02
+.PHONY : 34_persepcting_example02
+
+# fast build rule for target.
+34_persepcting_example02/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/build
+.PHONY : 34_persepcting_example02/fast
+
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
 
@@ -661,6 +700,9 @@ help:
 	@echo "... 29_sharpening"
 	@echo "... 30_bilateral"
 	@echo "... 31_affine"
+	@echo "... 32_perspecting"
+	@echo "... 33_persepcting_example"
+	@echo "... 34_persepcting_example02"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"

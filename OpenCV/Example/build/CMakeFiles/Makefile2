@@ -204,10 +204,16 @@ part3/clean: part3/CMakeFiles/30_bilateral.dir/clean
 
 # Recursive "all" directory target.
 part4/all: part4/CMakeFiles/31_affine.dir/all
+part4/all: part4/CMakeFiles/32_perspecting.dir/all
+part4/all: part4/CMakeFiles/33_persepcting_example.dir/all
+part4/all: part4/CMakeFiles/34_persepcting_example02.dir/all
 .PHONY : part4/all
 
 # Recursive "codegen" directory target.
 part4/codegen: part4/CMakeFiles/31_affine.dir/codegen
+part4/codegen: part4/CMakeFiles/32_perspecting.dir/codegen
+part4/codegen: part4/CMakeFiles/33_persepcting_example.dir/codegen
+part4/codegen: part4/CMakeFiles/34_persepcting_example02.dir/codegen
 .PHONY : part4/codegen
 
 # Recursive "preinstall" directory target.
@@ -216,6 +222,9 @@ part4/preinstall:
 
 # Recursive "clean" directory target.
 part4/clean: part4/CMakeFiles/31_affine.dir/clean
+part4/clean: part4/CMakeFiles/32_perspecting.dir/clean
+part4/clean: part4/CMakeFiles/33_persepcting_example.dir/clean
+part4/clean: part4/CMakeFiles/34_persepcting_example02.dir/clean
 .PHONY : part4/clean
 
 #=============================================================================
@@ -1113,6 +1122,102 @@ part4/CMakeFiles/31_affine.dir/codegen:
 part4/CMakeFiles/31_affine.dir/clean:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/31_affine.dir/build.make part4/CMakeFiles/31_affine.dir/clean
 .PHONY : part4/CMakeFiles/31_affine.dir/clean
+
+#=============================================================================
+# Target rules for target part4/CMakeFiles/32_perspecting.dir
+
+# All Build rule for target.
+part4/CMakeFiles/32_perspecting.dir/all:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/32_perspecting.dir/build.make part4/CMakeFiles/32_perspecting.dir/depend
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/32_perspecting.dir/build.make part4/CMakeFiles/32_perspecting.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=57,58 "Built target 32_perspecting"
+.PHONY : part4/CMakeFiles/32_perspecting.dir/all
+
+# Build rule for subdir invocation for target.
+part4/CMakeFiles/32_perspecting.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/32_perspecting.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part4/CMakeFiles/32_perspecting.dir/rule
+
+# Convenience name for target.
+32_perspecting: part4/CMakeFiles/32_perspecting.dir/rule
+.PHONY : 32_perspecting
+
+# codegen rule for target.
+part4/CMakeFiles/32_perspecting.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/32_perspecting.dir/build.make part4/CMakeFiles/32_perspecting.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=57,58 "Finished codegen for target 32_perspecting"
+.PHONY : part4/CMakeFiles/32_perspecting.dir/codegen
+
+# clean rule for target.
+part4/CMakeFiles/32_perspecting.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/32_perspecting.dir/build.make part4/CMakeFiles/32_perspecting.dir/clean
+.PHONY : part4/CMakeFiles/32_perspecting.dir/clean
+
+#=============================================================================
+# Target rules for target part4/CMakeFiles/33_persepcting_example.dir
+
+# All Build rule for target.
+part4/CMakeFiles/33_persepcting_example.dir/all:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/33_persepcting_example.dir/build.make part4/CMakeFiles/33_persepcting_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/33_persepcting_example.dir/build.make part4/CMakeFiles/33_persepcting_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=59,60 "Built target 33_persepcting_example"
+.PHONY : part4/CMakeFiles/33_persepcting_example.dir/all
+
+# Build rule for subdir invocation for target.
+part4/CMakeFiles/33_persepcting_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/33_persepcting_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part4/CMakeFiles/33_persepcting_example.dir/rule
+
+# Convenience name for target.
+33_persepcting_example: part4/CMakeFiles/33_persepcting_example.dir/rule
+.PHONY : 33_persepcting_example
+
+# codegen rule for target.
+part4/CMakeFiles/33_persepcting_example.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/33_persepcting_example.dir/build.make part4/CMakeFiles/33_persepcting_example.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=59,60 "Finished codegen for target 33_persepcting_example"
+.PHONY : part4/CMakeFiles/33_persepcting_example.dir/codegen
+
+# clean rule for target.
+part4/CMakeFiles/33_persepcting_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/33_persepcting_example.dir/build.make part4/CMakeFiles/33_persepcting_example.dir/clean
+.PHONY : part4/CMakeFiles/33_persepcting_example.dir/clean
+
+#=============================================================================
+# Target rules for target part4/CMakeFiles/34_persepcting_example02.dir
+
+# All Build rule for target.
+part4/CMakeFiles/34_persepcting_example02.dir/all:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/depend
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=61,62 "Built target 34_persepcting_example02"
+.PHONY : part4/CMakeFiles/34_persepcting_example02.dir/all
+
+# Build rule for subdir invocation for target.
+part4/CMakeFiles/34_persepcting_example02.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/34_persepcting_example02.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part4/CMakeFiles/34_persepcting_example02.dir/rule
+
+# Convenience name for target.
+34_persepcting_example02: part4/CMakeFiles/34_persepcting_example02.dir/rule
+.PHONY : 34_persepcting_example02
+
+# codegen rule for target.
+part4/CMakeFiles/34_persepcting_example02.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=61,62 "Finished codegen for target 34_persepcting_example02"
+.PHONY : part4/CMakeFiles/34_persepcting_example02.dir/codegen
+
+# clean rule for target.
+part4/CMakeFiles/34_persepcting_example02.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/clean
+.PHONY : part4/CMakeFiles/34_persepcting_example02.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

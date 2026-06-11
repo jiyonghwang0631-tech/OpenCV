@@ -41,7 +41,10 @@
 			"listDirectories" : true,
 			"paths" : 
 			[
-				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/31_affine.cpp"
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/31_affine.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/32_perspecting.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/33_persepcting_example.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/34_persepcting_example02.cpp"
 			]
 		}
 	],
