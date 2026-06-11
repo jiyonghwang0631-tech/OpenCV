@@ -214,6 +214,11 @@ part4/all: part4/CMakeFiles/38_honglineP.dir/all
 part4/all: part4/CMakeFiles/39_color_split.dir/all
 part4/all: part4/CMakeFiles/40_inrange.dir/all
 part4/all: part4/CMakeFiles/41.dir/all
+part4/all: part4/CMakeFiles/42_threshold.dir/all
+part4/all: part4/CMakeFiles/43_morplogy.dir/all
+part4/all: part4/CMakeFiles/44_labeling.dir/all
+part4/all: part4/CMakeFiles/45_polygon.dir/all
+part4/all: part4/CMakeFiles/46.dir/all
 .PHONY : part4/all
 
 # Recursive "codegen" directory target.
@@ -228,6 +233,11 @@ part4/codegen: part4/CMakeFiles/38_honglineP.dir/codegen
 part4/codegen: part4/CMakeFiles/39_color_split.dir/codegen
 part4/codegen: part4/CMakeFiles/40_inrange.dir/codegen
 part4/codegen: part4/CMakeFiles/41.dir/codegen
+part4/codegen: part4/CMakeFiles/42_threshold.dir/codegen
+part4/codegen: part4/CMakeFiles/43_morplogy.dir/codegen
+part4/codegen: part4/CMakeFiles/44_labeling.dir/codegen
+part4/codegen: part4/CMakeFiles/45_polygon.dir/codegen
+part4/codegen: part4/CMakeFiles/46.dir/codegen
 .PHONY : part4/codegen
 
 # Recursive "preinstall" directory target.
@@ -246,6 +256,11 @@ part4/clean: part4/CMakeFiles/38_honglineP.dir/clean
 part4/clean: part4/CMakeFiles/39_color_split.dir/clean
 part4/clean: part4/CMakeFiles/40_inrange.dir/clean
 part4/clean: part4/CMakeFiles/41.dir/clean
+part4/clean: part4/CMakeFiles/42_threshold.dir/clean
+part4/clean: part4/CMakeFiles/43_morplogy.dir/clean
+part4/clean: part4/CMakeFiles/44_labeling.dir/clean
+part4/clean: part4/CMakeFiles/45_polygon.dir/clean
+part4/clean: part4/CMakeFiles/46.dir/clean
 .PHONY : part4/clean
 
 #=============================================================================
@@ -1463,6 +1478,166 @@ part4/CMakeFiles/41.dir/codegen:
 part4/CMakeFiles/41.dir/clean:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/41.dir/build.make part4/CMakeFiles/41.dir/clean
 .PHONY : part4/CMakeFiles/41.dir/clean
+
+#=============================================================================
+# Target rules for target part4/CMakeFiles/42_threshold.dir
+
+# All Build rule for target.
+part4/CMakeFiles/42_threshold.dir/all:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/42_threshold.dir/build.make part4/CMakeFiles/42_threshold.dir/depend
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/42_threshold.dir/build.make part4/CMakeFiles/42_threshold.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=77,78 "Built target 42_threshold"
+.PHONY : part4/CMakeFiles/42_threshold.dir/all
+
+# Build rule for subdir invocation for target.
+part4/CMakeFiles/42_threshold.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/42_threshold.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part4/CMakeFiles/42_threshold.dir/rule
+
+# Convenience name for target.
+42_threshold: part4/CMakeFiles/42_threshold.dir/rule
+.PHONY : 42_threshold
+
+# codegen rule for target.
+part4/CMakeFiles/42_threshold.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/42_threshold.dir/build.make part4/CMakeFiles/42_threshold.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=77,78 "Finished codegen for target 42_threshold"
+.PHONY : part4/CMakeFiles/42_threshold.dir/codegen
+
+# clean rule for target.
+part4/CMakeFiles/42_threshold.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/42_threshold.dir/build.make part4/CMakeFiles/42_threshold.dir/clean
+.PHONY : part4/CMakeFiles/42_threshold.dir/clean
+
+#=============================================================================
+# Target rules for target part4/CMakeFiles/43_morplogy.dir
+
+# All Build rule for target.
+part4/CMakeFiles/43_morplogy.dir/all:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/43_morplogy.dir/build.make part4/CMakeFiles/43_morplogy.dir/depend
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/43_morplogy.dir/build.make part4/CMakeFiles/43_morplogy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=79,80 "Built target 43_morplogy"
+.PHONY : part4/CMakeFiles/43_morplogy.dir/all
+
+# Build rule for subdir invocation for target.
+part4/CMakeFiles/43_morplogy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/43_morplogy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part4/CMakeFiles/43_morplogy.dir/rule
+
+# Convenience name for target.
+43_morplogy: part4/CMakeFiles/43_morplogy.dir/rule
+.PHONY : 43_morplogy
+
+# codegen rule for target.
+part4/CMakeFiles/43_morplogy.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/43_morplogy.dir/build.make part4/CMakeFiles/43_morplogy.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=79,80 "Finished codegen for target 43_morplogy"
+.PHONY : part4/CMakeFiles/43_morplogy.dir/codegen
+
+# clean rule for target.
+part4/CMakeFiles/43_morplogy.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/43_morplogy.dir/build.make part4/CMakeFiles/43_morplogy.dir/clean
+.PHONY : part4/CMakeFiles/43_morplogy.dir/clean
+
+#=============================================================================
+# Target rules for target part4/CMakeFiles/44_labeling.dir
+
+# All Build rule for target.
+part4/CMakeFiles/44_labeling.dir/all:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/44_labeling.dir/build.make part4/CMakeFiles/44_labeling.dir/depend
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/44_labeling.dir/build.make part4/CMakeFiles/44_labeling.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=81,82 "Built target 44_labeling"
+.PHONY : part4/CMakeFiles/44_labeling.dir/all
+
+# Build rule for subdir invocation for target.
+part4/CMakeFiles/44_labeling.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/44_labeling.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part4/CMakeFiles/44_labeling.dir/rule
+
+# Convenience name for target.
+44_labeling: part4/CMakeFiles/44_labeling.dir/rule
+.PHONY : 44_labeling
+
+# codegen rule for target.
+part4/CMakeFiles/44_labeling.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/44_labeling.dir/build.make part4/CMakeFiles/44_labeling.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=81,82 "Finished codegen for target 44_labeling"
+.PHONY : part4/CMakeFiles/44_labeling.dir/codegen
+
+# clean rule for target.
+part4/CMakeFiles/44_labeling.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/44_labeling.dir/build.make part4/CMakeFiles/44_labeling.dir/clean
+.PHONY : part4/CMakeFiles/44_labeling.dir/clean
+
+#=============================================================================
+# Target rules for target part4/CMakeFiles/45_polygon.dir
+
+# All Build rule for target.
+part4/CMakeFiles/45_polygon.dir/all:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/45_polygon.dir/build.make part4/CMakeFiles/45_polygon.dir/depend
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/45_polygon.dir/build.make part4/CMakeFiles/45_polygon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=83,84 "Built target 45_polygon"
+.PHONY : part4/CMakeFiles/45_polygon.dir/all
+
+# Build rule for subdir invocation for target.
+part4/CMakeFiles/45_polygon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/45_polygon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part4/CMakeFiles/45_polygon.dir/rule
+
+# Convenience name for target.
+45_polygon: part4/CMakeFiles/45_polygon.dir/rule
+.PHONY : 45_polygon
+
+# codegen rule for target.
+part4/CMakeFiles/45_polygon.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/45_polygon.dir/build.make part4/CMakeFiles/45_polygon.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=83,84 "Finished codegen for target 45_polygon"
+.PHONY : part4/CMakeFiles/45_polygon.dir/codegen
+
+# clean rule for target.
+part4/CMakeFiles/45_polygon.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/45_polygon.dir/build.make part4/CMakeFiles/45_polygon.dir/clean
+.PHONY : part4/CMakeFiles/45_polygon.dir/clean
+
+#=============================================================================
+# Target rules for target part4/CMakeFiles/46.dir
+
+# All Build rule for target.
+part4/CMakeFiles/46.dir/all:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46.dir/build.make part4/CMakeFiles/46.dir/depend
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46.dir/build.make part4/CMakeFiles/46.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=85,86 "Built target 46"
+.PHONY : part4/CMakeFiles/46.dir/all
+
+# Build rule for subdir invocation for target.
+part4/CMakeFiles/46.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/46.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part4/CMakeFiles/46.dir/rule
+
+# Convenience name for target.
+46: part4/CMakeFiles/46.dir/rule
+.PHONY : 46
+
+# codegen rule for target.
+part4/CMakeFiles/46.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46.dir/build.make part4/CMakeFiles/46.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=85,86 "Finished codegen for target 46"
+.PHONY : part4/CMakeFiles/46.dir/codegen
+
+# clean rule for target.
+part4/CMakeFiles/46.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46.dir/build.make part4/CMakeFiles/46.dir/clean
+.PHONY : part4/CMakeFiles/46.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -106,4 +106,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "part4/CMakeFiles/39_color_split.dir/DependInfo.cmake"
   "part4/CMakeFiles/40_inrange.dir/DependInfo.cmake"
   "part4/CMakeFiles/41.dir/DependInfo.cmake"
+  "part4/CMakeFiles/42_threshold.dir/DependInfo.cmake"
+  "part4/CMakeFiles/43_morplogy.dir/DependInfo.cmake"
+  "part4/CMakeFiles/44_labeling.dir/DependInfo.cmake"
+  "part4/CMakeFiles/45_polygon.dir/DependInfo.cmake"
+  "part4/CMakeFiles/46.dir/DependInfo.cmake"
   )

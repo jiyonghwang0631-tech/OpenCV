@@ -226,5 +226,35 @@
   "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/41.dir/41.inrange_example.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/41.inrange_example.cpp",
   "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/41.inrange_example.cpp",
   "output": "part4/CMakeFiles/41.dir/41.inrange_example.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/42_threshold.dir/42_threshold.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/42_threshold.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/42_threshold.cpp",
+  "output": "part4/CMakeFiles/42_threshold.dir/42_threshold.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/43_morplogy.dir/43_morplogy.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/43_morplogy.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/43_morplogy.cpp",
+  "output": "part4/CMakeFiles/43_morplogy.dir/43_morplogy.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/44_labeling.dir/44_labeling.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/44_labeling.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/44_labeling.cpp",
+  "output": "part4/CMakeFiles/44_labeling.dir/44_labeling.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/45_polygon.dir/45_polygon.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/45_polygon.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/45_polygon.cpp",
+  "output": "part4/CMakeFiles/45_polygon.dir/45_polygon.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/46.dir/46.paper_posit.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/46.paper_posit.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/46.paper_posit.cpp",
+  "output": "part4/CMakeFiles/46.dir/46.paper_posit.cpp.o"
 }
 ]

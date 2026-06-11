@@ -611,6 +611,71 @@ depend:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/41.dir/build.make part4/CMakeFiles/41.dir/build
 .PHONY : 41/fast
 
+#=============================================================================
+# Target rules for targets named 42_threshold
+
+# Build rule for target.
+42_threshold: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 42_threshold
+.PHONY : 42_threshold
+
+# fast build rule for target.
+42_threshold/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/42_threshold.dir/build.make part4/CMakeFiles/42_threshold.dir/build
+.PHONY : 42_threshold/fast
+
+#=============================================================================
+# Target rules for targets named 43_morplogy
+
+# Build rule for target.
+43_morplogy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 43_morplogy
+.PHONY : 43_morplogy
+
+# fast build rule for target.
+43_morplogy/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/43_morplogy.dir/build.make part4/CMakeFiles/43_morplogy.dir/build
+.PHONY : 43_morplogy/fast
+
+#=============================================================================
+# Target rules for targets named 44_labeling
+
+# Build rule for target.
+44_labeling: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 44_labeling
+.PHONY : 44_labeling
+
+# fast build rule for target.
+44_labeling/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/44_labeling.dir/build.make part4/CMakeFiles/44_labeling.dir/build
+.PHONY : 44_labeling/fast
+
+#=============================================================================
+# Target rules for targets named 45_polygon
+
+# Build rule for target.
+45_polygon: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 45_polygon
+.PHONY : 45_polygon
+
+# fast build rule for target.
+45_polygon/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/45_polygon.dir/build.make part4/CMakeFiles/45_polygon.dir/build
+.PHONY : 45_polygon/fast
+
+#=============================================================================
+# Target rules for targets named 46
+
+# Build rule for target.
+46: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 46
+.PHONY : 46
+
+# fast build rule for target.
+46/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46.dir/build.make part4/CMakeFiles/46.dir/build
+.PHONY : 46/fast
+
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
 
@@ -801,6 +866,11 @@ help:
 	@echo "... 39_color_split"
 	@echo "... 40_inrange"
 	@echo "... 41"
+	@echo "... 42_threshold"
+	@echo "... 43_morplogy"
+	@echo "... 44_labeling"
+	@echo "... 45_polygon"
+	@echo "... 46"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"

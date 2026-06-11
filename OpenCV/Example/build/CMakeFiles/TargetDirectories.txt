@@ -42,5 +42,10 @@
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/39_color_split.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/40_inrange.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/41.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/42_threshold.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/43_morplogy.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/44_labeling.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/45_polygon.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/46.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/edit_cache.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/rebuild_cache.dir

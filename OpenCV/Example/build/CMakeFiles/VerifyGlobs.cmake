@@ -86,6 +86,11 @@ set(OLD_GLOB
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/39_color_split.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/40_inrange.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/41.inrange_example.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/42_threshold.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/43_morplogy.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/44_labeling.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/45_polygon.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/46.paper_posit.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

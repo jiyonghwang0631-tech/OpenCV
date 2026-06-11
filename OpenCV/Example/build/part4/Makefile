@@ -271,6 +271,76 @@ part4/CMakeFiles/41.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/41.dir/build.make part4/CMakeFiles/41.dir/build
 .PHONY : 41/fast
 
+# Convenience name for target.
+part4/CMakeFiles/42_threshold.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/42_threshold.dir/rule
+.PHONY : part4/CMakeFiles/42_threshold.dir/rule
+
+# Convenience name for target.
+42_threshold: part4/CMakeFiles/42_threshold.dir/rule
+.PHONY : 42_threshold
+
+# fast build rule for target.
+42_threshold/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/42_threshold.dir/build.make part4/CMakeFiles/42_threshold.dir/build
+.PHONY : 42_threshold/fast
+
+# Convenience name for target.
+part4/CMakeFiles/43_morplogy.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/43_morplogy.dir/rule
+.PHONY : part4/CMakeFiles/43_morplogy.dir/rule
+
+# Convenience name for target.
+43_morplogy: part4/CMakeFiles/43_morplogy.dir/rule
+.PHONY : 43_morplogy
+
+# fast build rule for target.
+43_morplogy/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/43_morplogy.dir/build.make part4/CMakeFiles/43_morplogy.dir/build
+.PHONY : 43_morplogy/fast
+
+# Convenience name for target.
+part4/CMakeFiles/44_labeling.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/44_labeling.dir/rule
+.PHONY : part4/CMakeFiles/44_labeling.dir/rule
+
+# Convenience name for target.
+44_labeling: part4/CMakeFiles/44_labeling.dir/rule
+.PHONY : 44_labeling
+
+# fast build rule for target.
+44_labeling/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/44_labeling.dir/build.make part4/CMakeFiles/44_labeling.dir/build
+.PHONY : 44_labeling/fast
+
+# Convenience name for target.
+part4/CMakeFiles/45_polygon.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/45_polygon.dir/rule
+.PHONY : part4/CMakeFiles/45_polygon.dir/rule
+
+# Convenience name for target.
+45_polygon: part4/CMakeFiles/45_polygon.dir/rule
+.PHONY : 45_polygon
+
+# fast build rule for target.
+45_polygon/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/45_polygon.dir/build.make part4/CMakeFiles/45_polygon.dir/build
+.PHONY : 45_polygon/fast
+
+# Convenience name for target.
+part4/CMakeFiles/46.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/46.dir/rule
+.PHONY : part4/CMakeFiles/46.dir/rule
+
+# Convenience name for target.
+46: part4/CMakeFiles/46.dir/rule
+.PHONY : 46
+
+# fast build rule for target.
+46/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46.dir/build.make part4/CMakeFiles/46.dir/build
+.PHONY : 46/fast
+
 31_affine.o: 31_affine.cpp.o
 .PHONY : 31_affine.o
 
@@ -535,6 +605,126 @@ part4/CMakeFiles/41.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/41.dir/build.make part4/CMakeFiles/41.dir/41.inrange_example.cpp.s
 .PHONY : 41.inrange_example.cpp.s
 
+42_threshold.o: 42_threshold.cpp.o
+.PHONY : 42_threshold.o
+
+# target to build an object file
+42_threshold.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/42_threshold.dir/build.make part4/CMakeFiles/42_threshold.dir/42_threshold.cpp.o
+.PHONY : 42_threshold.cpp.o
+
+42_threshold.i: 42_threshold.cpp.i
+.PHONY : 42_threshold.i
+
+# target to preprocess a source file
+42_threshold.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/42_threshold.dir/build.make part4/CMakeFiles/42_threshold.dir/42_threshold.cpp.i
+.PHONY : 42_threshold.cpp.i
+
+42_threshold.s: 42_threshold.cpp.s
+.PHONY : 42_threshold.s
+
+# target to generate assembly for a file
+42_threshold.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/42_threshold.dir/build.make part4/CMakeFiles/42_threshold.dir/42_threshold.cpp.s
+.PHONY : 42_threshold.cpp.s
+
+43_morplogy.o: 43_morplogy.cpp.o
+.PHONY : 43_morplogy.o
+
+# target to build an object file
+43_morplogy.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/43_morplogy.dir/build.make part4/CMakeFiles/43_morplogy.dir/43_morplogy.cpp.o
+.PHONY : 43_morplogy.cpp.o
+
+43_morplogy.i: 43_morplogy.cpp.i
+.PHONY : 43_morplogy.i
+
+# target to preprocess a source file
+43_morplogy.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/43_morplogy.dir/build.make part4/CMakeFiles/43_morplogy.dir/43_morplogy.cpp.i
+.PHONY : 43_morplogy.cpp.i
+
+43_morplogy.s: 43_morplogy.cpp.s
+.PHONY : 43_morplogy.s
+
+# target to generate assembly for a file
+43_morplogy.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/43_morplogy.dir/build.make part4/CMakeFiles/43_morplogy.dir/43_morplogy.cpp.s
+.PHONY : 43_morplogy.cpp.s
+
+44_labeling.o: 44_labeling.cpp.o
+.PHONY : 44_labeling.o
+
+# target to build an object file
+44_labeling.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/44_labeling.dir/build.make part4/CMakeFiles/44_labeling.dir/44_labeling.cpp.o
+.PHONY : 44_labeling.cpp.o
+
+44_labeling.i: 44_labeling.cpp.i
+.PHONY : 44_labeling.i
+
+# target to preprocess a source file
+44_labeling.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/44_labeling.dir/build.make part4/CMakeFiles/44_labeling.dir/44_labeling.cpp.i
+.PHONY : 44_labeling.cpp.i
+
+44_labeling.s: 44_labeling.cpp.s
+.PHONY : 44_labeling.s
+
+# target to generate assembly for a file
+44_labeling.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/44_labeling.dir/build.make part4/CMakeFiles/44_labeling.dir/44_labeling.cpp.s
+.PHONY : 44_labeling.cpp.s
+
+45_polygon.o: 45_polygon.cpp.o
+.PHONY : 45_polygon.o
+
+# target to build an object file
+45_polygon.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/45_polygon.dir/build.make part4/CMakeFiles/45_polygon.dir/45_polygon.cpp.o
+.PHONY : 45_polygon.cpp.o
+
+45_polygon.i: 45_polygon.cpp.i
+.PHONY : 45_polygon.i
+
+# target to preprocess a source file
+45_polygon.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/45_polygon.dir/build.make part4/CMakeFiles/45_polygon.dir/45_polygon.cpp.i
+.PHONY : 45_polygon.cpp.i
+
+45_polygon.s: 45_polygon.cpp.s
+.PHONY : 45_polygon.s
+
+# target to generate assembly for a file
+45_polygon.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/45_polygon.dir/build.make part4/CMakeFiles/45_polygon.dir/45_polygon.cpp.s
+.PHONY : 45_polygon.cpp.s
+
+46.paper_posit.o: 46.paper_posit.cpp.o
+.PHONY : 46.paper_posit.o
+
+# target to build an object file
+46.paper_posit.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46.dir/build.make part4/CMakeFiles/46.dir/46.paper_posit.cpp.o
+.PHONY : 46.paper_posit.cpp.o
+
+46.paper_posit.i: 46.paper_posit.cpp.i
+.PHONY : 46.paper_posit.i
+
+# target to preprocess a source file
+46.paper_posit.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46.dir/build.make part4/CMakeFiles/46.dir/46.paper_posit.cpp.i
+.PHONY : 46.paper_posit.cpp.i
+
+46.paper_posit.s: 46.paper_posit.cpp.s
+.PHONY : 46.paper_posit.s
+
+# target to generate assembly for a file
+46.paper_posit.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46.dir/build.make part4/CMakeFiles/46.dir/46.paper_posit.cpp.s
+.PHONY : 46.paper_posit.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -554,6 +744,11 @@ help:
 	@echo "... 39_color_split"
 	@echo "... 40_inrange"
 	@echo "... 41"
+	@echo "... 42_threshold"
+	@echo "... 43_morplogy"
+	@echo "... 44_labeling"
+	@echo "... 45_polygon"
+	@echo "... 46"
 	@echo "... 31_affine.o"
 	@echo "... 31_affine.i"
 	@echo "... 31_affine.s"
@@ -587,6 +782,21 @@ help:
 	@echo "... 41.inrange_example.o"
 	@echo "... 41.inrange_example.i"
 	@echo "... 41.inrange_example.s"
+	@echo "... 42_threshold.o"
+	@echo "... 42_threshold.i"
+	@echo "... 42_threshold.s"
+	@echo "... 43_morplogy.o"
+	@echo "... 43_morplogy.i"
+	@echo "... 43_morplogy.s"
+	@echo "... 44_labeling.o"
+	@echo "... 44_labeling.i"
+	@echo "... 44_labeling.s"
+	@echo "... 45_polygon.o"
+	@echo "... 45_polygon.i"
+	@echo "... 45_polygon.s"
+	@echo "... 46.paper_posit.o"
+	@echo "... 46.paper_posit.i"
+	@echo "... 46.paper_posit.s"
 .PHONY : help
 
 

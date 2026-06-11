@@ -546,7 +546,12 @@
 						34,
 						35,
 						36,
-						37
+						37,
+						38,
+						39,
+						40,
+						41,
+						42
 					]
 				}
 			],
@@ -695,7 +700,12 @@
 						34,
 						35,
 						36,
-						37
+						37,
+						38,
+						39,
+						40,
+						41,
+						42
 					]
 				}
 			],
@@ -965,6 +975,41 @@
 					"id" : "41::@ba388663f1a00987a57b",
 					"jsonFile" : "target-41-Debug-a1ac7463942d02f3667f.json",
 					"name" : "41",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "42_threshold::@ba388663f1a00987a57b",
+					"jsonFile" : "target-42_threshold-Debug-f878e9d7c8af5a0dd3fb.json",
+					"name" : "42_threshold",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "43_morplogy::@ba388663f1a00987a57b",
+					"jsonFile" : "target-43_morplogy-Debug-49e98a0bb94c2de577d2.json",
+					"name" : "43_morplogy",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "44_labeling::@ba388663f1a00987a57b",
+					"jsonFile" : "target-44_labeling-Debug-e92317987648fecc24fa.json",
+					"name" : "44_labeling",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "45_polygon::@ba388663f1a00987a57b",
+					"jsonFile" : "target-45_polygon-Debug-3df7cedb242333f5f2bb.json",
+					"name" : "45_polygon",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "46::@ba388663f1a00987a57b",
+					"jsonFile" : "target-46-Debug-c6dd4101b895e00ac566.json",
+					"name" : "46",
 					"projectIndex" : 3
 				}
 			]
