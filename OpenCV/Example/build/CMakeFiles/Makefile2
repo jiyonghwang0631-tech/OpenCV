@@ -276,6 +276,8 @@ part5/all: part5/CMakeFiles/48_cascade_example.dir/all
 part5/all: part5/CMakeFiles/49_hog.dir/all
 part5/all: part5/CMakeFiles/50_QR.dir/all
 part5/all: part5/CMakeFiles/51_corner.dir/all
+part5/all: part5/CMakeFiles/52_orb.dir/all
+part5/all: part5/CMakeFiles/53_matching.dir/all
 .PHONY : part5/all
 
 # Recursive "codegen" directory target.
@@ -284,6 +286,8 @@ part5/codegen: part5/CMakeFiles/48_cascade_example.dir/codegen
 part5/codegen: part5/CMakeFiles/49_hog.dir/codegen
 part5/codegen: part5/CMakeFiles/50_QR.dir/codegen
 part5/codegen: part5/CMakeFiles/51_corner.dir/codegen
+part5/codegen: part5/CMakeFiles/52_orb.dir/codegen
+part5/codegen: part5/CMakeFiles/53_matching.dir/codegen
 .PHONY : part5/codegen
 
 # Recursive "preinstall" directory target.
@@ -296,6 +300,8 @@ part5/clean: part5/CMakeFiles/48_cascade_example.dir/clean
 part5/clean: part5/CMakeFiles/49_hog.dir/clean
 part5/clean: part5/CMakeFiles/50_QR.dir/clean
 part5/clean: part5/CMakeFiles/51_corner.dir/clean
+part5/clean: part5/CMakeFiles/52_orb.dir/clean
+part5/clean: part5/CMakeFiles/53_matching.dir/clean
 .PHONY : part5/clean
 
 #=============================================================================
@@ -1833,6 +1839,70 @@ part5/CMakeFiles/51_corner.dir/codegen:
 part5/CMakeFiles/51_corner.dir/clean:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/51_corner.dir/build.make part5/CMakeFiles/51_corner.dir/clean
 .PHONY : part5/CMakeFiles/51_corner.dir/clean
+
+#=============================================================================
+# Target rules for target part5/CMakeFiles/52_orb.dir
+
+# All Build rule for target.
+part5/CMakeFiles/52_orb.dir/all:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/52_orb.dir/build.make part5/CMakeFiles/52_orb.dir/depend
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/52_orb.dir/build.make part5/CMakeFiles/52_orb.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=97,98 "Built target 52_orb"
+.PHONY : part5/CMakeFiles/52_orb.dir/all
+
+# Build rule for subdir invocation for target.
+part5/CMakeFiles/52_orb.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part5/CMakeFiles/52_orb.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part5/CMakeFiles/52_orb.dir/rule
+
+# Convenience name for target.
+52_orb: part5/CMakeFiles/52_orb.dir/rule
+.PHONY : 52_orb
+
+# codegen rule for target.
+part5/CMakeFiles/52_orb.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/52_orb.dir/build.make part5/CMakeFiles/52_orb.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=97,98 "Finished codegen for target 52_orb"
+.PHONY : part5/CMakeFiles/52_orb.dir/codegen
+
+# clean rule for target.
+part5/CMakeFiles/52_orb.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/52_orb.dir/build.make part5/CMakeFiles/52_orb.dir/clean
+.PHONY : part5/CMakeFiles/52_orb.dir/clean
+
+#=============================================================================
+# Target rules for target part5/CMakeFiles/53_matching.dir
+
+# All Build rule for target.
+part5/CMakeFiles/53_matching.dir/all:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/depend
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=99,100 "Built target 53_matching"
+.PHONY : part5/CMakeFiles/53_matching.dir/all
+
+# Build rule for subdir invocation for target.
+part5/CMakeFiles/53_matching.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part5/CMakeFiles/53_matching.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part5/CMakeFiles/53_matching.dir/rule
+
+# Convenience name for target.
+53_matching: part5/CMakeFiles/53_matching.dir/rule
+.PHONY : 53_matching
+
+# codegen rule for target.
+part5/CMakeFiles/53_matching.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=99,100 "Finished codegen for target 53_matching"
+.PHONY : part5/CMakeFiles/53_matching.dir/codegen
+
+# clean rule for target.
+part5/CMakeFiles/53_matching.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/clean
+.PHONY : part5/CMakeFiles/53_matching.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

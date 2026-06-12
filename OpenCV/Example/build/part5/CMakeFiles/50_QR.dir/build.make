@@ -151,6 +151,7 @@ part5/50_QR: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.10.0
 part5/50_QR: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.10.0
 part5/50_QR: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.10.0
 part5/50_QR: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.10.0
+part5/50_QR: /usr/lib/x86_64-linux-gnu/libzbar.so
 part5/50_QR: part5/CMakeFiles/50_QR.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 50_QR"
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/50_QR.dir/link.txt --verbose=$(VERBOSE)

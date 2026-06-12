@@ -113,7 +113,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SOURCES at part5/CMakeLists.txt:10 (file)
+# SOURCES at part5/CMakeLists.txt:12 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/*.cpp")
 set(OLD_GLOB
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/47_cascade.cpp"
@@ -121,6 +121,8 @@ set(OLD_GLOB
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/49_hog.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/50_QR.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/51_corner.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/52_orb.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/53_matching.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

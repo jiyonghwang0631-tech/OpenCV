@@ -187,6 +187,34 @@ part5/CMakeFiles/51_corner.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/51_corner.dir/build.make part5/CMakeFiles/51_corner.dir/build
 .PHONY : 51_corner/fast
 
+# Convenience name for target.
+part5/CMakeFiles/52_orb.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part5/CMakeFiles/52_orb.dir/rule
+.PHONY : part5/CMakeFiles/52_orb.dir/rule
+
+# Convenience name for target.
+52_orb: part5/CMakeFiles/52_orb.dir/rule
+.PHONY : 52_orb
+
+# fast build rule for target.
+52_orb/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/52_orb.dir/build.make part5/CMakeFiles/52_orb.dir/build
+.PHONY : 52_orb/fast
+
+# Convenience name for target.
+part5/CMakeFiles/53_matching.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part5/CMakeFiles/53_matching.dir/rule
+.PHONY : part5/CMakeFiles/53_matching.dir/rule
+
+# Convenience name for target.
+53_matching: part5/CMakeFiles/53_matching.dir/rule
+.PHONY : 53_matching
+
+# fast build rule for target.
+53_matching/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/build
+.PHONY : 53_matching/fast
+
 47_cascade.o: 47_cascade.cpp.o
 .PHONY : 47_cascade.o
 
@@ -307,6 +335,54 @@ part5/CMakeFiles/51_corner.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/51_corner.dir/build.make part5/CMakeFiles/51_corner.dir/51_corner.cpp.s
 .PHONY : 51_corner.cpp.s
 
+52_orb.o: 52_orb.cpp.o
+.PHONY : 52_orb.o
+
+# target to build an object file
+52_orb.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/52_orb.dir/build.make part5/CMakeFiles/52_orb.dir/52_orb.cpp.o
+.PHONY : 52_orb.cpp.o
+
+52_orb.i: 52_orb.cpp.i
+.PHONY : 52_orb.i
+
+# target to preprocess a source file
+52_orb.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/52_orb.dir/build.make part5/CMakeFiles/52_orb.dir/52_orb.cpp.i
+.PHONY : 52_orb.cpp.i
+
+52_orb.s: 52_orb.cpp.s
+.PHONY : 52_orb.s
+
+# target to generate assembly for a file
+52_orb.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/52_orb.dir/build.make part5/CMakeFiles/52_orb.dir/52_orb.cpp.s
+.PHONY : 52_orb.cpp.s
+
+53_matching.o: 53_matching.cpp.o
+.PHONY : 53_matching.o
+
+# target to build an object file
+53_matching.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/53_matching.cpp.o
+.PHONY : 53_matching.cpp.o
+
+53_matching.i: 53_matching.cpp.i
+.PHONY : 53_matching.i
+
+# target to preprocess a source file
+53_matching.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/53_matching.cpp.i
+.PHONY : 53_matching.cpp.i
+
+53_matching.s: 53_matching.cpp.s
+.PHONY : 53_matching.s
+
+# target to generate assembly for a file
+53_matching.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/53_matching.cpp.s
+.PHONY : 53_matching.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -320,6 +396,8 @@ help:
 	@echo "... 49_hog"
 	@echo "... 50_QR"
 	@echo "... 51_corner"
+	@echo "... 52_orb"
+	@echo "... 53_matching"
 	@echo "... 47_cascade.o"
 	@echo "... 47_cascade.i"
 	@echo "... 47_cascade.s"
@@ -335,6 +413,12 @@ help:
 	@echo "... 51_corner.o"
 	@echo "... 51_corner.i"
 	@echo "... 51_corner.s"
+	@echo "... 52_orb.o"
+	@echo "... 52_orb.i"
+	@echo "... 52_orb.s"
+	@echo "... 53_matching.o"
+	@echo "... 53_matching.i"
+	@echo "... 53_matching.s"
 .PHONY : help
 
 

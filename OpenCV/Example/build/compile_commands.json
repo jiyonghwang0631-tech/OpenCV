@@ -286,5 +286,17 @@
   "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/51_corner.dir/51_corner.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/51_corner.cpp",
   "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/51_corner.cpp",
   "output": "part5/CMakeFiles/51_corner.dir/51_corner.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/52_orb.dir/52_orb.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/52_orb.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/52_orb.cpp",
+  "output": "part5/CMakeFiles/52_orb.dir/52_orb.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/53_matching.dir/53_matching.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/53_matching.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/53_matching.cpp",
+  "output": "part5/CMakeFiles/53_matching.dir/53_matching.cpp.o"
 }
 ]

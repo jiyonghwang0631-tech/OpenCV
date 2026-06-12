@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(OpenCV REQUIRED)
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(ZBAR REQUIRED IMPORTED_TARGET zbar)
 
 file(GLOB SOURCES CONFIGURE_DEPENDS "*.cpp")
 
@@ -13,5 +15,9 @@ foreach(SOURCE ${SOURCES})
     get_filename_component(EXE_NAME ${SOURCE} NAME_WE)
     add_executable(${EXE_NAME} ${SOURCE})
     target_include_directories(${EXE_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/../part1)
-    target_link_libraries(${EXE_NAME} ${OpenCV_LIBS})
+    target_link_libraries(${EXE_NAME} PRIVATE ${OpenCV_LIBS})
+
+    if(EXE_NAME STREQUAL "50_QR")
+        target_link_libraries(${EXE_NAME} PRIVATE PkgConfig::ZBAR)
+    endif()
 endforeach()

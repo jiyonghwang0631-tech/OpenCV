@@ -741,6 +741,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/51_corner.dir/build.make part5/CMakeFiles/51_corner.dir/build
 .PHONY : 51_corner/fast
 
+#=============================================================================
+# Target rules for targets named 52_orb
+
+# Build rule for target.
+52_orb: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 52_orb
+.PHONY : 52_orb
+
+# fast build rule for target.
+52_orb/fast:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/52_orb.dir/build.make part5/CMakeFiles/52_orb.dir/build
+.PHONY : 52_orb/fast
+
+#=============================================================================
+# Target rules for targets named 53_matching
+
+# Build rule for target.
+53_matching: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 53_matching
+.PHONY : 53_matching
+
+# fast build rule for target.
+53_matching/fast:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/build
+.PHONY : 53_matching/fast
+
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
 
@@ -941,6 +967,8 @@ help:
 	@echo "... 49_hog"
 	@echo "... 50_QR"
 	@echo "... 51_corner"
+	@echo "... 52_orb"
+	@echo "... 53_matching"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"

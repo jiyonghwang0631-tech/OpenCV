@@ -97,6 +97,7 @@ part5/50_QR
  /usr/lib/x86_64-linux-gnu/libcurl.so.4
  /usr/lib/x86_64-linux-gnu/libdatrie.so.1
  /usr/lib/x86_64-linux-gnu/libdav1d.so.7
+ /usr/lib/x86_64-linux-gnu/libdbus-1.so.3
  /usr/lib/x86_64-linux-gnu/libdc1394.so.25
  /usr/lib/x86_64-linux-gnu/libdeflate.so.0
  /usr/lib/x86_64-linux-gnu/libdf.so.0
@@ -312,6 +313,7 @@ part5/50_QR
  /usr/lib/x86_64-linux-gnu/libsuperlu.so.7
  /usr/lib/x86_64-linux-gnu/libswresample.so.6
  /usr/lib/x86_64-linux-gnu/libswscale.so.9
+ /usr/lib/x86_64-linux-gnu/libsystemd.so.0
  /usr/lib/x86_64-linux-gnu/libsz.so.2
  /usr/lib/x86_64-linux-gnu/libtasn1.so.6
  /usr/lib/x86_64-linux-gnu/libtbb.so.12
@@ -326,6 +328,8 @@ part5/50_QR
  /usr/lib/x86_64-linux-gnu/liburiparser.so.1
  /usr/lib/x86_64-linux-gnu/libusb-1.0.so.0
  /usr/lib/x86_64-linux-gnu/libuuid.so.1
+ /usr/lib/x86_64-linux-gnu/libv4l2.so.0
+ /usr/lib/x86_64-linux-gnu/libv4lconvert.so.0
  /usr/lib/x86_64-linux-gnu/libva-drm.so.2
  /usr/lib/x86_64-linux-gnu/libva-x11.so.2
  /usr/lib/x86_64-linux-gnu/libva.so.2
@@ -349,6 +353,7 @@ part5/50_QR
  /usr/lib/x86_64-linux-gnu/libxxhash.so.0
  /usr/lib/x86_64-linux-gnu/libyuv.so.0
  /usr/lib/x86_64-linux-gnu/libz.so.1
+ /usr/lib/x86_64-linux-gnu/libzbar.so
  /usr/lib/x86_64-linux-gnu/libzmq.so.5
  /usr/lib/x86_64-linux-gnu/libzstd.so.1
  /usr/lib/x86_64-linux-gnu/libzvbi.so.0

@@ -96,6 +96,7 @@ part5/50_QR: /lib/libarmadillo.so.15 \
   /usr/lib/x86_64-linux-gnu/libcurl.so.4 \
   /usr/lib/x86_64-linux-gnu/libdatrie.so.1 \
   /usr/lib/x86_64-linux-gnu/libdav1d.so.7 \
+  /usr/lib/x86_64-linux-gnu/libdbus-1.so.3 \
   /usr/lib/x86_64-linux-gnu/libdc1394.so.25 \
   /usr/lib/x86_64-linux-gnu/libdeflate.so.0 \
   /usr/lib/x86_64-linux-gnu/libdf.so.0 \
@@ -311,6 +312,7 @@ part5/50_QR: /lib/libarmadillo.so.15 \
   /usr/lib/x86_64-linux-gnu/libsuperlu.so.7 \
   /usr/lib/x86_64-linux-gnu/libswresample.so.6 \
   /usr/lib/x86_64-linux-gnu/libswscale.so.9 \
+  /usr/lib/x86_64-linux-gnu/libsystemd.so.0 \
   /usr/lib/x86_64-linux-gnu/libsz.so.2 \
   /usr/lib/x86_64-linux-gnu/libtasn1.so.6 \
   /usr/lib/x86_64-linux-gnu/libtbb.so.12 \
@@ -325,6 +327,8 @@ part5/50_QR: /lib/libarmadillo.so.15 \
   /usr/lib/x86_64-linux-gnu/liburiparser.so.1 \
   /usr/lib/x86_64-linux-gnu/libusb-1.0.so.0 \
   /usr/lib/x86_64-linux-gnu/libuuid.so.1 \
+  /usr/lib/x86_64-linux-gnu/libv4l2.so.0 \
+  /usr/lib/x86_64-linux-gnu/libv4lconvert.so.0 \
   /usr/lib/x86_64-linux-gnu/libva-drm.so.2 \
   /usr/lib/x86_64-linux-gnu/libva-x11.so.2 \
   /usr/lib/x86_64-linux-gnu/libva.so.2 \
@@ -348,6 +352,7 @@ part5/50_QR: /lib/libarmadillo.so.15 \
   /usr/lib/x86_64-linux-gnu/libxxhash.so.0 \
   /usr/lib/x86_64-linux-gnu/libyuv.so.0 \
   /usr/lib/x86_64-linux-gnu/libz.so.1 \
+  /usr/lib/x86_64-linux-gnu/libzbar.so \
   /usr/lib/x86_64-linux-gnu/libzmq.so.5 \
   /usr/lib/x86_64-linux-gnu/libzstd.so.1 \
   /usr/lib/x86_64-linux-gnu/libzvbi.so.0 \
@@ -1144,6 +1149,14 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o: /home/korea_hrd_1_2/OpenCV/OpenCV/Exampl
 
 /usr/include/c++/15/tuple:
 
+/usr/include/c++/15/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/15/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/15/tr1/poly_hermite.tcc:
+
+/usr/include/c++/15/tr1/modified_bessel_func.tcc:
+
 /usr/include/ctype.h:
 
 /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.10.0:
@@ -1215,8 +1228,6 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o: /home/korea_hrd_1_2/OpenCV/OpenCV/Exampl
 /usr/include/opencv4/opencv2/core/check.hpp:
 
 /usr/include/c++/15/ext/alloc_traits.h:
-
-/usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.10.0:
 
 /usr/include/c++/15/bits/stl_list.h:
 
@@ -1404,6 +1415,12 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o: /home/korea_hrd_1_2/OpenCV/OpenCV/Exampl
 
 /usr/lib/x86_64-linux-gnu/libcairo.so.2:
 
+/usr/lib/x86_64-linux-gnu/libgmp.so.10:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/asm-generic/types.h:
+
 /usr/lib/x86_64-linux-gnu/libnss3.so:
 
 /usr/lib/x86_64-linux-gnu/libgstapp-1.0.so.0:
@@ -1500,6 +1517,8 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o: /home/korea_hrd_1_2/OpenCV/OpenCV/Exampl
 
 /usr/lib/x86_64-linux-gnu/libplc4.so:
 
+/usr/lib/x86_64-linux-gnu/libzbar.so:
+
 /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.10.0:
 
 /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.10.0:
@@ -1574,8 +1593,6 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libjson-c.so.5:
 
-/usr/include/c++/15/tr1/riemann_zeta.tcc:
-
 /usr/include/opencv4/opencv2/core/affine.hpp:
 
 /usr/lib/x86_64-linux-gnu/libmount.so.1:
@@ -1583,6 +1600,10 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o:
 /usr/include/c++/15/locale:
 
 /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0:
+
+/usr/lib/x86_64-linux-gnu/libgfortran.so.5:
+
+/usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.10.0:
 
 /usr/lib/x86_64-linux-gnu/libpixman-1.so.0:
 
@@ -1651,10 +1672,6 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o:
 /lib/x86_64-linux-gnu/libcairo-gobject.so.2:
 
 /usr/lib/x86_64-linux-gnu/libabsl_tracing_internal.so.20260107:
-
-/usr/include/opencv4/opencv2/core/matx.hpp:
-
-/usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.10.0:
 
 /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.10.0:
 
@@ -1822,6 +1839,10 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libfontconfig.so.1:
 
+/usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.10.0:
+
+/usr/lib/x86_64-linux-gnu/libdbus-1.so.3:
+
 /usr/lib/x86_64-linux-gnu/librtmp.so.1:
 
 /usr/include/c++/15/bits/predefined_ops.h:
@@ -1918,15 +1939,9 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libgdcmIOD.so.3.0:
 
-/usr/lib/x86_64-linux-gnu/libgmp.so.10:
+/usr/include/opencv4/opencv2/core/matx.hpp:
 
-/usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.10.0:
-
-/usr/lib/x86_64-linux-gnu/libgfortran.so.5:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/asm-generic/types.h:
+/usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.10.0:
 
 /usr/lib/x86_64-linux-gnu/libldap.so.2:
 
@@ -1947,8 +1962,6 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o:
 /usr/include/c++/15/bits/charconv.h:
 
 /usr/include/c++/15/pstl/glue_algorithm_defs.h:
-
-/usr/include/c++/15/tr1/poly_laguerre.tcc:
 
 /usr/lib/x86_64-linux-gnu/libvdpau.so.1:
 
@@ -2040,6 +2053,8 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o:
 
 /usr/include/c++/15/bits/uses_allocator.h:
 
+/usr/lib/x86_64-linux-gnu/libsystemd.so.0:
+
 /usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp:
 
 /usr/lib/x86_64-linux-gnu/libtasn1.so.6:
@@ -2063,6 +2078,10 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o:
 /usr/lib/x86_64-linux-gnu/libcurl.so.4:
 
 /usr/include/c++/15/debug/assertions.h:
+
+/usr/lib/x86_64-linux-gnu/libv4l2.so.0:
+
+/usr/lib/x86_64-linux-gnu/libv4lconvert.so.0:
 
 /usr/lib/x86_64-linux-gnu/libva-drm.so.2:
 
@@ -2405,7 +2424,3 @@ part5/CMakeFiles/50_QR.dir/50_QR.cpp.o:
 /usr/lib/x86_64-linux-gnu/libabsl_graphcycles_internal.so.20260107:
 
 /usr/include/c++/15/tr1/legendre_function.tcc:
-
-/usr/include/c++/15/tr1/modified_bessel_func.tcc:
-
-/usr/include/c++/15/tr1/poly_hermite.tcc:

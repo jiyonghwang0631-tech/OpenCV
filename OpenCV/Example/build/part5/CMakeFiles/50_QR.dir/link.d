@@ -58,6 +58,7 @@
   /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.10.0 \
   /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.10.0 \
   /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.10.0 \
+  /usr/lib/x86_64-linux-gnu/libzbar.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -112,9 +113,12 @@
   /usr/lib/x86_64-linux-gnu/libGLX.so.0 \
   /usr/lib/x86_64-linux-gnu/libopenblas.so.0 \
   /usr/lib/x86_64-linux-gnu/libtbb.so.12 \
+  /usr/lib/x86_64-linux-gnu/libdbus-1.so.3 \
+  /usr/lib/x86_64-linux-gnu/libv4l2.so.0 \
+  /usr/lib/x86_64-linux-gnu/libX11.so.6 \
+  /usr/lib/x86_64-linux-gnu/libjpeg.so.8 \
   /lib64/ld-linux-x86-64.so.2 \
   /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0 \
-  /usr/lib/x86_64-linux-gnu/libjpeg.so.8 \
   /usr/lib/x86_64-linux-gnu/libwebp.so.7 \
   /usr/lib/x86_64-linux-gnu/libpng16.so.16 \
   /usr/lib/x86_64-linux-gnu/libgdcmMSFF.so.3.0 \
@@ -187,13 +191,15 @@
   /usr/lib/x86_64-linux-gnu/libva-drm.so.2 \
   /usr/lib/x86_64-linux-gnu/libva-x11.so.2 \
   /usr/lib/x86_64-linux-gnu/libvdpau.so.1 \
-  /usr/lib/x86_64-linux-gnu/libX11.so.6 \
   /usr/lib/x86_64-linux-gnu/libdrm.so.2 \
   /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 \
   /usr/lib/x86_64-linux-gnu/libltdl.so.7 \
   /usr/lib/x86_64-linux-gnu/libexif.so.12 \
   /usr/lib/x86_64-linux-gnu/libmvec.so.1 \
   /usr/lib/x86_64-linux-gnu/libgfortran.so.5 \
+  /usr/lib/x86_64-linux-gnu/libsystemd.so.0 \
+  /usr/lib/x86_64-linux-gnu/libv4lconvert.so.0 \
+  /usr/lib/x86_64-linux-gnu/libxcb.so.1 \
   /usr/lib/x86_64-linux-gnu/libsharpyuv.so.0 \
   /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0 \
   /usr/lib/x86_64-linux-gnu/libgdcmjpeg8.so.3.0 \
@@ -278,7 +284,6 @@
   /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0 \
   /usr/lib/x86_64-linux-gnu/libXext.so.6 \
   /usr/lib/x86_64-linux-gnu/libXrender.so.1 \
-  /usr/lib/x86_64-linux-gnu/libxcb.so.1 \
   /usr/lib/x86_64-linux-gnu/libxcb-render.so.0 \
   /usr/lib/x86_64-linux-gnu/libxcb-shm.so.0 \
   /usr/lib/x86_64-linux-gnu/libpixman-1.so.0 \
@@ -291,6 +296,8 @@
   /usr/lib/x86_64-linux-gnu/libXfixes.so.3 \
   /usr/lib/x86_64-linux-gnu/libX11-xcb.so.1 \
   /usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0 \
+  /usr/lib/x86_64-linux-gnu/libXau.so.6 \
+  /usr/lib/x86_64-linux-gnu/libXdmcp.so.6 \
   /usr/lib/x86_64-linux-gnu/libacl.so.1 \
   /usr/lib/x86_64-linux-gnu/libnghttp2.so.14 \
   /usr/lib/x86_64-linux-gnu/librtmp.so.1 \
@@ -333,8 +340,6 @@
   /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0 \
   /usr/lib/x86_64-linux-gnu/libfribidi.so.0 \
   /usr/lib/x86_64-linux-gnu/libthai.so.0 \
-  /usr/lib/x86_64-linux-gnu/libXau.so.6 \
-  /usr/lib/x86_64-linux-gnu/libXdmcp.so.6 \
   /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1 \
   /usr/lib/x86_64-linux-gnu/libsasl2.so.2 \
   /usr/lib/x86_64-linux-gnu/libabsl_synchronization.so.20260107 \
@@ -491,6 +496,8 @@ CMakeFiles/50_QR.dir/50_QR.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.10.0:
 
+/usr/lib/x86_64-linux-gnu/libzbar.so:
+
 /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so:
@@ -599,11 +606,17 @@ CMakeFiles/50_QR.dir/50_QR.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libtbb.so.12:
 
+/usr/lib/x86_64-linux-gnu/libdbus-1.so.3:
+
+/usr/lib/x86_64-linux-gnu/libv4l2.so.0:
+
+/usr/lib/x86_64-linux-gnu/libX11.so.6:
+
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8:
+
 /lib64/ld-linux-x86-64.so.2:
 
 /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0:
-
-/usr/lib/x86_64-linux-gnu/libjpeg.so.8:
 
 /usr/lib/x86_64-linux-gnu/libwebp.so.7:
 
@@ -749,8 +762,6 @@ CMakeFiles/50_QR.dir/50_QR.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libvdpau.so.1:
 
-/usr/lib/x86_64-linux-gnu/libX11.so.6:
-
 /usr/lib/x86_64-linux-gnu/libdrm.so.2:
 
 /usr/lib/x86_64-linux-gnu/libOpenCL.so.1:
@@ -762,6 +773,12 @@ CMakeFiles/50_QR.dir/50_QR.cpp.o:
 /usr/lib/x86_64-linux-gnu/libmvec.so.1:
 
 /usr/lib/x86_64-linux-gnu/libgfortran.so.5:
+
+/usr/lib/x86_64-linux-gnu/libsystemd.so.0:
+
+/usr/lib/x86_64-linux-gnu/libv4lconvert.so.0:
+
+/usr/lib/x86_64-linux-gnu/libxcb.so.1:
 
 /usr/lib/x86_64-linux-gnu/libsharpyuv.so.0:
 
@@ -931,8 +948,6 @@ CMakeFiles/50_QR.dir/50_QR.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libXrender.so.1:
 
-/usr/lib/x86_64-linux-gnu/libxcb.so.1:
-
 /usr/lib/x86_64-linux-gnu/libxcb-render.so.0:
 
 /usr/lib/x86_64-linux-gnu/libxcb-shm.so.0:
@@ -956,6 +971,10 @@ CMakeFiles/50_QR.dir/50_QR.cpp.o:
 /usr/lib/x86_64-linux-gnu/libX11-xcb.so.1:
 
 /usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0:
+
+/usr/lib/x86_64-linux-gnu/libXau.so.6:
+
+/usr/lib/x86_64-linux-gnu/libXdmcp.so.6:
 
 /usr/lib/x86_64-linux-gnu/libacl.so.1:
 
@@ -1040,10 +1059,6 @@ CMakeFiles/50_QR.dir/50_QR.cpp.o:
 /usr/lib/x86_64-linux-gnu/libfribidi.so.0:
 
 /usr/lib/x86_64-linux-gnu/libthai.so.0:
-
-/usr/lib/x86_64-linux-gnu/libXau.so.6:
-
-/usr/lib/x86_64-linux-gnu/libXdmcp.so.6:
 
 /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1:
 
