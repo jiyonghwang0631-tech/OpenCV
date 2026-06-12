@@ -767,6 +767,58 @@ depend:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/build
 .PHONY : 53_matching/fast
 
+#=============================================================================
+# Target rules for targets named 54_knnplane
+
+# Build rule for target.
+54_knnplane: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 54_knnplane
+.PHONY : 54_knnplane
+
+# fast build rule for target.
+54_knnplane/fast:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/54_knnplane.dir/build.make part6/CMakeFiles/54_knnplane.dir/build
+.PHONY : 54_knnplane/fast
+
+#=============================================================================
+# Target rules for targets named 55_knndigit
+
+# Build rule for target.
+55_knndigit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 55_knndigit
+.PHONY : 55_knndigit
+
+# fast build rule for target.
+55_knndigit/fast:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/55_knndigit.dir/build.make part6/CMakeFiles/55_knndigit.dir/build
+.PHONY : 55_knndigit/fast
+
+#=============================================================================
+# Target rules for targets named 56_handpose
+
+# Build rule for target.
+56_handpose: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 56_handpose
+.PHONY : 56_handpose
+
+# fast build rule for target.
+56_handpose/fast:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/56_handpose.dir/build.make part6/CMakeFiles/56_handpose.dir/build
+.PHONY : 56_handpose/fast
+
+#=============================================================================
+# Target rules for targets named classify
+
+# Build rule for target.
+classify: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 classify
+.PHONY : classify
+
+# fast build rule for target.
+classify/fast:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/classify.dir/build.make part6/CMakeFiles/classify.dir/build
+.PHONY : classify/fast
+
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
 
@@ -969,6 +1021,10 @@ help:
 	@echo "... 51_corner"
 	@echo "... 52_orb"
 	@echo "... 53_matching"
+	@echo "... 54_knnplane"
+	@echo "... 55_knndigit"
+	@echo "... 56_handpose"
+	@echo "... classify"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"

@@ -1,0 +1,437 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/09_videoSave.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/10_drawing.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/11_drawing_example.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/12_drawing_example2.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/13_font.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/15_Keyboard.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/16_tickmeter.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/17_mouse.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/18_mouse_example.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/19_trackbar.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/20_filestorage.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/21_filestorage2.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/22_mask.cpp"
+			]
+		},
+		{
+			"expression" : "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/23_brightness.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/24_contrast.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/25_histogram.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/26_arithmetic.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/27_embossing.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/28_blurr.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/29_sharpening.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/30_bilateral.cpp"
+			]
+		},
+		{
+			"expression" : "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/31_affine.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/32_perspecting.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/33_persepcting_example.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/34_persepcting_example02.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/35_sobel.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/36_canny.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/37_hougline.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/38_honglineP.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/39_color_split.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/40_inrange.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/41.inrange_example.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/42_threshold.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/43_morplogy.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/44_labeling.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/45_polygon.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/46_paper_posit.cpp"
+			]
+		},
+		{
+			"expression" : "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/47_cascade.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/48_cascade_example.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/49_hog.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/50_QR.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/51_corner.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/52_orb.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/53_matching.cpp"
+			]
+		},
+		{
+			"expression" : "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/54_knnplane.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/55_knndigit.cpp",
+				"/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/56_handpose.cpp"
+			]
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.2.3/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.2.3/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Linker/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake"
+		},
+		{
+			"path" : "part2/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "part3/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "part4/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "part5/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "part6/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-4.2/Modules/FindPackageMessage.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build",
+		"source" : "/home/korea_hrd_1_2/OpenCV/OpenCV/Example"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

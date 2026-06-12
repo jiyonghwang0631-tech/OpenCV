@@ -274,6 +274,15 @@ opencv_cpp_part5_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 opencv_cpp_part5_SOURCE_DIR:STATIC=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5
 
+//Value Computed by CMake
+opencv_cpp_part6_BINARY_DIR:STATIC=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part6
+
+//Value Computed by CMake
+opencv_cpp_part6_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+opencv_cpp_part6_SOURCE_DIR:STATIC=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6
+
 //Path to a library.
 pkgcfg_lib_ZBAR_zbar:FILEPATH=/usr/lib/x86_64-linux-gnu/libzbar.so
 
@@ -382,7 +391,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

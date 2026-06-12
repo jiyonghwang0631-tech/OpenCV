@@ -1,0 +1,11 @@
+모델 파일은 용량이 크므로 Git에 포함하지 않고 직접 내려받습니다.
+
+GoogLeNet 모델:
+wget -O bvlc_googlenet.caffemodel \
+  http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
+
+OpenPose 손 모델:
+wget -O YOLOx/pose_iter_102000.caffemodel \
+  https://huggingface.co/camenduru/openpose/resolve/5e17f6ad43ab415a0114537541a8d37d2503424f/models/hand/pose_iter_102000.caffemodel
+
+각 명령은 이 파일이 있는 classify 폴더에서 실행합니다.

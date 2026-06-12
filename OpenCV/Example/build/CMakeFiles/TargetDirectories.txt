@@ -58,3 +58,9 @@
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/53_matching.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/edit_cache.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/rebuild_cache.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part6/CMakeFiles/54_knnplane.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part6/CMakeFiles/55_knndigit.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part6/CMakeFiles/56_handpose.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part6/CMakeFiles/classify.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part6/CMakeFiles/edit_cache.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part6/CMakeFiles/rebuild_cache.dir

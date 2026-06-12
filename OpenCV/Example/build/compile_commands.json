@@ -298,5 +298,29 @@
   "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/53_matching.dir/53_matching.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/53_matching.cpp",
   "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/53_matching.cpp",
   "output": "part5/CMakeFiles/53_matching.dir/53_matching.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part6",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/54_knnplane.dir/54_knnplane.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/54_knnplane.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/54_knnplane.cpp",
+  "output": "part6/CMakeFiles/54_knnplane.dir/54_knnplane.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part6",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/55_knndigit.dir/55_knndigit.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/55_knndigit.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/55_knndigit.cpp",
+  "output": "part6/CMakeFiles/55_knndigit.dir/55_knndigit.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part6",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/56_handpose.dir/56_handpose.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/56_handpose.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/56_handpose.cpp",
+  "output": "part6/CMakeFiles/56_handpose.dir/56_handpose.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part6",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/classify.dir/classify/classify.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/classify/classify.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part6/classify/classify.cpp",
+  "output": "part6/CMakeFiles/classify.dir/classify/classify.cpp.o"
 }
 ]

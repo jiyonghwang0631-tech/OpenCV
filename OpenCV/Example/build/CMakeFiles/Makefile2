@@ -73,6 +73,7 @@ all: part2/all
 all: part3/all
 all: part4/all
 all: part5/all
+all: part6/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -86,6 +87,7 @@ codegen: part2/codegen
 codegen: part3/codegen
 codegen: part4/codegen
 codegen: part5/codegen
+codegen: part6/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -93,6 +95,7 @@ preinstall: part2/preinstall
 preinstall: part3/preinstall
 preinstall: part4/preinstall
 preinstall: part5/preinstall
+preinstall: part6/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -106,6 +109,7 @@ clean: part2/clean
 clean: part3/clean
 clean: part4/clean
 clean: part5/clean
+clean: part6/clean
 .PHONY : clean
 
 #=============================================================================
@@ -305,18 +309,46 @@ part5/clean: part5/CMakeFiles/53_matching.dir/clean
 .PHONY : part5/clean
 
 #=============================================================================
+# Directory level rules for directory part6
+
+# Recursive "all" directory target.
+part6/all: part6/CMakeFiles/54_knnplane.dir/all
+part6/all: part6/CMakeFiles/55_knndigit.dir/all
+part6/all: part6/CMakeFiles/56_handpose.dir/all
+part6/all: part6/CMakeFiles/classify.dir/all
+.PHONY : part6/all
+
+# Recursive "codegen" directory target.
+part6/codegen: part6/CMakeFiles/54_knnplane.dir/codegen
+part6/codegen: part6/CMakeFiles/55_knndigit.dir/codegen
+part6/codegen: part6/CMakeFiles/56_handpose.dir/codegen
+part6/codegen: part6/CMakeFiles/classify.dir/codegen
+.PHONY : part6/codegen
+
+# Recursive "preinstall" directory target.
+part6/preinstall:
+.PHONY : part6/preinstall
+
+# Recursive "clean" directory target.
+part6/clean: part6/CMakeFiles/54_knnplane.dir/clean
+part6/clean: part6/CMakeFiles/55_knndigit.dir/clean
+part6/clean: part6/CMakeFiles/56_handpose.dir/clean
+part6/clean: part6/CMakeFiles/classify.dir/clean
+.PHONY : part6/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/01_helloWorld.dir
 
 # All Build rule for target.
 CMakeFiles/01_helloWorld.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_helloWorld.dir/build.make CMakeFiles/01_helloWorld.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_helloWorld.dir/build.make CMakeFiles/01_helloWorld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=1,2 "Built target 01_helloWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=1 "Built target 01_helloWorld"
 .PHONY : CMakeFiles/01_helloWorld.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/01_helloWorld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/01_helloWorld.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
 .PHONY : CMakeFiles/01_helloWorld.dir/rule
@@ -328,7 +360,7 @@ CMakeFiles/01_helloWorld.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/01_helloWorld.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_helloWorld.dir/build.make CMakeFiles/01_helloWorld.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=1,2 "Finished codegen for target 01_helloWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=1 "Finished codegen for target 01_helloWorld"
 .PHONY : CMakeFiles/01_helloWorld.dir/codegen
 
 # clean rule for target.
@@ -343,7 +375,7 @@ CMakeFiles/01_helloWorld.dir/clean:
 CMakeFiles/02_basicOp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_basicOp.dir/build.make CMakeFiles/02_basicOp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_basicOp.dir/build.make CMakeFiles/02_basicOp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=3,4 "Built target 02_basicOp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=2,3 "Built target 02_basicOp"
 .PHONY : CMakeFiles/02_basicOp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -360,7 +392,7 @@ CMakeFiles/02_basicOp.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/02_basicOp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_basicOp.dir/build.make CMakeFiles/02_basicOp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=3,4 "Finished codegen for target 02_basicOp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=2,3 "Finished codegen for target 02_basicOp"
 .PHONY : CMakeFiles/02_basicOp.dir/codegen
 
 # clean rule for target.
@@ -375,7 +407,7 @@ CMakeFiles/02_basicOp.dir/clean:
 CMakeFiles/03_MatOP.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=5,6 "Built target 03_MatOP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=4,5 "Built target 03_MatOP"
 .PHONY : CMakeFiles/03_MatOP.dir/all
 
 # Build rule for subdir invocation for target.
@@ -392,7 +424,7 @@ CMakeFiles/03_MatOP.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/03_MatOP.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_MatOP.dir/build.make CMakeFiles/03_MatOP.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=5,6 "Finished codegen for target 03_MatOP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=4,5 "Finished codegen for target 03_MatOP"
 .PHONY : CMakeFiles/03_MatOP.dir/codegen
 
 # clean rule for target.
@@ -407,7 +439,7 @@ CMakeFiles/03_MatOP.dir/clean:
 CMakeFiles/04_inputArray.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_inputArray.dir/build.make CMakeFiles/04_inputArray.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_inputArray.dir/build.make CMakeFiles/04_inputArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=7,8 "Built target 04_inputArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=6,7 "Built target 04_inputArray"
 .PHONY : CMakeFiles/04_inputArray.dir/all
 
 # Build rule for subdir invocation for target.
@@ -424,7 +456,7 @@ CMakeFiles/04_inputArray.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/04_inputArray.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_inputArray.dir/build.make CMakeFiles/04_inputArray.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=7,8 "Finished codegen for target 04_inputArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=6,7 "Finished codegen for target 04_inputArray"
 .PHONY : CMakeFiles/04_inputArray.dir/codegen
 
 # clean rule for target.
@@ -439,7 +471,7 @@ CMakeFiles/04_inputArray.dir/clean:
 CMakeFiles/05_MatOp2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_MatOp2.dir/build.make CMakeFiles/05_MatOp2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_MatOp2.dir/build.make CMakeFiles/05_MatOp2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=9,10 "Built target 05_MatOp2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=8,9 "Built target 05_MatOp2"
 .PHONY : CMakeFiles/05_MatOp2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -456,7 +488,7 @@ CMakeFiles/05_MatOp2.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/05_MatOp2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_MatOp2.dir/build.make CMakeFiles/05_MatOp2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=9,10 "Finished codegen for target 05_MatOp2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=8,9 "Finished codegen for target 05_MatOp2"
 .PHONY : CMakeFiles/05_MatOp2.dir/codegen
 
 # clean rule for target.
@@ -471,7 +503,7 @@ CMakeFiles/05_MatOp2.dir/clean:
 CMakeFiles/06_video.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_video.dir/build.make CMakeFiles/06_video.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_video.dir/build.make CMakeFiles/06_video.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=11,12 "Built target 06_video"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=10,11 "Built target 06_video"
 .PHONY : CMakeFiles/06_video.dir/all
 
 # Build rule for subdir invocation for target.
@@ -488,7 +520,7 @@ CMakeFiles/06_video.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/06_video.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_video.dir/build.make CMakeFiles/06_video.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=11,12 "Finished codegen for target 06_video"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=10,11 "Finished codegen for target 06_video"
 .PHONY : CMakeFiles/06_video.dir/codegen
 
 # clean rule for target.
@@ -503,12 +535,12 @@ CMakeFiles/06_video.dir/clean:
 part2/CMakeFiles/09_videoSave.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/09_videoSave.dir/build.make part2/CMakeFiles/09_videoSave.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/09_videoSave.dir/build.make part2/CMakeFiles/09_videoSave.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=13,14 "Built target 09_videoSave"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=12 "Built target 09_videoSave"
 .PHONY : part2/CMakeFiles/09_videoSave.dir/all
 
 # Build rule for subdir invocation for target.
 part2/CMakeFiles/09_videoSave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/09_videoSave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
 .PHONY : part2/CMakeFiles/09_videoSave.dir/rule
@@ -520,7 +552,7 @@ part2/CMakeFiles/09_videoSave.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/09_videoSave.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/09_videoSave.dir/build.make part2/CMakeFiles/09_videoSave.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=13,14 "Finished codegen for target 09_videoSave"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=12 "Finished codegen for target 09_videoSave"
 .PHONY : part2/CMakeFiles/09_videoSave.dir/codegen
 
 # clean rule for target.
@@ -535,7 +567,7 @@ part2/CMakeFiles/09_videoSave.dir/clean:
 part2/CMakeFiles/10_drawing.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/10_drawing.dir/build.make part2/CMakeFiles/10_drawing.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/10_drawing.dir/build.make part2/CMakeFiles/10_drawing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=15,16 "Built target 10_drawing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=13,14 "Built target 10_drawing"
 .PHONY : part2/CMakeFiles/10_drawing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -552,7 +584,7 @@ part2/CMakeFiles/10_drawing.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/10_drawing.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/10_drawing.dir/build.make part2/CMakeFiles/10_drawing.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=15,16 "Finished codegen for target 10_drawing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=13,14 "Finished codegen for target 10_drawing"
 .PHONY : part2/CMakeFiles/10_drawing.dir/codegen
 
 # clean rule for target.
@@ -567,7 +599,7 @@ part2/CMakeFiles/10_drawing.dir/clean:
 part2/CMakeFiles/11_drawing_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/11_drawing_example.dir/build.make part2/CMakeFiles/11_drawing_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/11_drawing_example.dir/build.make part2/CMakeFiles/11_drawing_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=17,18 "Built target 11_drawing_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=15,16 "Built target 11_drawing_example"
 .PHONY : part2/CMakeFiles/11_drawing_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -584,7 +616,7 @@ part2/CMakeFiles/11_drawing_example.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/11_drawing_example.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/11_drawing_example.dir/build.make part2/CMakeFiles/11_drawing_example.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=17,18 "Finished codegen for target 11_drawing_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=15,16 "Finished codegen for target 11_drawing_example"
 .PHONY : part2/CMakeFiles/11_drawing_example.dir/codegen
 
 # clean rule for target.
@@ -599,7 +631,7 @@ part2/CMakeFiles/11_drawing_example.dir/clean:
 part2/CMakeFiles/12_drawing_example2.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/12_drawing_example2.dir/build.make part2/CMakeFiles/12_drawing_example2.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/12_drawing_example2.dir/build.make part2/CMakeFiles/12_drawing_example2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=19,20 "Built target 12_drawing_example2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=17,18 "Built target 12_drawing_example2"
 .PHONY : part2/CMakeFiles/12_drawing_example2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -616,7 +648,7 @@ part2/CMakeFiles/12_drawing_example2.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/12_drawing_example2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/12_drawing_example2.dir/build.make part2/CMakeFiles/12_drawing_example2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=19,20 "Finished codegen for target 12_drawing_example2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=17,18 "Finished codegen for target 12_drawing_example2"
 .PHONY : part2/CMakeFiles/12_drawing_example2.dir/codegen
 
 # clean rule for target.
@@ -631,7 +663,7 @@ part2/CMakeFiles/12_drawing_example2.dir/clean:
 part2/CMakeFiles/13_font.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/13_font.dir/build.make part2/CMakeFiles/13_font.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/13_font.dir/build.make part2/CMakeFiles/13_font.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=21,22 "Built target 13_font"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=19,20 "Built target 13_font"
 .PHONY : part2/CMakeFiles/13_font.dir/all
 
 # Build rule for subdir invocation for target.
@@ -648,7 +680,7 @@ part2/CMakeFiles/13_font.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/13_font.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/13_font.dir/build.make part2/CMakeFiles/13_font.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=21,22 "Finished codegen for target 13_font"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=19,20 "Finished codegen for target 13_font"
 .PHONY : part2/CMakeFiles/13_font.dir/codegen
 
 # clean rule for target.
@@ -663,7 +695,7 @@ part2/CMakeFiles/13_font.dir/clean:
 part2/CMakeFiles/15_Keyboard.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/15_Keyboard.dir/build.make part2/CMakeFiles/15_Keyboard.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/15_Keyboard.dir/build.make part2/CMakeFiles/15_Keyboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=23,24 "Built target 15_Keyboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=21,22 "Built target 15_Keyboard"
 .PHONY : part2/CMakeFiles/15_Keyboard.dir/all
 
 # Build rule for subdir invocation for target.
@@ -680,7 +712,7 @@ part2/CMakeFiles/15_Keyboard.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/15_Keyboard.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/15_Keyboard.dir/build.make part2/CMakeFiles/15_Keyboard.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=23,24 "Finished codegen for target 15_Keyboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=21,22 "Finished codegen for target 15_Keyboard"
 .PHONY : part2/CMakeFiles/15_Keyboard.dir/codegen
 
 # clean rule for target.
@@ -695,7 +727,7 @@ part2/CMakeFiles/15_Keyboard.dir/clean:
 part2/CMakeFiles/16_tickmeter.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/16_tickmeter.dir/build.make part2/CMakeFiles/16_tickmeter.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/16_tickmeter.dir/build.make part2/CMakeFiles/16_tickmeter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=25,26 "Built target 16_tickmeter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=23,24 "Built target 16_tickmeter"
 .PHONY : part2/CMakeFiles/16_tickmeter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -712,7 +744,7 @@ part2/CMakeFiles/16_tickmeter.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/16_tickmeter.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/16_tickmeter.dir/build.make part2/CMakeFiles/16_tickmeter.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=25,26 "Finished codegen for target 16_tickmeter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=23,24 "Finished codegen for target 16_tickmeter"
 .PHONY : part2/CMakeFiles/16_tickmeter.dir/codegen
 
 # clean rule for target.
@@ -727,12 +759,12 @@ part2/CMakeFiles/16_tickmeter.dir/clean:
 part2/CMakeFiles/17_mouse.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/17_mouse.dir/build.make part2/CMakeFiles/17_mouse.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/17_mouse.dir/build.make part2/CMakeFiles/17_mouse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=27,28 "Built target 17_mouse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=25 "Built target 17_mouse"
 .PHONY : part2/CMakeFiles/17_mouse.dir/all
 
 # Build rule for subdir invocation for target.
 part2/CMakeFiles/17_mouse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2/CMakeFiles/17_mouse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
 .PHONY : part2/CMakeFiles/17_mouse.dir/rule
@@ -744,7 +776,7 @@ part2/CMakeFiles/17_mouse.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/17_mouse.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/17_mouse.dir/build.make part2/CMakeFiles/17_mouse.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=27,28 "Finished codegen for target 17_mouse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=25 "Finished codegen for target 17_mouse"
 .PHONY : part2/CMakeFiles/17_mouse.dir/codegen
 
 # clean rule for target.
@@ -759,7 +791,7 @@ part2/CMakeFiles/17_mouse.dir/clean:
 part2/CMakeFiles/18_mouse_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/18_mouse_example.dir/build.make part2/CMakeFiles/18_mouse_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/18_mouse_example.dir/build.make part2/CMakeFiles/18_mouse_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=29,30 "Built target 18_mouse_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=26,27 "Built target 18_mouse_example"
 .PHONY : part2/CMakeFiles/18_mouse_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -776,7 +808,7 @@ part2/CMakeFiles/18_mouse_example.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/18_mouse_example.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/18_mouse_example.dir/build.make part2/CMakeFiles/18_mouse_example.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=29,30 "Finished codegen for target 18_mouse_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=26,27 "Finished codegen for target 18_mouse_example"
 .PHONY : part2/CMakeFiles/18_mouse_example.dir/codegen
 
 # clean rule for target.
@@ -791,7 +823,7 @@ part2/CMakeFiles/18_mouse_example.dir/clean:
 part2/CMakeFiles/19_trackbar.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/19_trackbar.dir/build.make part2/CMakeFiles/19_trackbar.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/19_trackbar.dir/build.make part2/CMakeFiles/19_trackbar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=31,32 "Built target 19_trackbar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=28,29 "Built target 19_trackbar"
 .PHONY : part2/CMakeFiles/19_trackbar.dir/all
 
 # Build rule for subdir invocation for target.
@@ -808,7 +840,7 @@ part2/CMakeFiles/19_trackbar.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/19_trackbar.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/19_trackbar.dir/build.make part2/CMakeFiles/19_trackbar.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=31,32 "Finished codegen for target 19_trackbar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=28,29 "Finished codegen for target 19_trackbar"
 .PHONY : part2/CMakeFiles/19_trackbar.dir/codegen
 
 # clean rule for target.
@@ -823,7 +855,7 @@ part2/CMakeFiles/19_trackbar.dir/clean:
 part2/CMakeFiles/20_filestorage.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/20_filestorage.dir/build.make part2/CMakeFiles/20_filestorage.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/20_filestorage.dir/build.make part2/CMakeFiles/20_filestorage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=33,34 "Built target 20_filestorage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=30,31 "Built target 20_filestorage"
 .PHONY : part2/CMakeFiles/20_filestorage.dir/all
 
 # Build rule for subdir invocation for target.
@@ -840,7 +872,7 @@ part2/CMakeFiles/20_filestorage.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/20_filestorage.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/20_filestorage.dir/build.make part2/CMakeFiles/20_filestorage.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=33,34 "Finished codegen for target 20_filestorage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=30,31 "Finished codegen for target 20_filestorage"
 .PHONY : part2/CMakeFiles/20_filestorage.dir/codegen
 
 # clean rule for target.
@@ -855,7 +887,7 @@ part2/CMakeFiles/20_filestorage.dir/clean:
 part2/CMakeFiles/21_filestorage2.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/21_filestorage2.dir/build.make part2/CMakeFiles/21_filestorage2.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/21_filestorage2.dir/build.make part2/CMakeFiles/21_filestorage2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=35,36 "Built target 21_filestorage2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=32,33 "Built target 21_filestorage2"
 .PHONY : part2/CMakeFiles/21_filestorage2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -872,7 +904,7 @@ part2/CMakeFiles/21_filestorage2.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/21_filestorage2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/21_filestorage2.dir/build.make part2/CMakeFiles/21_filestorage2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=35,36 "Finished codegen for target 21_filestorage2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=32,33 "Finished codegen for target 21_filestorage2"
 .PHONY : part2/CMakeFiles/21_filestorage2.dir/codegen
 
 # clean rule for target.
@@ -887,7 +919,7 @@ part2/CMakeFiles/21_filestorage2.dir/clean:
 part2/CMakeFiles/22_mask.dir/all:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/depend
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=37,38 "Built target 22_mask"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=34,35 "Built target 22_mask"
 .PHONY : part2/CMakeFiles/22_mask.dir/all
 
 # Build rule for subdir invocation for target.
@@ -904,7 +936,7 @@ part2/CMakeFiles/22_mask.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part2/CMakeFiles/22_mask.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part2/CMakeFiles/22_mask.dir/build.make part2/CMakeFiles/22_mask.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=37,38 "Finished codegen for target 22_mask"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=34,35 "Finished codegen for target 22_mask"
 .PHONY : part2/CMakeFiles/22_mask.dir/codegen
 
 # clean rule for target.
@@ -919,7 +951,7 @@ part2/CMakeFiles/22_mask.dir/clean:
 part3/CMakeFiles/23_brightness.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/23_brightness.dir/build.make part3/CMakeFiles/23_brightness.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/23_brightness.dir/build.make part3/CMakeFiles/23_brightness.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=39,40 "Built target 23_brightness"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=36,37 "Built target 23_brightness"
 .PHONY : part3/CMakeFiles/23_brightness.dir/all
 
 # Build rule for subdir invocation for target.
@@ -936,7 +968,7 @@ part3/CMakeFiles/23_brightness.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part3/CMakeFiles/23_brightness.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/23_brightness.dir/build.make part3/CMakeFiles/23_brightness.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=39,40 "Finished codegen for target 23_brightness"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=36,37 "Finished codegen for target 23_brightness"
 .PHONY : part3/CMakeFiles/23_brightness.dir/codegen
 
 # clean rule for target.
@@ -951,12 +983,12 @@ part3/CMakeFiles/23_brightness.dir/clean:
 part3/CMakeFiles/24_contrast.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/24_contrast.dir/build.make part3/CMakeFiles/24_contrast.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/24_contrast.dir/build.make part3/CMakeFiles/24_contrast.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=41,42 "Built target 24_contrast"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=38 "Built target 24_contrast"
 .PHONY : part3/CMakeFiles/24_contrast.dir/all
 
 # Build rule for subdir invocation for target.
 part3/CMakeFiles/24_contrast.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/CMakeFiles/24_contrast.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
 .PHONY : part3/CMakeFiles/24_contrast.dir/rule
@@ -968,7 +1000,7 @@ part3/CMakeFiles/24_contrast.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part3/CMakeFiles/24_contrast.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/24_contrast.dir/build.make part3/CMakeFiles/24_contrast.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=41,42 "Finished codegen for target 24_contrast"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=38 "Finished codegen for target 24_contrast"
 .PHONY : part3/CMakeFiles/24_contrast.dir/codegen
 
 # clean rule for target.
@@ -983,7 +1015,7 @@ part3/CMakeFiles/24_contrast.dir/clean:
 part3/CMakeFiles/25_histogram.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/25_histogram.dir/build.make part3/CMakeFiles/25_histogram.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/25_histogram.dir/build.make part3/CMakeFiles/25_histogram.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=43,44 "Built target 25_histogram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=39,40 "Built target 25_histogram"
 .PHONY : part3/CMakeFiles/25_histogram.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1000,7 +1032,7 @@ part3/CMakeFiles/25_histogram.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part3/CMakeFiles/25_histogram.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/25_histogram.dir/build.make part3/CMakeFiles/25_histogram.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=43,44 "Finished codegen for target 25_histogram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=39,40 "Finished codegen for target 25_histogram"
 .PHONY : part3/CMakeFiles/25_histogram.dir/codegen
 
 # clean rule for target.
@@ -1015,7 +1047,7 @@ part3/CMakeFiles/25_histogram.dir/clean:
 part3/CMakeFiles/26_arithmetic.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/26_arithmetic.dir/build.make part3/CMakeFiles/26_arithmetic.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/26_arithmetic.dir/build.make part3/CMakeFiles/26_arithmetic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=45,46 "Built target 26_arithmetic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=41,42 "Built target 26_arithmetic"
 .PHONY : part3/CMakeFiles/26_arithmetic.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1032,7 +1064,7 @@ part3/CMakeFiles/26_arithmetic.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part3/CMakeFiles/26_arithmetic.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/26_arithmetic.dir/build.make part3/CMakeFiles/26_arithmetic.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=45,46 "Finished codegen for target 26_arithmetic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=41,42 "Finished codegen for target 26_arithmetic"
 .PHONY : part3/CMakeFiles/26_arithmetic.dir/codegen
 
 # clean rule for target.
@@ -1047,7 +1079,7 @@ part3/CMakeFiles/26_arithmetic.dir/clean:
 part3/CMakeFiles/27_embossing.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/27_embossing.dir/build.make part3/CMakeFiles/27_embossing.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/27_embossing.dir/build.make part3/CMakeFiles/27_embossing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=47,48 "Built target 27_embossing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=43,44 "Built target 27_embossing"
 .PHONY : part3/CMakeFiles/27_embossing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1064,7 +1096,7 @@ part3/CMakeFiles/27_embossing.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part3/CMakeFiles/27_embossing.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/27_embossing.dir/build.make part3/CMakeFiles/27_embossing.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=47,48 "Finished codegen for target 27_embossing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=43,44 "Finished codegen for target 27_embossing"
 .PHONY : part3/CMakeFiles/27_embossing.dir/codegen
 
 # clean rule for target.
@@ -1079,7 +1111,7 @@ part3/CMakeFiles/27_embossing.dir/clean:
 part3/CMakeFiles/28_blurr.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/28_blurr.dir/build.make part3/CMakeFiles/28_blurr.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/28_blurr.dir/build.make part3/CMakeFiles/28_blurr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=49,50 "Built target 28_blurr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=45,46 "Built target 28_blurr"
 .PHONY : part3/CMakeFiles/28_blurr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1096,7 +1128,7 @@ part3/CMakeFiles/28_blurr.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part3/CMakeFiles/28_blurr.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/28_blurr.dir/build.make part3/CMakeFiles/28_blurr.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=49,50 "Finished codegen for target 28_blurr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=45,46 "Finished codegen for target 28_blurr"
 .PHONY : part3/CMakeFiles/28_blurr.dir/codegen
 
 # clean rule for target.
@@ -1111,7 +1143,7 @@ part3/CMakeFiles/28_blurr.dir/clean:
 part3/CMakeFiles/29_sharpening.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/29_sharpening.dir/build.make part3/CMakeFiles/29_sharpening.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/29_sharpening.dir/build.make part3/CMakeFiles/29_sharpening.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=51,52 "Built target 29_sharpening"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=47,48 "Built target 29_sharpening"
 .PHONY : part3/CMakeFiles/29_sharpening.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1128,7 +1160,7 @@ part3/CMakeFiles/29_sharpening.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part3/CMakeFiles/29_sharpening.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/29_sharpening.dir/build.make part3/CMakeFiles/29_sharpening.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=51,52 "Finished codegen for target 29_sharpening"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=47,48 "Finished codegen for target 29_sharpening"
 .PHONY : part3/CMakeFiles/29_sharpening.dir/codegen
 
 # clean rule for target.
@@ -1143,7 +1175,7 @@ part3/CMakeFiles/29_sharpening.dir/clean:
 part3/CMakeFiles/30_bilateral.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/30_bilateral.dir/build.make part3/CMakeFiles/30_bilateral.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/30_bilateral.dir/build.make part3/CMakeFiles/30_bilateral.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=53,54 "Built target 30_bilateral"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=49,50 "Built target 30_bilateral"
 .PHONY : part3/CMakeFiles/30_bilateral.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1160,7 +1192,7 @@ part3/CMakeFiles/30_bilateral.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part3/CMakeFiles/30_bilateral.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part3/CMakeFiles/30_bilateral.dir/build.make part3/CMakeFiles/30_bilateral.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=53,54 "Finished codegen for target 30_bilateral"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=49,50 "Finished codegen for target 30_bilateral"
 .PHONY : part3/CMakeFiles/30_bilateral.dir/codegen
 
 # clean rule for target.
@@ -1175,12 +1207,12 @@ part3/CMakeFiles/30_bilateral.dir/clean:
 part4/CMakeFiles/31_affine.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/31_affine.dir/build.make part4/CMakeFiles/31_affine.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/31_affine.dir/build.make part4/CMakeFiles/31_affine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=55,56 "Built target 31_affine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=51 "Built target 31_affine"
 .PHONY : part4/CMakeFiles/31_affine.dir/all
 
 # Build rule for subdir invocation for target.
 part4/CMakeFiles/31_affine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/31_affine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
 .PHONY : part4/CMakeFiles/31_affine.dir/rule
@@ -1192,7 +1224,7 @@ part4/CMakeFiles/31_affine.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/31_affine.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/31_affine.dir/build.make part4/CMakeFiles/31_affine.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=55,56 "Finished codegen for target 31_affine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=51 "Finished codegen for target 31_affine"
 .PHONY : part4/CMakeFiles/31_affine.dir/codegen
 
 # clean rule for target.
@@ -1207,7 +1239,7 @@ part4/CMakeFiles/31_affine.dir/clean:
 part4/CMakeFiles/32_perspecting.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/32_perspecting.dir/build.make part4/CMakeFiles/32_perspecting.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/32_perspecting.dir/build.make part4/CMakeFiles/32_perspecting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=57,58 "Built target 32_perspecting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=52,53 "Built target 32_perspecting"
 .PHONY : part4/CMakeFiles/32_perspecting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1224,7 +1256,7 @@ part4/CMakeFiles/32_perspecting.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/32_perspecting.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/32_perspecting.dir/build.make part4/CMakeFiles/32_perspecting.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=57,58 "Finished codegen for target 32_perspecting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=52,53 "Finished codegen for target 32_perspecting"
 .PHONY : part4/CMakeFiles/32_perspecting.dir/codegen
 
 # clean rule for target.
@@ -1239,7 +1271,7 @@ part4/CMakeFiles/32_perspecting.dir/clean:
 part4/CMakeFiles/33_persepcting_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/33_persepcting_example.dir/build.make part4/CMakeFiles/33_persepcting_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/33_persepcting_example.dir/build.make part4/CMakeFiles/33_persepcting_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=59,60 "Built target 33_persepcting_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=54,55 "Built target 33_persepcting_example"
 .PHONY : part4/CMakeFiles/33_persepcting_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1256,7 +1288,7 @@ part4/CMakeFiles/33_persepcting_example.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/33_persepcting_example.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/33_persepcting_example.dir/build.make part4/CMakeFiles/33_persepcting_example.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=59,60 "Finished codegen for target 33_persepcting_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=54,55 "Finished codegen for target 33_persepcting_example"
 .PHONY : part4/CMakeFiles/33_persepcting_example.dir/codegen
 
 # clean rule for target.
@@ -1271,7 +1303,7 @@ part4/CMakeFiles/33_persepcting_example.dir/clean:
 part4/CMakeFiles/34_persepcting_example02.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=61,62 "Built target 34_persepcting_example02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=56,57 "Built target 34_persepcting_example02"
 .PHONY : part4/CMakeFiles/34_persepcting_example02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1288,7 +1320,7 @@ part4/CMakeFiles/34_persepcting_example02.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/34_persepcting_example02.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/34_persepcting_example02.dir/build.make part4/CMakeFiles/34_persepcting_example02.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=61,62 "Finished codegen for target 34_persepcting_example02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=56,57 "Finished codegen for target 34_persepcting_example02"
 .PHONY : part4/CMakeFiles/34_persepcting_example02.dir/codegen
 
 # clean rule for target.
@@ -1303,7 +1335,7 @@ part4/CMakeFiles/34_persepcting_example02.dir/clean:
 part4/CMakeFiles/35_sobel.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/35_sobel.dir/build.make part4/CMakeFiles/35_sobel.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/35_sobel.dir/build.make part4/CMakeFiles/35_sobel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=63,64 "Built target 35_sobel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=58,59 "Built target 35_sobel"
 .PHONY : part4/CMakeFiles/35_sobel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1320,7 +1352,7 @@ part4/CMakeFiles/35_sobel.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/35_sobel.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/35_sobel.dir/build.make part4/CMakeFiles/35_sobel.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=63,64 "Finished codegen for target 35_sobel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=58,59 "Finished codegen for target 35_sobel"
 .PHONY : part4/CMakeFiles/35_sobel.dir/codegen
 
 # clean rule for target.
@@ -1335,7 +1367,7 @@ part4/CMakeFiles/35_sobel.dir/clean:
 part4/CMakeFiles/36_canny.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/36_canny.dir/build.make part4/CMakeFiles/36_canny.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/36_canny.dir/build.make part4/CMakeFiles/36_canny.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=65,66 "Built target 36_canny"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=60,61 "Built target 36_canny"
 .PHONY : part4/CMakeFiles/36_canny.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1352,7 +1384,7 @@ part4/CMakeFiles/36_canny.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/36_canny.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/36_canny.dir/build.make part4/CMakeFiles/36_canny.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=65,66 "Finished codegen for target 36_canny"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=60,61 "Finished codegen for target 36_canny"
 .PHONY : part4/CMakeFiles/36_canny.dir/codegen
 
 # clean rule for target.
@@ -1367,12 +1399,12 @@ part4/CMakeFiles/36_canny.dir/clean:
 part4/CMakeFiles/37_hougline.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/37_hougline.dir/build.make part4/CMakeFiles/37_hougline.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/37_hougline.dir/build.make part4/CMakeFiles/37_hougline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=67,68 "Built target 37_hougline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=62 "Built target 37_hougline"
 .PHONY : part4/CMakeFiles/37_hougline.dir/all
 
 # Build rule for subdir invocation for target.
 part4/CMakeFiles/37_hougline.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/37_hougline.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
 .PHONY : part4/CMakeFiles/37_hougline.dir/rule
@@ -1384,7 +1416,7 @@ part4/CMakeFiles/37_hougline.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/37_hougline.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/37_hougline.dir/build.make part4/CMakeFiles/37_hougline.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=67,68 "Finished codegen for target 37_hougline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=62 "Finished codegen for target 37_hougline"
 .PHONY : part4/CMakeFiles/37_hougline.dir/codegen
 
 # clean rule for target.
@@ -1399,7 +1431,7 @@ part4/CMakeFiles/37_hougline.dir/clean:
 part4/CMakeFiles/38_honglineP.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/38_honglineP.dir/build.make part4/CMakeFiles/38_honglineP.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/38_honglineP.dir/build.make part4/CMakeFiles/38_honglineP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=69,70 "Built target 38_honglineP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=63,64 "Built target 38_honglineP"
 .PHONY : part4/CMakeFiles/38_honglineP.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1416,7 +1448,7 @@ part4/CMakeFiles/38_honglineP.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/38_honglineP.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/38_honglineP.dir/build.make part4/CMakeFiles/38_honglineP.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=69,70 "Finished codegen for target 38_honglineP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=63,64 "Finished codegen for target 38_honglineP"
 .PHONY : part4/CMakeFiles/38_honglineP.dir/codegen
 
 # clean rule for target.
@@ -1431,7 +1463,7 @@ part4/CMakeFiles/38_honglineP.dir/clean:
 part4/CMakeFiles/39_color_split.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/39_color_split.dir/build.make part4/CMakeFiles/39_color_split.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/39_color_split.dir/build.make part4/CMakeFiles/39_color_split.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=71,72 "Built target 39_color_split"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=65,66 "Built target 39_color_split"
 .PHONY : part4/CMakeFiles/39_color_split.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1448,7 +1480,7 @@ part4/CMakeFiles/39_color_split.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/39_color_split.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/39_color_split.dir/build.make part4/CMakeFiles/39_color_split.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=71,72 "Finished codegen for target 39_color_split"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=65,66 "Finished codegen for target 39_color_split"
 .PHONY : part4/CMakeFiles/39_color_split.dir/codegen
 
 # clean rule for target.
@@ -1463,7 +1495,7 @@ part4/CMakeFiles/39_color_split.dir/clean:
 part4/CMakeFiles/40_inrange.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/40_inrange.dir/build.make part4/CMakeFiles/40_inrange.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/40_inrange.dir/build.make part4/CMakeFiles/40_inrange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=73,74 "Built target 40_inrange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=67,68 "Built target 40_inrange"
 .PHONY : part4/CMakeFiles/40_inrange.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1480,7 +1512,7 @@ part4/CMakeFiles/40_inrange.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/40_inrange.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/40_inrange.dir/build.make part4/CMakeFiles/40_inrange.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=73,74 "Finished codegen for target 40_inrange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=67,68 "Finished codegen for target 40_inrange"
 .PHONY : part4/CMakeFiles/40_inrange.dir/codegen
 
 # clean rule for target.
@@ -1495,7 +1527,7 @@ part4/CMakeFiles/40_inrange.dir/clean:
 part4/CMakeFiles/41.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/41.dir/build.make part4/CMakeFiles/41.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/41.dir/build.make part4/CMakeFiles/41.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=75,76 "Built target 41"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=69,70 "Built target 41"
 .PHONY : part4/CMakeFiles/41.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1512,7 +1544,7 @@ part4/CMakeFiles/41.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/41.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/41.dir/build.make part4/CMakeFiles/41.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=75,76 "Finished codegen for target 41"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=69,70 "Finished codegen for target 41"
 .PHONY : part4/CMakeFiles/41.dir/codegen
 
 # clean rule for target.
@@ -1527,7 +1559,7 @@ part4/CMakeFiles/41.dir/clean:
 part4/CMakeFiles/42_threshold.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/42_threshold.dir/build.make part4/CMakeFiles/42_threshold.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/42_threshold.dir/build.make part4/CMakeFiles/42_threshold.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=77,78 "Built target 42_threshold"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=71,72 "Built target 42_threshold"
 .PHONY : part4/CMakeFiles/42_threshold.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1544,7 +1576,7 @@ part4/CMakeFiles/42_threshold.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/42_threshold.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/42_threshold.dir/build.make part4/CMakeFiles/42_threshold.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=77,78 "Finished codegen for target 42_threshold"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=71,72 "Finished codegen for target 42_threshold"
 .PHONY : part4/CMakeFiles/42_threshold.dir/codegen
 
 # clean rule for target.
@@ -1559,7 +1591,7 @@ part4/CMakeFiles/42_threshold.dir/clean:
 part4/CMakeFiles/43_morplogy.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/43_morplogy.dir/build.make part4/CMakeFiles/43_morplogy.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/43_morplogy.dir/build.make part4/CMakeFiles/43_morplogy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=79,80 "Built target 43_morplogy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=73,74 "Built target 43_morplogy"
 .PHONY : part4/CMakeFiles/43_morplogy.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1576,7 +1608,7 @@ part4/CMakeFiles/43_morplogy.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/43_morplogy.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/43_morplogy.dir/build.make part4/CMakeFiles/43_morplogy.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=79,80 "Finished codegen for target 43_morplogy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=73,74 "Finished codegen for target 43_morplogy"
 .PHONY : part4/CMakeFiles/43_morplogy.dir/codegen
 
 # clean rule for target.
@@ -1591,12 +1623,12 @@ part4/CMakeFiles/43_morplogy.dir/clean:
 part4/CMakeFiles/44_labeling.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/44_labeling.dir/build.make part4/CMakeFiles/44_labeling.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/44_labeling.dir/build.make part4/CMakeFiles/44_labeling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=81,82 "Built target 44_labeling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=75 "Built target 44_labeling"
 .PHONY : part4/CMakeFiles/44_labeling.dir/all
 
 # Build rule for subdir invocation for target.
 part4/CMakeFiles/44_labeling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part4/CMakeFiles/44_labeling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
 .PHONY : part4/CMakeFiles/44_labeling.dir/rule
@@ -1608,7 +1640,7 @@ part4/CMakeFiles/44_labeling.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/44_labeling.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/44_labeling.dir/build.make part4/CMakeFiles/44_labeling.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=81,82 "Finished codegen for target 44_labeling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=75 "Finished codegen for target 44_labeling"
 .PHONY : part4/CMakeFiles/44_labeling.dir/codegen
 
 # clean rule for target.
@@ -1623,7 +1655,7 @@ part4/CMakeFiles/44_labeling.dir/clean:
 part4/CMakeFiles/45_polygon.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/45_polygon.dir/build.make part4/CMakeFiles/45_polygon.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/45_polygon.dir/build.make part4/CMakeFiles/45_polygon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=83,84 "Built target 45_polygon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=76,77 "Built target 45_polygon"
 .PHONY : part4/CMakeFiles/45_polygon.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1640,7 +1672,7 @@ part4/CMakeFiles/45_polygon.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/45_polygon.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/45_polygon.dir/build.make part4/CMakeFiles/45_polygon.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=83,84 "Finished codegen for target 45_polygon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=76,77 "Finished codegen for target 45_polygon"
 .PHONY : part4/CMakeFiles/45_polygon.dir/codegen
 
 # clean rule for target.
@@ -1655,7 +1687,7 @@ part4/CMakeFiles/45_polygon.dir/clean:
 part4/CMakeFiles/46_paper_posit.dir/all:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46_paper_posit.dir/build.make part4/CMakeFiles/46_paper_posit.dir/depend
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46_paper_posit.dir/build.make part4/CMakeFiles/46_paper_posit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=85,86 "Built target 46_paper_posit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=78,79 "Built target 46_paper_posit"
 .PHONY : part4/CMakeFiles/46_paper_posit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1672,7 +1704,7 @@ part4/CMakeFiles/46_paper_posit.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part4/CMakeFiles/46_paper_posit.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46_paper_posit.dir/build.make part4/CMakeFiles/46_paper_posit.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=85,86 "Finished codegen for target 46_paper_posit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=78,79 "Finished codegen for target 46_paper_posit"
 .PHONY : part4/CMakeFiles/46_paper_posit.dir/codegen
 
 # clean rule for target.
@@ -1687,7 +1719,7 @@ part4/CMakeFiles/46_paper_posit.dir/clean:
 part5/CMakeFiles/47_cascade.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/47_cascade.dir/build.make part5/CMakeFiles/47_cascade.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/47_cascade.dir/build.make part5/CMakeFiles/47_cascade.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=87,88 "Built target 47_cascade"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=80,81 "Built target 47_cascade"
 .PHONY : part5/CMakeFiles/47_cascade.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1704,7 +1736,7 @@ part5/CMakeFiles/47_cascade.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part5/CMakeFiles/47_cascade.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/47_cascade.dir/build.make part5/CMakeFiles/47_cascade.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=87,88 "Finished codegen for target 47_cascade"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=80,81 "Finished codegen for target 47_cascade"
 .PHONY : part5/CMakeFiles/47_cascade.dir/codegen
 
 # clean rule for target.
@@ -1719,7 +1751,7 @@ part5/CMakeFiles/47_cascade.dir/clean:
 part5/CMakeFiles/48_cascade_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/48_cascade_example.dir/build.make part5/CMakeFiles/48_cascade_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/48_cascade_example.dir/build.make part5/CMakeFiles/48_cascade_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=89,90 "Built target 48_cascade_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=82,83 "Built target 48_cascade_example"
 .PHONY : part5/CMakeFiles/48_cascade_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1736,7 +1768,7 @@ part5/CMakeFiles/48_cascade_example.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part5/CMakeFiles/48_cascade_example.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/48_cascade_example.dir/build.make part5/CMakeFiles/48_cascade_example.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=89,90 "Finished codegen for target 48_cascade_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=82,83 "Finished codegen for target 48_cascade_example"
 .PHONY : part5/CMakeFiles/48_cascade_example.dir/codegen
 
 # clean rule for target.
@@ -1751,7 +1783,7 @@ part5/CMakeFiles/48_cascade_example.dir/clean:
 part5/CMakeFiles/49_hog.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/49_hog.dir/build.make part5/CMakeFiles/49_hog.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/49_hog.dir/build.make part5/CMakeFiles/49_hog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=91,92 "Built target 49_hog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=84,85 "Built target 49_hog"
 .PHONY : part5/CMakeFiles/49_hog.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1768,7 +1800,7 @@ part5/CMakeFiles/49_hog.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part5/CMakeFiles/49_hog.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/49_hog.dir/build.make part5/CMakeFiles/49_hog.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=91,92 "Finished codegen for target 49_hog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=84,85 "Finished codegen for target 49_hog"
 .PHONY : part5/CMakeFiles/49_hog.dir/codegen
 
 # clean rule for target.
@@ -1783,7 +1815,7 @@ part5/CMakeFiles/49_hog.dir/clean:
 part5/CMakeFiles/50_QR.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/50_QR.dir/build.make part5/CMakeFiles/50_QR.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/50_QR.dir/build.make part5/CMakeFiles/50_QR.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=93,94 "Built target 50_QR"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=86,87 "Built target 50_QR"
 .PHONY : part5/CMakeFiles/50_QR.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1800,7 +1832,7 @@ part5/CMakeFiles/50_QR.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part5/CMakeFiles/50_QR.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/50_QR.dir/build.make part5/CMakeFiles/50_QR.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=93,94 "Finished codegen for target 50_QR"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=86,87 "Finished codegen for target 50_QR"
 .PHONY : part5/CMakeFiles/50_QR.dir/codegen
 
 # clean rule for target.
@@ -1815,12 +1847,12 @@ part5/CMakeFiles/50_QR.dir/clean:
 part5/CMakeFiles/51_corner.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/51_corner.dir/build.make part5/CMakeFiles/51_corner.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/51_corner.dir/build.make part5/CMakeFiles/51_corner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=95,96 "Built target 51_corner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=88 "Built target 51_corner"
 .PHONY : part5/CMakeFiles/51_corner.dir/all
 
 # Build rule for subdir invocation for target.
 part5/CMakeFiles/51_corner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part5/CMakeFiles/51_corner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
 .PHONY : part5/CMakeFiles/51_corner.dir/rule
@@ -1832,7 +1864,7 @@ part5/CMakeFiles/51_corner.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part5/CMakeFiles/51_corner.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/51_corner.dir/build.make part5/CMakeFiles/51_corner.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=95,96 "Finished codegen for target 51_corner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=88 "Finished codegen for target 51_corner"
 .PHONY : part5/CMakeFiles/51_corner.dir/codegen
 
 # clean rule for target.
@@ -1847,7 +1879,7 @@ part5/CMakeFiles/51_corner.dir/clean:
 part5/CMakeFiles/52_orb.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/52_orb.dir/build.make part5/CMakeFiles/52_orb.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/52_orb.dir/build.make part5/CMakeFiles/52_orb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=97,98 "Built target 52_orb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=89,90 "Built target 52_orb"
 .PHONY : part5/CMakeFiles/52_orb.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1864,7 +1896,7 @@ part5/CMakeFiles/52_orb.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part5/CMakeFiles/52_orb.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/52_orb.dir/build.make part5/CMakeFiles/52_orb.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=97,98 "Finished codegen for target 52_orb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=89,90 "Finished codegen for target 52_orb"
 .PHONY : part5/CMakeFiles/52_orb.dir/codegen
 
 # clean rule for target.
@@ -1879,7 +1911,7 @@ part5/CMakeFiles/52_orb.dir/clean:
 part5/CMakeFiles/53_matching.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=99,100 "Built target 53_matching"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=91,92 "Built target 53_matching"
 .PHONY : part5/CMakeFiles/53_matching.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1896,13 +1928,141 @@ part5/CMakeFiles/53_matching.dir/rule: cmake_check_build_system
 # codegen rule for target.
 part5/CMakeFiles/53_matching.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=99,100 "Finished codegen for target 53_matching"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=91,92 "Finished codegen for target 53_matching"
 .PHONY : part5/CMakeFiles/53_matching.dir/codegen
 
 # clean rule for target.
 part5/CMakeFiles/53_matching.dir/clean:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/53_matching.dir/build.make part5/CMakeFiles/53_matching.dir/clean
 .PHONY : part5/CMakeFiles/53_matching.dir/clean
+
+#=============================================================================
+# Target rules for target part6/CMakeFiles/54_knnplane.dir
+
+# All Build rule for target.
+part6/CMakeFiles/54_knnplane.dir/all:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/54_knnplane.dir/build.make part6/CMakeFiles/54_knnplane.dir/depend
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/54_knnplane.dir/build.make part6/CMakeFiles/54_knnplane.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=93,94 "Built target 54_knnplane"
+.PHONY : part6/CMakeFiles/54_knnplane.dir/all
+
+# Build rule for subdir invocation for target.
+part6/CMakeFiles/54_knnplane.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part6/CMakeFiles/54_knnplane.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part6/CMakeFiles/54_knnplane.dir/rule
+
+# Convenience name for target.
+54_knnplane: part6/CMakeFiles/54_knnplane.dir/rule
+.PHONY : 54_knnplane
+
+# codegen rule for target.
+part6/CMakeFiles/54_knnplane.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/54_knnplane.dir/build.make part6/CMakeFiles/54_knnplane.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=93,94 "Finished codegen for target 54_knnplane"
+.PHONY : part6/CMakeFiles/54_knnplane.dir/codegen
+
+# clean rule for target.
+part6/CMakeFiles/54_knnplane.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/54_knnplane.dir/build.make part6/CMakeFiles/54_knnplane.dir/clean
+.PHONY : part6/CMakeFiles/54_knnplane.dir/clean
+
+#=============================================================================
+# Target rules for target part6/CMakeFiles/55_knndigit.dir
+
+# All Build rule for target.
+part6/CMakeFiles/55_knndigit.dir/all:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/55_knndigit.dir/build.make part6/CMakeFiles/55_knndigit.dir/depend
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/55_knndigit.dir/build.make part6/CMakeFiles/55_knndigit.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=95,96 "Built target 55_knndigit"
+.PHONY : part6/CMakeFiles/55_knndigit.dir/all
+
+# Build rule for subdir invocation for target.
+part6/CMakeFiles/55_knndigit.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part6/CMakeFiles/55_knndigit.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part6/CMakeFiles/55_knndigit.dir/rule
+
+# Convenience name for target.
+55_knndigit: part6/CMakeFiles/55_knndigit.dir/rule
+.PHONY : 55_knndigit
+
+# codegen rule for target.
+part6/CMakeFiles/55_knndigit.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/55_knndigit.dir/build.make part6/CMakeFiles/55_knndigit.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=95,96 "Finished codegen for target 55_knndigit"
+.PHONY : part6/CMakeFiles/55_knndigit.dir/codegen
+
+# clean rule for target.
+part6/CMakeFiles/55_knndigit.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/55_knndigit.dir/build.make part6/CMakeFiles/55_knndigit.dir/clean
+.PHONY : part6/CMakeFiles/55_knndigit.dir/clean
+
+#=============================================================================
+# Target rules for target part6/CMakeFiles/56_handpose.dir
+
+# All Build rule for target.
+part6/CMakeFiles/56_handpose.dir/all:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/56_handpose.dir/build.make part6/CMakeFiles/56_handpose.dir/depend
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/56_handpose.dir/build.make part6/CMakeFiles/56_handpose.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=97,98 "Built target 56_handpose"
+.PHONY : part6/CMakeFiles/56_handpose.dir/all
+
+# Build rule for subdir invocation for target.
+part6/CMakeFiles/56_handpose.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part6/CMakeFiles/56_handpose.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part6/CMakeFiles/56_handpose.dir/rule
+
+# Convenience name for target.
+56_handpose: part6/CMakeFiles/56_handpose.dir/rule
+.PHONY : 56_handpose
+
+# codegen rule for target.
+part6/CMakeFiles/56_handpose.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/56_handpose.dir/build.make part6/CMakeFiles/56_handpose.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=97,98 "Finished codegen for target 56_handpose"
+.PHONY : part6/CMakeFiles/56_handpose.dir/codegen
+
+# clean rule for target.
+part6/CMakeFiles/56_handpose.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/56_handpose.dir/build.make part6/CMakeFiles/56_handpose.dir/clean
+.PHONY : part6/CMakeFiles/56_handpose.dir/clean
+
+#=============================================================================
+# Target rules for target part6/CMakeFiles/classify.dir
+
+# All Build rule for target.
+part6/CMakeFiles/classify.dir/all:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/classify.dir/build.make part6/CMakeFiles/classify.dir/depend
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/classify.dir/build.make part6/CMakeFiles/classify.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=99,100 "Built target classify"
+.PHONY : part6/CMakeFiles/classify.dir/all
+
+# Build rule for subdir invocation for target.
+part6/CMakeFiles/classify.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part6/CMakeFiles/classify.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles 0
+.PHONY : part6/CMakeFiles/classify.dir/rule
+
+# Convenience name for target.
+classify: part6/CMakeFiles/classify.dir/rule
+.PHONY : classify
+
+# codegen rule for target.
+part6/CMakeFiles/classify.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/classify.dir/build.make part6/CMakeFiles/classify.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/CMakeFiles --progress-num=99,100 "Finished codegen for target classify"
+.PHONY : part6/CMakeFiles/classify.dir/codegen
+
+# clean rule for target.
+part6/CMakeFiles/classify.dir/clean:
+	$(MAKE) $(MAKESILENT) -f part6/CMakeFiles/classify.dir/build.make part6/CMakeFiles/classify.dir/clean
+.PHONY : part6/CMakeFiles/classify.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
