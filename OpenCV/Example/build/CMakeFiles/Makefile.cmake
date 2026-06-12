@@ -16,6 +16,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part2/CMakeLists.txt"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part3/CMakeLists.txt"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/CMakeLists.txt"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake"
@@ -64,6 +65,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "part2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "part3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "part4/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "part5/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -110,5 +112,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "part4/CMakeFiles/43_morplogy.dir/DependInfo.cmake"
   "part4/CMakeFiles/44_labeling.dir/DependInfo.cmake"
   "part4/CMakeFiles/45_polygon.dir/DependInfo.cmake"
-  "part4/CMakeFiles/46.dir/DependInfo.cmake"
+  "part4/CMakeFiles/46_paper_posit.dir/DependInfo.cmake"
+  "part5/CMakeFiles/47_cascade.dir/DependInfo.cmake"
+  "part5/CMakeFiles/48_cascade_example.dir/DependInfo.cmake"
+  "part5/CMakeFiles/49_hog.dir/DependInfo.cmake"
+  "part5/CMakeFiles/50_QR.dir/DependInfo.cmake"
   )

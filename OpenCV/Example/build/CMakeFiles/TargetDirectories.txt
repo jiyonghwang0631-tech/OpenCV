@@ -46,6 +46,12 @@
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/43_morplogy.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/44_labeling.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/45_polygon.dir
-/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/46.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/46_paper_posit.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/edit_cache.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4/CMakeFiles/rebuild_cache.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/47_cascade.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/48_cascade_example.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/49_hog.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/50_QR.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/edit_cache.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/rebuild_cache.dir

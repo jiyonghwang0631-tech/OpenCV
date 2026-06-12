@@ -664,17 +664,69 @@ depend:
 .PHONY : 45_polygon/fast
 
 #=============================================================================
-# Target rules for targets named 46
+# Target rules for targets named 46_paper_posit
 
 # Build rule for target.
-46: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 46
-.PHONY : 46
+46_paper_posit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 46_paper_posit
+.PHONY : 46_paper_posit
 
 # fast build rule for target.
-46/fast:
-	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46.dir/build.make part4/CMakeFiles/46.dir/build
-.PHONY : 46/fast
+46_paper_posit/fast:
+	$(MAKE) $(MAKESILENT) -f part4/CMakeFiles/46_paper_posit.dir/build.make part4/CMakeFiles/46_paper_posit.dir/build
+.PHONY : 46_paper_posit/fast
+
+#=============================================================================
+# Target rules for targets named 47_cascade
+
+# Build rule for target.
+47_cascade: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 47_cascade
+.PHONY : 47_cascade
+
+# fast build rule for target.
+47_cascade/fast:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/47_cascade.dir/build.make part5/CMakeFiles/47_cascade.dir/build
+.PHONY : 47_cascade/fast
+
+#=============================================================================
+# Target rules for targets named 48_cascade_example
+
+# Build rule for target.
+48_cascade_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 48_cascade_example
+.PHONY : 48_cascade_example
+
+# fast build rule for target.
+48_cascade_example/fast:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/48_cascade_example.dir/build.make part5/CMakeFiles/48_cascade_example.dir/build
+.PHONY : 48_cascade_example/fast
+
+#=============================================================================
+# Target rules for targets named 49_hog
+
+# Build rule for target.
+49_hog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 49_hog
+.PHONY : 49_hog
+
+# fast build rule for target.
+49_hog/fast:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/49_hog.dir/build.make part5/CMakeFiles/49_hog.dir/build
+.PHONY : 49_hog/fast
+
+#=============================================================================
+# Target rules for targets named 50_QR
+
+# Build rule for target.
+50_QR: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 50_QR
+.PHONY : 50_QR
+
+# fast build rule for target.
+50_QR/fast:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/50_QR.dir/build.make part5/CMakeFiles/50_QR.dir/build
+.PHONY : 50_QR/fast
 
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
@@ -870,7 +922,11 @@ help:
 	@echo "... 43_morplogy"
 	@echo "... 44_labeling"
 	@echo "... 45_polygon"
-	@echo "... 46"
+	@echo "... 46_paper_posit"
+	@echo "... 47_cascade"
+	@echo "... 48_cascade_example"
+	@echo "... 49_hog"
+	@echo "... 50_QR"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"

@@ -253,8 +253,32 @@
 },
 {
   "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part4",
-  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/46.dir/46.paper_posit.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/46.paper_posit.cpp",
-  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/46.paper_posit.cpp",
-  "output": "part4/CMakeFiles/46.dir/46.paper_posit.cpp.o"
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/46_paper_posit.dir/46_paper_posit.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/46_paper_posit.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part4/46_paper_posit.cpp",
+  "output": "part4/CMakeFiles/46_paper_posit.dir/46_paper_posit.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/47_cascade.dir/47_cascade.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/47_cascade.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/47_cascade.cpp",
+  "output": "part5/CMakeFiles/47_cascade.dir/47_cascade.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/48_cascade_example.dir/48_cascade_example.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/48_cascade_example.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/48_cascade_example.cpp",
+  "output": "part5/CMakeFiles/48_cascade_example.dir/48_cascade_example.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/49_hog.dir/49_hog.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/49_hog.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/49_hog.cpp",
+  "output": "part5/CMakeFiles/49_hog.dir/49_hog.cpp.o"
+},
+{
+  "directory": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5",
+  "command": "/usr/bin/g++  -I/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/../part1 -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/50_QR.dir/50_QR.cpp.o -c /home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/50_QR.cpp",
+  "file": "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/50_QR.cpp",
+  "output": "part5/CMakeFiles/50_QR.dir/50_QR.cpp.o"
 }
 ]
