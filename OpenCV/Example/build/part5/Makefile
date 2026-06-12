@@ -173,6 +173,20 @@ part5/CMakeFiles/50_QR.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/50_QR.dir/build.make part5/CMakeFiles/50_QR.dir/build
 .PHONY : 50_QR/fast
 
+# Convenience name for target.
+part5/CMakeFiles/51_corner.dir/rule:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part5/CMakeFiles/51_corner.dir/rule
+.PHONY : part5/CMakeFiles/51_corner.dir/rule
+
+# Convenience name for target.
+51_corner: part5/CMakeFiles/51_corner.dir/rule
+.PHONY : 51_corner
+
+# fast build rule for target.
+51_corner/fast:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/51_corner.dir/build.make part5/CMakeFiles/51_corner.dir/build
+.PHONY : 51_corner/fast
+
 47_cascade.o: 47_cascade.cpp.o
 .PHONY : 47_cascade.o
 
@@ -269,6 +283,30 @@ part5/CMakeFiles/50_QR.dir/rule:
 	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/50_QR.dir/build.make part5/CMakeFiles/50_QR.dir/50_QR.cpp.s
 .PHONY : 50_QR.cpp.s
 
+51_corner.o: 51_corner.cpp.o
+.PHONY : 51_corner.o
+
+# target to build an object file
+51_corner.cpp.o:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/51_corner.dir/build.make part5/CMakeFiles/51_corner.dir/51_corner.cpp.o
+.PHONY : 51_corner.cpp.o
+
+51_corner.i: 51_corner.cpp.i
+.PHONY : 51_corner.i
+
+# target to preprocess a source file
+51_corner.cpp.i:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/51_corner.dir/build.make part5/CMakeFiles/51_corner.dir/51_corner.cpp.i
+.PHONY : 51_corner.cpp.i
+
+51_corner.s: 51_corner.cpp.s
+.PHONY : 51_corner.s
+
+# target to generate assembly for a file
+51_corner.cpp.s:
+	cd /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build && $(MAKE) $(MAKESILENT) -f part5/CMakeFiles/51_corner.dir/build.make part5/CMakeFiles/51_corner.dir/51_corner.cpp.s
+.PHONY : 51_corner.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -281,6 +319,7 @@ help:
 	@echo "... 48_cascade_example"
 	@echo "... 49_hog"
 	@echo "... 50_QR"
+	@echo "... 51_corner"
 	@echo "... 47_cascade.o"
 	@echo "... 47_cascade.i"
 	@echo "... 47_cascade.s"
@@ -293,6 +332,9 @@ help:
 	@echo "... 50_QR.o"
 	@echo "... 50_QR.i"
 	@echo "... 50_QR.s"
+	@echo "... 51_corner.o"
+	@echo "... 51_corner.i"
+	@echo "... 51_corner.s"
 .PHONY : help
 
 

@@ -53,5 +53,6 @@
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/48_cascade_example.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/49_hog.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/50_QR.dir
+/home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/51_corner.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/edit_cache.dir
 /home/korea_hrd_1_2/OpenCV/OpenCV/Example/build/part5/CMakeFiles/rebuild_cache.dir

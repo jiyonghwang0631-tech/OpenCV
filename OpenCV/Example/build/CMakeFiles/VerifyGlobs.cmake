@@ -120,6 +120,7 @@ set(OLD_GLOB
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/48_cascade_example.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/49_hog.cpp"
   "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/50_QR.cpp"
+  "/home/korea_hrd_1_2/OpenCV/OpenCV/Example/part5/51_corner.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

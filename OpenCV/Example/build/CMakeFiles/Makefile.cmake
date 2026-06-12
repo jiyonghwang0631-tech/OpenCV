@@ -117,4 +117,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "part5/CMakeFiles/48_cascade_example.dir/DependInfo.cmake"
   "part5/CMakeFiles/49_hog.dir/DependInfo.cmake"
   "part5/CMakeFiles/50_QR.dir/DependInfo.cmake"
+  "part5/CMakeFiles/51_corner.dir/DependInfo.cmake"
   )

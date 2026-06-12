@@ -728,6 +728,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/50_QR.dir/build.make part5/CMakeFiles/50_QR.dir/build
 .PHONY : 50_QR/fast
 
+#=============================================================================
+# Target rules for targets named 51_corner
+
+# Build rule for target.
+51_corner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 51_corner
+.PHONY : 51_corner
+
+# fast build rule for target.
+51_corner/fast:
+	$(MAKE) $(MAKESILENT) -f part5/CMakeFiles/51_corner.dir/build.make part5/CMakeFiles/51_corner.dir/build
+.PHONY : 51_corner/fast
+
 part1/01_helloWorld.o: part1/01_helloWorld.cpp.o
 .PHONY : part1/01_helloWorld.o
 
@@ -927,6 +940,7 @@ help:
 	@echo "... 48_cascade_example"
 	@echo "... 49_hog"
 	@echo "... 50_QR"
+	@echo "... 51_corner"
 	@echo "... part1/01_helloWorld.o"
 	@echo "... part1/01_helloWorld.i"
 	@echo "... part1/01_helloWorld.s"
